@@ -61,6 +61,8 @@ chmod 777 /mnt/media_rw
 ```
 #### NK2 ####
 ```
+export ANDROID_SDK_ROOT=~/TT/PSpace/AndroidSdk/
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 ./gradlew build -PapiKey=VNC4iGjGLSuJwZwNbZ2TGaCD9qzqs0Dw
 conan install -u . --install-folder=build -pr linux_x86_64-clang5
 conan build . --build-folder=build
