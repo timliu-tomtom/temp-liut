@@ -67,4 +67,5 @@ export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 conan install -u . --install-folder=build -pr linux_x86_64-clang5
 conan build . --build-folder=build
 conan create -u . <version>@local/testing -pr linux_x86_64-clang5
+sed -i "s/#: .*\(\/navigation-instruction-text-generation.*\d\+\)/#: \/tom2\/nk2\/nk2-navigation-instruction-text-generation\1/g" "${POT_TEMPLATE_PATH}"
 ```
