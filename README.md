@@ -68,4 +68,5 @@ conan install -u . --install-folder=build -pr linux_x86_64-clang5
 conan build . --build-folder=build
 conan create -u . <version>@local/testing -pr linux_x86_64-clang5
 sed -i "s/#: .*\(\/navigation-instruction-text-generation.*\d\+\)/#: \/tom2\/nk2\/nk2-navigation-instruction-text-generation\1/g" "${POT_TEMPLATE_PATH}"
+PROJECT_DIR=$(git rev-parse --show-toplevel); docker run --rm -it --mount type=bind,source="$PROJECT_DIR",target="$PROJECT_DIR" -w "$PROJECT_DIR" docker-navkit2.navkit-pipeline.tt3.com/tomtom/clangformat:0.2.0 run-clang-forma
 ```
