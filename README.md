@@ -61,6 +61,7 @@ chmod 777 /mnt/media_rw
 ```
 #### NK2 ####
 ```
+export NDS_DEFAULT_KEYSTORE_PASSWORD=dL8Oe.5pi9dk4-
 export ANDROID_SDK_ROOT=~/TT/PSpace/AndroidSdk/
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 ./gradlew build -PapiKey=VNC4iGjGLSuJwZwNbZ2TGaCD9qzqs0Dw
@@ -68,5 +69,5 @@ conan install -u . --install-folder=build -pr linux_x86_64-clang5
 conan build . --build-folder=build
 conan create -u . <version>@local/testing -pr linux_x86_64-clang5
 sed -i "s/#: .*\(\/navigation-instruction-text-generation.*\d\+\)/#: \/tom2\/nk2\/nk2-navigation-instruction-text-generation\1/g" "${POT_TEMPLATE_PATH}"
-PROJECT_DIR=$(git rev-parse --show-toplevel); docker run --rm -it --mount type=bind,source="$PROJECT_DIR",target="$PROJECT_DIR" -w "$PROJECT_DIR" docker-navkit2.navkit-pipeline.tt3.com/tomtom/clangformat:0.2.0 run-clang-forma
+PROJECT_DIR=$(git rev-parse --show-toplevel); docker run --rm -it --mount type=bind,source="$PROJECT_DIR",target="$PROJECT_DIR" -w "$PROJECT_DIR" docker-navkit2.navkit-pipeline.tt3.com/tomtom/clangformat:0.2.0 run-clang-format
 ```
