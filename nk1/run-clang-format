@@ -1,0 +1,78 @@
+#!/bin/bash
+
+#STYLE=$(git config --get hooks.clangformat.style)
+#STYLE_ARG="-style=file"
+#if [ -n "$STYLE" ]; then
+#    STYLE_ARG="-style=$STYLE"
+#fi
+#STYLE_ARG="$STYLE_ARG -fallback-style=none"
+FormatFile() {
+     docker run --rm -v $(pwd):$(pwd) -w $(pwd) navart-docker.navkit-pipeline.tt3.com/berlin-ci/clang-format:7.0 -style=file -fallback-style=none -i $STYLE_ARG "$1"
+#    git add "$1"
+}
+case $1 in
+    --about)
+        echo Utility to run clang-format on source files
+        ;;
+    --clientApi)
+        for file in $(find ClientAPI -type f | grep -E \\.\(h\|hpp\|cpp\|proto\|java\)\$); do
+            echo "$file"
+            FormatFile "$file"
+        done
+        ;;
+    --routing)
+        for file in $(find Engines/Routing -type f | grep -E \\.\(h\|hpp\|cpp\|proto\|java\)\$); do
+            echo "$file"
+            FormatFile "$file"
+        done
+        ;;
+    --safety)
+        for file in $(find Engines/SafetyAlert -type f | grep -E \\.\(h\|hpp\|cpp\|proto\|java\)\$); do
+            echo "$file"
+            FormatFile "$file"
+        done
+        for file in $(find ClientAPI/iSafetyLocationsFeed -type f | grep -E \\.\(h\|hpp\|cpp\|proto\|java\)\$); do
+            echo "$file"
+            FormatFile "$file"
+        done
+        for file in $(find ClientAPI/iSafetyLocationsTest -type f | grep -E \\.\(h\|hpp\|cpp\|proto\|java\)\$); do
+            echo "$file"
+            FormatFile "$file"
+        done
+        for file in $(find NavKit -type f | grep -E \\.\(h\|hpp\|cpp\|proto\|java\)\$); do
+            echo "$file"
+            FormatFile "$file"
+        done
+        ;;
+    --traffic)
+        for file in $(find Engines/Traffic -type f | grep -E \\.\(h\|hpp\|cpp\|proto\|java\)\$); do
+	    echo "$file"
+            FormatFile "$file"
+        done
+        for file in $(find ClientAPI -type f | grep -E \\.\(h\|hpp\|cpp\|proto\|java\)\$); do
+	    echo "$file"
+            FormatFile "$file"
+        done
+        for file in $(find NavKit -type f | grep -E \\.\(h\|hpp\|cpp\|proto\|java\)\$); do
+            echo "$file"
+	    FormatFile "$file"
+        done
+        ;;
+    --trip)
+        for file in $(find Trip -type f | grep -E \\.\(h\|hpp\|cpp\|proto\|java\)\$); do
+            echo "$file"
+            FormatFile "$file"
+        done
+        ;;
+    --all)
+        for file in $(find DataAccess Engines Extensions NavKit Products -type f | grep -E \\.\(h\|hpp\|cpp\|proto\|java\)\$); do
+            FormatFile "$file"
+        done
+        ;;
+    *)
+        for file in $(git diff-index --cached --name-only HEAD *.h *.hpp *.cpp *.proto *.java); do
+            FormatFile "$file"
+        done
+        ;;
+esac
+
