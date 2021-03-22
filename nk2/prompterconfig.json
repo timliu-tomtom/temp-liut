@@ -1,0 +1,57 @@
+{
+  "version": "Prompter 1.0",
+  "prompter": [
+    {
+      "name": "prompter",
+      "type": "local",
+      "local": {
+        "voice_data_path": {
+          "uses": "vocalizer"
+        },
+        "samples_per_channel": 256
+      }
+    }
+  ],
+  "usecase": [
+    {
+      "name": "en",
+      "type": "local",
+      "local": {
+        "voice_config": {
+          "uses": "vc_ava-ml"
+        },
+        "enabled_markers": "textunit, word"
+      }
+    },
+    {
+      "name": "ja",
+      "type": "local",
+      "local": {
+        "voice_config": {
+          "uses": "vc_nozomi"
+        },
+        "enabled_markers": "textunit, word"
+      }
+    }
+  ],
+  "voice_config": [
+    {
+      "name": "vc_ava-ml",
+      "language": "enu",
+      "voice": "ava-ml",
+      "operating_point": "embedded-high"
+    },
+    {
+      "name": "vc_nozomi",
+      "language": "jpj",
+      "voice": "nozomi",
+      "operating_point": "embedded-premium"
+    }
+  ],
+  "voice_data_path": [
+    {
+      "name": "vocalizer",
+      "vocalizer_path": "../vocalizer"
+    }
+  ]
+}

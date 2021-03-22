@@ -1,0 +1,70 @@
+#
+# Copyright (c) 2021 - 2021 TomTom N.V. All rights reserved.
+#
+# This software is the proprietary copyright of TomTom N.V. and its subsidiaries and may be
+# used for internal evaluation purposes or commercial use strictly subject to separate
+# licensee agreement between you and TomTom. If you are the licensee, you are only permitted
+# to use this Software in accordance with the terms of your license agreement. If you are
+# not the licensee, then you are not authorized to use this software in any manner and should
+# immediately return it to TomTom N.V.
+#
+
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !! This Japanese translation is un-official and only for developing/testing purpose !!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-10 15:49+0200\n"
+"PO-Revision-Date: 2021-03-10 15:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: Japanese Japan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "In {distance} turn right at {intersection_name}."
+msgstr "{distance} 先 {intersection_name} を右方向です"
+
+msgid "In {distance} turn right onto {road_name}."
+msgstr "{distance} 先 {road_name} を右方向です"
+
+msgid "In {distance} turn right."
+msgstr "{distance} 先 右方向です."
+
+msgid "Turn right at {intersection_name}."
+msgstr "{intersection_name} を右方向です"
+
+msgid "Turn right onto {road_name}."
+msgstr "{road_name} を右方向です"
+
+msgid "Then turn right."
+msgstr "その先 右方向です"
+
+msgid "Turn right."
+msgstr "右方向です"
+
+msgid "In {distance} turn left at {intersection_name}."
+msgstr "{distance} 先 {intersection_name} を左方向です"
+
+msgid "In {distance} turn left onto {road_name}."
+msgstr "{distance} 先 {road_name} を左方向です"
+
+msgid "In {distance} turn left."
+msgstr "{distance} 先 左方向です."
+
+msgid "Turn left at {intersection_name}."
+msgstr "{intersection_name} を左方向です"
+
+msgid "Turn left onto {road_name}."
+msgstr "{road_name} を左方向です"
+
+msgid "Then turn left."
+msgstr "その先 左方向です"
+
+msgid "Turn left."
+msgstr "左方向です"
