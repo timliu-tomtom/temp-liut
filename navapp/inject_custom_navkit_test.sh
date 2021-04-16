@@ -42,20 +42,20 @@ if [ ! -f ${UBER_APK_SIGNER_JAR} ]; then
     wget -P ${JARS_DIR} "https://github.com/patrickfav/uber-apk-signer/releases/download/v0.8.1/${UBER_APK_SIGNER_JAR_NAME}"
 fi
 
-#for DIR in ${TMP_DIR} ${OUTPUT_DIR}; do
-#    if [ -d "${DIR}" ]; then
-#        echo  "Removing '${DIR}' dir"
-#        rm -rf ${DIR}
-#    fi
-#    mkdir ${DIR}
-#done
+for DIR in ${TMP_DIR} ${OUTPUT_DIR}; do
+    if [ -d "${DIR}" ]; then
+        echo  "Removing '${DIR}' dir"
+        rm -rf ${DIR}
+    fi
+    mkdir ${DIR}
+done
 
-#echo "Unpacking ${NAVAPP_APK_NAME}"
-#cp ${HOME_DIR}/${NAVAPP_APK_NAME}.apk ${TMP_DIR}
-#java -jar ${APKTOOL_JAR} d -s -r ${TMP_DIR}/${NAVAPP_APK_NAME}.apk -o ${TMP_DIR}/${NAVAPP_APK_NAME}
+echo "Unpacking ${NAVAPP_APK_NAME}"
+cp ${HOME_DIR}/${NAVAPP_APK_NAME}.apk ${TMP_DIR}
+java -jar ${APKTOOL_JAR} d -s -r ${TMP_DIR}/${NAVAPP_APK_NAME}.apk -o ${TMP_DIR}/${NAVAPP_APK_NAME}
 
-#cp ${HOME_DIR}/libShiftingd.so ${TMP_DIR}/${NAVAPP_APK_NAME}/lib/armeabi-v7a
-#chmod +x ${TMP_DIR}/${NAVAPP_APK_NAME}/lib/armeabi-v7a/libShiftingd.so
+cp ${HOME_DIR}/libShiftingd.so ${TMP_DIR}/${NAVAPP_APK_NAME}/lib/armeabi-v7a
+chmod +x ${TMP_DIR}/${NAVAPP_APK_NAME}/lib/armeabi-v7a/libShiftingd.so
 
 if [ "${UPDATE_FROM_NAVKIT_APK}" = true ]; then
     echo "Unpacking ${REFERENCE_NAVKIT_APK_NAME} to get additional .so files"
