@@ -69,10 +69,12 @@ case $1 in
             FormatFile "$file"
         done
         ;;
-    *)
-        for file in $(git diff-index --cached --name-only HEAD *.h *.hpp *.cpp *.proto *.java); do
-            FormatFile "$file"
+    --git)
+        for file in $(git diff-index --name-only HEAD *.h *.hpp *.cpp *.proto *.java); do
+            echo "$file"
+	    FormatFile "$file"
         done
         ;;
+    
 esac
 
