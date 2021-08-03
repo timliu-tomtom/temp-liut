@@ -71,3 +71,9 @@ conan create -u . <version>@local/testing -pr linux_x86_64-clang5
 sed -i "s/#: .*\(\/navigation-instruction-text-generation.*\d\+\)/#: \/tom2\/nk2\/nk2-navigation-instruction-text-generation\1/g" "${POT_TEMPLATE_PATH}"
 PROJECT_DIR=$(git rev-parse --show-toplevel); docker run --rm -it --mount type=bind,source="$PROJECT_DIR",target="$PROJECT_DIR" -w "$PROJECT_DIR" docker-navkit2.navkit-pipeline.tt3.com/tomtom/clangformat:0.2.0 run-clang-format
 ```
+
+#### NK2 dev-app ####
+```
+LD_LIBRARY_PATH=./lib bin/nav-engine --map ~/TT/maps/13744_icup_mg_traffic-lights_ca_points/DATA --keystore ~/TT/maps/NAVKIT_DEV.NKS --password dL8Oe.5pi9dk4- --api VNC4iGjGLSuJwZwNbZ2TGaCD9qzqs0Dw --guidance-mode onboard-v2 --mapdisplay-mode onboard
+bin/nav-dimui --api VNC4iGjGLSuJwZwNbZ2TGaCD9qzqs0Dw
+```
