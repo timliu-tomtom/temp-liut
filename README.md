@@ -76,4 +76,6 @@ PROJECT_DIR=$(git rev-parse --show-toplevel); docker run --rm -it --mount type=b
 ```
 LD_LIBRARY_PATH=./lib bin/nav-engine --map ~/TT/maps/13744_icup_mg_traffic-lights_ca_points/DATA --keystore ~/TT/maps/NAVKIT_DEV.NKS --password dL8Oe.5pi9dk4- --api VNC4iGjGLSuJwZwNbZ2TGaCD9qzqs0Dw --guidance-mode onboard-v2 --mapdisplay-mode onboard
 bin/nav-dimui --api VNC4iGjGLSuJwZwNbZ2TGaCD9qzqs0Dw
+
+LD_LIBRARY_PATH=../lib ./nav-engine --api VNC4iGjGLSuJwZwNbZ2TGaCD9qzqs0Dw --map /home/ubuntu/Map/HCP3_KOR_42_20M9_ER011.1/DATA --keystore /home/ubuntu/Keystore/HCP3_DEV_NK.NKS --password dL8Oe.5pi9dk4- --mm-uri tcp://0.0.0.0:8080 --trip-uri tcp://0.0.0.0:8081 --vh-uri tcp://0.0.0.0:8082 --vehicle-uri tcp://0.0.0.0:8083 --userprofile-uri tcp://0.0.0.0:8084 --suggestions-uri tcp://0.0.0.0:8085 --datarecorder-uri tcp://0.0.0.0:8086 --rg-uri tcp://0.0.0.0:8087 --mapdisplay-uri tcp://0.0.0.0:8088 --mapdisplay-mode onboard
 ```
