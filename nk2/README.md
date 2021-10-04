@@ -8,6 +8,17 @@
 | D | 6 | 10 ORDER_9 |
 | E | 17 | 24 NEIGHBORHOOD |
 
+
+| H-search and reverse| clientlib-common-Address | nk1-reverse-geo |
+| --- | --- | --- |
+| Country | Country | 
+| Prefecture | State | stateName
+| Municipality | City | cityName
+| Oaza | CityDistrict | districtName
+| Chome/aza | CityBlock | localityName
+| House number | HouseNumber
+
+
 nk1-VHCommon-Model-Imp-VH-Proto-SafetyLocationEntry.proto
 nk1-VHCommon-Model-Imp-VH-Proto-SafetyLocationProvider.proto ?
 ### Safety location in VH ###
@@ -39,3 +50,33 @@ press ctrl+c only ONCE and wait it gratefully stop (close virtual internet), do 
 docker image prune -a (清掉沒在用的docker image)
 
 需裝ant
+
+
+
+Tollgate instruction \
+HCP3\
+  map contains TOLL_ENTRY/TOLL_EXIT, TOLL_GATE_PAYMENT_TYPE, MASK\
+  DataAccess implemented in GuidanceDataReader with TollBoothPlaza\
+  https://bitbucket.tomtomgroup.com/projects/NAVKIT/repos/dev-geoexpansion/pull-requests/228/overview
+  
+  RoutingDataPerTile -> TTollBoothPlazasStorage\
+  RoutingDataPerTile -> TTollBoothPaymentTypesStorage
+
+  Instruction engine implemented with TollBoothPlaza\
+  https://bitbucket.tomtomgroup.com/projects/NAVKIT2/repos/nk2-navigation-instruction-engine/pull-requests/1232/overview
+
+  map does not have tollgate name\
+  
+Caruso2\
+  map contains TOLL_PAYMENT_TYPE, MASK\
+  DataAccess implemented with LandGuidanceReader\
+  https://bitbucket.tomtomgroup.com/projects/NAVKIT/repos/dev-geoexpansion/pull-requests/53/overview
+  https://bitbucket.tomtomgroup.com/projects/NAVKIT/repos/dev-geoexpansion/pull-requests/73/overview
+
+  The implementation in instruction engine with TollBoothPlaza does not work for get payment type\
+  Potential solution 
+   * Handle [TOLL_PAYMENT_TYPE, MASK] in GuidanceDataReader and stored to TTollBoothPaymentTypesStorage as well\
+   * Instruction engine introduce own tollgate struct combine plaza and RoutingData::GetPaymentType(arc)\ 
+
+
+Tollgate lane guidance

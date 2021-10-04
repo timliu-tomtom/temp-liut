@@ -47,3 +47,7 @@ https://web.microsoftstream.com/video/32675e70-c4ea-420e-8269-55c05fe13fc3\
 Regarding difference between RouteReconstruction and RouteReassessment:\
 RouteReconstruction happens at each NavKit restart and really just reconstructs a route object from the trip/route that was last saved to the TLV file, and it requires the exact same map that the route was stored from (all arc IDs must be identical). \
 RouteReassessment: If there was a map update, route reconstruction will fail because some or all arcs are different. This means a new route is calculated that most closely follows the old path.
+
+
+TTI\
+https://tomtominternational-my.sharepoint.com/:v:/r/personal/andrii_boiko_tomtom_com/Documents/Recordings/Introduction%20to%20Nk2UI_%20Navigation-20210917_093145-Meeting%20Recording.mp4?csf=1&web=1&e=MVdDvS
