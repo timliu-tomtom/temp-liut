@@ -80,3 +80,12 @@ Caruso2\
 
 
 Tollgate lane guidance
+
+
+```
+Select locationInputId, locationInputString, displayString, criterionA, criterionB, criterionC, criterionD, criterionE
+from sliCriterionDTable WHERE languageCode is 112 AND criterionC IN
+(
+  Select criterionC from sliCriterionDTable WHERE languageCode is 112 AND locationInputString is null
+)
+```
