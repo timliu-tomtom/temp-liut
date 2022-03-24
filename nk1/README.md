@@ -1,6 +1,7 @@
 nk1
 
 https://fs-eu.tomtomgroup.com/adfs/ls/IdpInitiatedSignOn.aspx
+https://fs-tt.tomtomgroup.com/adfs/ls/IdpInitiatedSignOn.aspx
 
 
 ### nk1 training ###
