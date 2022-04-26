@@ -12,8 +12,8 @@
 
 help_function()
 {
-  echo "-s: map to push, options are small and large"
-  echo "-n: nk1 or nk2, oprions are nk1 and nk2"
+  echo "-s: map to push, options are small or large, default small"
+  echo "-n: nk1 or nk2, default nk2"
   echo "usage: ./nk2ui_onboardmap.sh -s [small|full] -n [nk1|nk2]"
   exit 1
 }
