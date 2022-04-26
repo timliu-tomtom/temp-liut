@@ -37,7 +37,7 @@ then
   keystore_path="/home/liut/TT/maps/NK_AUTO_DEV.NKS"
 else
   map_path="/home/liut//TT/maps/NDS_Automotive_2020.06_2.4.6_JPN_1120_V1/DATA"
-  keystore_path="/home/liut/TT/maps/NK_AUTO_DEV.NDS"
+  keystore_path="/home/liut/TT/maps/NK_AUTO_DEV.NKS"
 fi
 
 
@@ -80,7 +80,7 @@ echo "push keystore"
 adb shell rm -rf /sdcard/keystore
 
 adb shell mkdir /sdcard/keystore
-adb push ~/TT/maps/NK_AUTO_DEV.NKS /sdcard/keystore/keystore.sqlite
+adb push "$keystore_path" /sdcard/keystore/keystore.sqlite
 adb shell cp /sdcard/keystore/keystore.sqlite "$app_keystore_path"
 
 adb shell rm -rf /sdcard/keystore
