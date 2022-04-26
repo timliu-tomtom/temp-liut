@@ -85,6 +85,16 @@ Tollgate lane guidance
 ```
 Select locationInputId, locationInputString, displayString, criterionA, criterionB, criterionC, criterionD, criterionE
 from sliCriterionDTable WHERE languageCode is 112 AND criterionC IN
+
+
+
+
+
+CLion debug
+run search-onboard-service-app, (in conan build, specify searchlib:build_type=debug (since artifactory is release, make debug will pull down and re-build))which use searchlib
+go to build, find xxx.cmake find searchlib hash code
+open .conan/<hash code>/xxx.cpp and set break point
+
 (
   Select criterionC from sliCriterionDTable WHERE languageCode is 112 AND locationInputString is null
 )
