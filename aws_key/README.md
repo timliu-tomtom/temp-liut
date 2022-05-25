@@ -8,3 +8,6 @@
 ```
 openssl pkcs7 -inform DER -print_certs -in krsrv-geoexpansion_ttg_global_chain.p7b -out krsrv-geoexpansion-2021-11-15.crt
 ```
+
+username = korea
+password = 7fTPck5Zh3GＣ

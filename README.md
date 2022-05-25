@@ -96,3 +96,20 @@ LD_LIBRARY_PATH=../lib ./nav-engine --api VNC4iGjGLSuJwZwNbZ2TGaCD9qzqs0Dw --map
 
 
 ```
+
+
+```
+
+./guidance_kml_dumper \
+--input /home/liut/TT/repo/nk2/nk2-navigation-instruction-engine/navigation-instruction-engine/test/regression/instruction_regression/reference/hcp3_berlin \
+--recursive \
+--overwrite \
+--dumping_mode instruction \
+--folder_id instructions_reference \
+--map_path /home/liut/TT/repo/nk2/nk2-navigation-instruction-engine/build/bin/regression_test/instruction_regression/maps/hcp3_berlin/hcp3_berlin \
+--keystore_path /home/liut/TT/maps/HCP3_DEV_NK.NKS \
+--keystore_password dL8Oe.5pi9dk4- \
+2>&1 >/dev/null \
+| grep -nH -A 20 -B 20 -e "TTDebug, offset 7200"
+
+```
