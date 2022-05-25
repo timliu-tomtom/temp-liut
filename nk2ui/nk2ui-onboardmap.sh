@@ -45,13 +45,13 @@ if [ -z "$nk_option" ] || [ "$nk_option" == "nk2" ]
 then
   nk_option="nk2"
   app_path="/sdcard/Android/data/com.tomtom.navapp"
-  app_map_path="/sdcard/Android/data/com.tomtom.navapp/files/map"
+  app_map_path="/sdcard/Android/data/com.tomtom.navapp/files/map/"
   app_keystore_path="/sdcard/Android/data/com.tomtom.navapp/files/keystores/NK_AUTO_DEV.NKS"
 else
   nk_option="nk1"
   app_path="/sdcard/Android/data/com.tomtom.navapp.navkit"
-  app_map_path="/sdcard/Android/data/com.tomtom.navapp.navkit/files/map"
-  app_keystore_path="/sdcard/Android/data/com.tomtom.navapp.navkit/files/ttndata/files/keystore.sqlite"
+  app_map_path="/sdcard/Android/data/com.tomtom.navapp.navkit/files/maps/bundled"
+  app_keystore_path="/sdcard/Android/data/com.tomtom.navapp.navkit/files/keystores/NK_AUTO_DEV.NKS"
 fi
 
 
