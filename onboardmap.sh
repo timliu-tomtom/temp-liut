@@ -13,8 +13,8 @@
 help_function()
 {
   echo "-s: map to push, options are small or large, default small"
-  echo "-n: nk1 or nk2, default nk2"
-  echo "usage: ./nk2ui_onboardmap.sh -s [small|full] -n [nk1|nk2]"
+  echo "-n: nk1 (automotive-app) or gosdk (navigation-demo-app), default gosdk"
+  echo "usage: ./nk2ui_onboardmap.sh -s [small|full] -n [nk1|gosdk]"
   exit 1
 }
 
@@ -41,17 +41,17 @@ else
 fi
 
 
-if [ -z "$nk_option" ] || [ "$nk_option" == "nk2" ] 
+if [ -z "$nk_option" ] || [ "$nk_option" == "gosdk" ] 
 then
-  nk_option="nk2"
-  app_path="/sdcard/Android/data/com.tomtom.navapp"
-  app_map_path="/sdcard/Android/data/com.tomtom.navapp/files/map"
-  app_keystore_path="/sdcard/Android/data/com.tomtom.navapp/files/keystores/NK_AUTO_DEV.NKS"
+  nk_option="gosdk"
+  app_path="/sdcard/Android/data/com.tomtom.sdk.navigation.examples"
+  app_map_path="/sdcard/Android/data/com.tomtom.sdk.navigation.examples/files/onboard/map"
+  app_keystore_path="/sdcard/Android/data/com.tomtom.sdk.navigation.examples/files/onboard/keystore.sqlite"
 else
   nk_option="nk1"
-  app_path="/sdcard/Android/data/com.tomtom.navapp.navkit"
-  app_map_path="/sdcard/Android/data/com.tomtom.navapp.navkit/files/maps/bundled"
-  app_keystore_path="/sdcard/Android/data/com.tomtom.navapp.navkit/files/keystores/NK_AUTO_DEV.NKS"
+  app_path="/sdcard/Android/data/com.tomtom.navapp"
+  app_map_path="/sdcard/Android/data/com.tomtom.navapp/files/maps/bundled"
+  app_keystore_path="/sdcard/Android/data/com.tomtom.navapp/files/keystores/NK_AUTO_DEV.NKS"
 fi
 
 
@@ -63,6 +63,12 @@ adb root
 ####################################
 echo "push map"
   
+if [ "$nk_option" == "gosdk" ]
+then
+  adb shell mkdir "/sdcard/Android/data/com.tomtom.sdk.navigation.examples/files/onboard"
+  adb shell mkdir "/sdcard/Android/data/com.tomtom.sdk.navigation.examples/files/onboard/map"
+fi
+
 adb shell rm -rf /sdcard/map
 
 adb shell mkdir /sdcard/map
@@ -88,11 +94,11 @@ adb shell rm -rf /sdcard/keystore
 
 
 ###################################
-if [ "$nk_option" == "nk2" ]
-then
-  echo "nk2 skip first wizard"
-  adb shell run-as com.tomtom.navapp touch /data/data/com.tomtom.navapp/files/first-run-wizard-completed
-fi
+#if [ "$nk_option" == "nk2" ]
+#then
+#  echo "nk2 skip first wizard"
+#  adb shell run-as com.tomtom.navapp touch /data/data/com.tomtom.navapp/files/first-run-wizard-completed
+#fi
 
 
 #####################################
