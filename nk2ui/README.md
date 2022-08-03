@@ -57,3 +57,55 @@ SELECT locationInputString, criterionD, criterionE, COUNT(*) FROM sliCriterionET
 大字         
 字           -> street      , isStreet
 HouseNumber -> house number ,is Point address
+
+
+locationInputId	locationInputString	displayString	languageCode	priorityIndex	changeCaseMask	usageType	
+955304	アサミトリカオカ	厚狭緑ヶ丘	112		23896153	23896188	23897722	24000173	24336524							                     厚狭緑ケ丘                       山口県       山陽小野田市   厚狭(大字) 
+
+
+
+
+
+https://distro.cerence.com/
+
+username: CerenceDistro@groups.tomtom.com
+
+password: T0mt#mpassword
+
+```
+
+                horizon panel         display on map              search
+---------------------------------------------------------------------------------
+JCT/IC               X                   V (icon from map)     V (icon from UX)          
+Rest area            V (icon from UX)    X                     V (icon from UX)  
+tollgate             ?                   X                     V (icon from UX)
+```
+
+
+
+Alpha -> No guarantees, in development, crashes might happen (not to be enabled by Customers!)
+	
+Beta -> Feature is in development, but we want feedback via appcenter / drive tests (and could be enabled by Customers, with the asterisk that its under dev stil)
+	
+Prod -> Feature is done and UX is according to final specs.
+```
+0338285131
+03 38285131
+(03)38285131
+03-38285131
+03.38285131
+
++81 3-38285131
+```
+
+```
+北海道茅部郡鹿部町本別
+47390	アイカイク	I街区
+47417	アールカイク	R街区				
+47378	イーカイク	E街区	
+```
+
+```
+chmod 2770 -> group rwx rws
+chmod 4770 ->
+```  

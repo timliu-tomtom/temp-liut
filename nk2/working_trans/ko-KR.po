@@ -1,0 +1,4134 @@
+# Copyright (C) 2020 TomTom NV. All rights reserved.
+#
+# This software is the proprietary copyright of TomTom NV and its subsidiaries and may be
+# used for internal evaluation purposes or commercial use strictly subject to separate
+# license agreement between you and TomTom NV. If you are the licensee, you are only permitted
+# to use this software in accordance with the terms of your license agreement. If you are
+# not the licensee, you are not authorized to use this software in any manner and should
+# immediately return or destroy it.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-19 12:11+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "Follow {road_number} for {distance}."
+msgstr "{distance} 이상 직진하는 경로입니다"
+
+msgid "Follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} for {distance}."
+msgstr "{distance} 이상 직진하는 경로입니다"
+
+msgid "Follow {road_name} for {distance}."
+msgstr "{distance} 이상 직진하는 경로입니다"
+
+msgid "Follow the freeway for {distance}."
+msgstr "{distance} 이상 직진하는 경로입니다"
+
+msgid "Follow the road for {distance}."
+msgstr "{distance} 이상 직진하는 경로입니다"
+
+# HAS TO BE EMPTY
+msgid "In {distance} you will enter {country}."
+msgstr "약 {distance} 앞, 국경에 도착합니다"
+
+# HAS TO BE EMPTY
+msgid "You are entering {country}."
+msgstr "국경에 도착합니다"
+
+# HAS TO BE EMPTY
+msgid "Start driving on {road_number}."
+msgstr "표시된 경로로 주행하시면, 경로안내가 시작됩니다"
+
+# HAS TO BE EMPTY
+msgid "Start driving on {road_name}."
+msgstr "표시된 경로로 주행하시면, 경로안내가 시작됩니다"
+
+# HAS TO BE EMPTY
+msgid "Start driving."
+msgstr "표시된 경로로 주행하시면, 경로안내가 시작됩니다"
+
+msgid "You have reached your destination at {road_number}. It is on the right."
+msgstr "목적지에 도착합니다. 도로 오른쪽에 있습니다"
+
+msgid "You have reached your destination at {road_name}. It is on the right."
+msgstr "목적지에 도착합니다. 도로 오른쪽에 있습니다"
+
+msgid "You have reached your destination, it is on the right."
+msgstr "목적지에 도착합니다. 도로 오른쪽에 있습니다"
+
+msgid "You have reached your destination at {road_number}. It is on the left."
+msgstr "목적지에 도착합니다. 도로 왼쪽에 있습니다"
+
+msgid "You have reached your destination at {road_name}. It is on the left."
+msgstr "목적지에 도착합니다. 도로 왼쪽에 있습니다"
+
+msgid "You have reached your destination, it is on the left."
+msgstr "목적지에 도착합니다. 도로 왼쪽에 있습니다"
+
+msgid "In {distance} you will reach your destination."
+msgstr "약 {distance} 앞, 목적지에 도착합니다"
+
+msgid "You have reached your destination."
+msgstr "목적지에 도착합니다"
+
+msgid "You have reached your stop at {road_number}. It is on the right."
+msgstr "경유지에 도착합니다. 도로 오른쪽에 있습니다"
+
+msgid "You have reached your stop at {road_name}. It is on the right."
+msgstr "경유지에 도착합니다. 도로 오른쪽에 있습니다"
+
+msgid "You have reached your stop, it is on the right."
+msgstr "경유지에 도착합니다. 도로 오른쪽에 있습니다"
+
+msgid "You have reached your stop at {road_number}. It is on the left."
+msgstr "경유지에 도착합니다. 도로 왼쪽에 있습니다"
+
+msgid "You have reached your stop at {road_name}. It is on the left."
+msgstr "경유지에 도착합니다. 도로 왼쪽에 있습니다"
+
+msgid "You have reached your stop, it is on the left."
+msgstr "경유지에 도착합니다. 도로 왼쪽에 있습니다"
+
+msgid "In {distance} you will reach your stop."
+msgstr "약 {distance} 앞, 경유지에 도착합니다"
+
+msgid "You have reached your stop at {road_number}."
+msgstr "경유지에 도착합니다"
+
+msgid "You have reached your stop at {road_name}."
+msgstr "경유지에 도착합니다"
+
+msgid "You have reached your stop."
+msgstr "경유지에 도착합니다"
+
+msgid "In {distance} go straight {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} 계속 직진하세요"
+
+msgid "In {distance} go straight onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 계속 직진하세요"
+
+msgid "In {distance} go straight {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 계속 직진하세요"
+
+msgid "In {distance} go straight onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 계속 직진하세요"
+
+msgid "In {distance} go straight."
+msgstr "약 {distance} 앞, 계속 직진하세요"
+
+msgid "Go straight {direction_details}."
+msgstr "{direction_details} 계속 직진하세요"
+
+msgid "Go straight onto {road_number}."
+msgstr "{road_number} 로 계속 직진하세요"
+
+msgid "Go straight {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 계속 직진하세요"
+
+msgid "Go straight onto {road_name}."
+msgstr "{road_name} 로 계속 직진하세요"
+
+msgid "Then go straight."
+msgstr "그 다음 계속 직진하세요"
+
+msgid "Go straight."
+msgstr "계속 직진하세요"
+
+msgid "In {distance} bear right at {intersection_name}."
+msgstr "약 {distance} 앞, {intersection_name} 교차로 에서 오른쪽 두시방향입니다"
+
+msgid "In {distance} {landmark} bear right {direction_details}."
+msgstr "약 {distance} 앞, {landmark} {direction_details} 오른쪽 두시방향입니다"
+
+msgid "In {distance} {landmark} bear right onto {road_number}."
+msgstr "약 {distance} 앞, {landmark} {road_number} 로 오른쪽 두시방향입니다"
+
+msgid "In {distance} {landmark} bear right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {landmark} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 오른쪽 두시방향입니다"
+
+msgid "In {distance} {landmark} bear right onto {road_name}."
+msgstr "약 {distance} 앞, {landmark} {road_name} 로 오른쪽 두시방향입니다"
+
+msgid "In {distance} bear right {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} 오른쪽 두시방향입니다"
+
+msgid "In {distance} bear right onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 오른쪽 두시방향입니다"
+
+msgid "In {distance} bear right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 오른쪽 두시방향입니다"
+
+msgid "In {distance} bear right onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 오른쪽 두시방향입니다"
+
+msgid "In {distance} {landmark} bear right."
+msgstr "약 {distance} 앞, {landmark} 로 오른쪽 두시방향입니다"
+
+msgid "In {distance} bear right."
+msgstr "약 {distance} 앞, 오른쪽 두시방향입니다"
+
+msgid "Bear right at {intersection_name}."
+msgstr "{intersection_name} 교차로 에서 오른쪽 두시방향입니다"
+
+msgid "{landmark} bear right {direction_details}."
+msgstr "{landmark} {direction_details} 오른쪽 두시방향입니다"
+
+msgid "{landmark} bear right onto {road_number}."
+msgstr "{landmark} {road_number} 로 오른쪽 두시방향입니다"
+
+msgid "{landmark} bear right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{landmark} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 오른쪽 두시방향입니다"
+
+msgid "{landmark} bear right onto {road_name}."
+msgstr "{landmark} {road_name} 로 오른쪽 두시방향입니다"
+
+msgid "Bear right {direction_details}."
+msgstr "{direction_details} 오른쪽 두시방향입니다"
+
+msgid "Bear right onto {road_number}."
+msgstr "{road_number} 로 오른쪽 두시방향입니다"
+
+msgid "Bear right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 오른쪽 두시방향입니다"
+
+msgid "Bear right onto {road_name}."
+msgstr "{road_name} 로 오른쪽 두시방향입니다"
+
+msgid "Then bear right."
+msgstr "그 다음 오른쪽 두시방향입니다"
+
+msgid "{landmark} bear right."
+msgstr "{landmark} 로 오른쪽 두시방향입니다"
+
+msgid "Bear right."
+msgstr "오른쪽 두시방향입니다"
+
+msgid "In {distance} turn right at {intersection_name}."
+msgstr "약 {distance} 앞, {intersection_name} 교차로 에서 우회전입니다"
+
+msgid "In {distance} {landmark} turn right {direction_details}."
+msgstr "약 {distance} 앞, {landmark} {direction_details} 우회전입니다"
+
+msgid "In {distance} {landmark} turn right onto {road_number}."
+msgstr "약 {distance} 앞, {landmark} {road_number} 로 우회전입니다"
+
+msgid "In {distance} {landmark} turn right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {landmark} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 우회전입니다"
+
+msgid "In {distance} {landmark} turn right onto {road_name}."
+msgstr "약 {distance} 앞, {landmark} {road_name} 로 우회전입니다"
+
+msgid "In {distance} turn right {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} 우회전입니다"
+
+msgid "In {distance} turn right onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 우회전입니다"
+
+msgid "In {distance} turn right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 우회전입니다"
+
+msgid "In {distance} turn right onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 우회전입니다"
+
+msgid "In {distance} {landmark} turn right."
+msgstr "약 {distance} 앞, {landmark} 로 우회전입니다"
+
+msgid "In {distance} turn right."
+msgstr "약 {distance} 앞, 우회전입니다"
+
+msgid "Turn right at {intersection_name}."
+msgstr "{intersection_name} 교차로 에서 우회전입니다"
+
+msgid "{landmark} turn right {direction_details}."
+msgstr "{landmark} {direction_details} 우회전입니다"
+
+msgid "{landmark} turn right onto {road_number}."
+msgstr "{landmark} {road_number} 로 우회전입니다"
+
+msgid "{landmark} turn right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{landmark} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 우회전입니다"
+
+msgid "{landmark} turn right onto {road_name}."
+msgstr "{landmark} {road_name} 로 우회전입니다"
+
+msgid "Turn right {direction_details}."
+msgstr "{direction_details} 우회전입니다"
+
+msgid "Turn right onto {road_number}."
+msgstr "{road_number} 로 우회전입니다"
+
+msgid "Turn right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 우회전입니다"
+
+msgid "Turn right onto {road_name}."
+msgstr "{road_name} 로 우회전입니다"
+
+msgid "Then turn right."
+msgstr "그 다음 우회전입니다"
+
+msgid "{landmark} turn right."
+msgstr "{landmark} 로 우회전입니다"
+
+msgid "Turn right."
+msgstr "우회전입니다"
+
+msgid "In {distance} make a sharp turn right at {intersection_name}."
+msgstr "약 {distance} 앞, {intersection_name} 교차로 에서 오른쪽 다섯시방향입니다"
+
+msgid "In {distance} {landmark} make a sharp turn right {direction_details}."
+msgstr "약 {distance} 앞, {landmark} {direction_details} 오른쪽 다섯시방향입니다"
+
+msgid "In {distance} {landmark} make a sharp turn right onto {road_number}."
+msgstr "약 {distance} 앞, {landmark} {road_number} 로 오른쪽 다섯시방향입니다"
+
+msgid "In {distance} {landmark} make a sharp turn right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {landmark} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 오른쪽 다섯시방향입니다"
+
+msgid "In {distance} {landmark} make a sharp turn right onto {road_name}."
+msgstr "약 {distance} 앞, {landmark} {road_name} 로 오른쪽 다섯시방향입니다"
+
+msgid "In {distance} make a sharp turn right {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} 오른쪽 다섯시방향입니다"
+
+msgid "In {distance} make a sharp turn right onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 오른쪽 다섯시방향입니다"
+
+msgid "In {distance} make a sharp turn right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 오른쪽 다섯시방향입니다"
+
+msgid "In {distance} make a sharp turn right onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 오른쪽 다섯시방향입니다"
+
+msgid "In {distance} {landmark} make a sharp turn right."
+msgstr "약 {distance} 앞, {landmark} 로 오른쪽 다섯시방향입니다"
+
+msgid "In {distance} make a sharp turn right."
+msgstr "약 {distance} 앞, 오른쪽 다섯시방향입니다"
+
+msgid "Make a sharp turn right at {intersection_name}."
+msgstr "{intersection_name} 교차로 에서 오른쪽 다섯시방향입니다"
+
+msgid "{landmark} make a sharp turn right {direction_details}."
+msgstr "{landmark} {direction_details} 오른쪽 다섯시방향입니다"
+
+msgid "{landmark} make a sharp turn right onto {road_number}."
+msgstr "{landmark} {road_number} 로 오른쪽 다섯시방향입니다"
+
+msgid "{landmark} make a sharp turn right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{landmark} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 오른쪽 다섯시방향입니다"
+
+msgid "{landmark} make a sharp turn right onto {road_name}."
+msgstr "{landmark} {road_name} 로 오른쪽 다섯시방향입니다"
+
+msgid "Make a sharp turn right {direction_details}."
+msgstr "{direction_details} 오른쪽 다섯시방향입니다"
+
+msgid "Make a sharp turn right onto {road_number}."
+msgstr "{road_number} 로 오른쪽 다섯시방향입니다"
+
+msgid "Make a sharp turn right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 오른쪽 다섯시방향입니다"
+
+msgid "Make a sharp turn right onto {road_name}."
+msgstr "{road_name} 로 오른쪽 다섯시방향입니다"
+
+msgid "Then make a sharp turn right."
+msgstr "그 다음 오른쪽 다섯시방향입니다"
+
+msgid "{landmark} make a sharp turn right."
+msgstr "{landmark} 로 오른쪽 다섯시방향입니다"
+
+msgid "Make a sharp turn right."
+msgstr "오른쪽 다섯시방향입니다"
+
+msgid "In {distance} bear left at {intersection_name}."
+msgstr "약 {distance} 앞, {intersection_name} 교차로 에서 왼쪽 열한시방향입니다"
+
+msgid "In {distance} {landmark} bear left {direction_details}."
+msgstr "약 {distance} 앞, {landmark} {direction_details} 왼쪽 열한시방향입니다"
+
+msgid "In {distance} {landmark} bear left onto {road_number}."
+msgstr "약 {distance} 앞, {landmark} {road_number} 로 왼쪽 열한시방향입니다"
+
+msgid "In {distance} {landmark} bear left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {landmark} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 왼쪽 열한시방향입니다"
+
+msgid "In {distance} {landmark} bear left onto {road_name}."
+msgstr "약 {distance} 앞, {landmark} {road_name} 로 왼쪽 열한시방향입니다"
+
+msgid "In {distance} bear left {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} 왼쪽 열한시방향입니다"
+
+msgid "In {distance} bear left onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 왼쪽 열한시방향입니다"
+
+msgid "In {distance} bear left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 왼쪽 열한시방향입니다"
+
+msgid "In {distance} bear left onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 왼쪽 열한시방향입니다"
+
+msgid "In {distance} {landmark} bear left."
+msgstr "약 {distance} 앞, {landmark} 로 왼쪽 열한시방향입니다"
+
+msgid "In {distance} bear left."
+msgstr "약 {distance} 앞, 왼쪽 열한시방향입니다"
+
+msgid "Bear left at {intersection_name}."
+msgstr "{intersection_name} 교차로 에서 왼쪽 열한시방향입니다"
+
+msgid "{landmark} bear left {direction_details}."
+msgstr "{landmark} {direction_details} 왼쪽 열한시방향입니다"
+
+msgid "{landmark} bear left onto {road_number}."
+msgstr "{landmark} {road_number} 로 왼쪽 열한시방향입니다"
+
+msgid "{landmark} bear left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{landmark} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 왼쪽 열한시방향입니다"
+
+msgid "{landmark} bear left onto {road_name}."
+msgstr "{landmark} {road_name} 로 왼쪽 열한시방향입니다"
+
+msgid "Bear left {direction_details}."
+msgstr "{direction_details} 왼쪽 열한시방향입니다"
+
+msgid "Bear left onto {road_number}."
+msgstr "{road_number} 로 왼쪽 열한시방향입니다"
+
+msgid "Bear left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 왼쪽 열한시방향입니다"
+
+msgid "Bear left onto {road_name}."
+msgstr "{road_name} 로 왼쪽 열한시방향입니다"
+
+msgid "Then bear left."
+msgstr "그 다음 왼쪽 열한시방향입니다"
+
+msgid "{landmark} bear left."
+msgstr "{landmark} 로 왼쪽 열한시방향입니다"
+
+msgid "Bear left."
+msgstr "왼쪽 열한시방향입니다"
+
+msgid "In {distance} turn left at {intersection_name}."
+msgstr "약 {distance} 앞, {intersection_name} 교차로 에서 좌회전입니다"
+
+msgid "In {distance} {landmark} turn left {direction_details}."
+msgstr "약 {distance} 앞, {landmark} {direction_details} 로 좌회전입니다"
+
+msgid "In {distance} {landmark} turn left onto {road_number}."
+msgstr "약 {distance} 앞, {landmark} {road_number} 로 좌회전입니다"
+
+msgid "In {distance} {landmark} turn left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {landmark} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 좌회전입니다"
+
+msgid "In {distance} {landmark} turn left onto {road_name}."
+msgstr "약 {distance} 앞, {landmark} {road_name} 로 좌회전입니다"
+
+msgid "In {distance} turn left {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} 좌회전입니다"
+
+msgid "In {distance} turn left onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 좌회전입니다"
+
+msgid "In {distance} turn left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 좌회전입니다"
+
+msgid "In {distance} turn left onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 좌회전입니다"
+
+msgid "In {distance} {landmark} turn left."
+msgstr "약 {distance} 앞, {landmark} 로 좌회전입니다"
+
+msgid "In {distance} turn left."
+msgstr "약 {distance} 앞, 좌회전입니다"
+
+msgid "Turn left at {intersection_name}."
+msgstr "{intersection_name} 교차로 에서 좌회전입니다"
+
+msgid "{landmark} turn left {direction_details}."
+msgstr "{landmark} {direction_details} 좌회전입니다"
+
+msgid "{landmark} turn left onto {road_number}."
+msgstr "{landmark} {road_number} 로 좌회전입니다"
+
+msgid "{landmark} turn left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{landmark} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 좌회전입니다"
+
+msgid "{landmark} turn left onto {road_name}."
+msgstr "{landmark} {road_name} 로 좌회전입니다"
+
+msgid "Turn left {direction_details}."
+msgstr "{direction_details} 좌회전입니다"
+
+msgid "Turn left onto {road_number}."
+msgstr "{road_number} 로 좌회전입니다"
+
+msgid "Turn left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 좌회전입니다"
+
+msgid "Turn left onto {road_name}."
+msgstr "{road_name} 로 좌회전입니다"
+
+msgid "Then turn left."
+msgstr "그 다음 좌회전입니다"
+
+msgid "{landmark} turn left."
+msgstr "{landmark} 로 좌회전입니다"
+
+msgid "Turn left."
+msgstr "좌회전입니다"
+
+msgid "In {distance} make a sharp turn left at {intersection_name}."
+msgstr "약 {distance} 앞, {intersection_name} 교차로 에서 왼쪽 일곱시방향입니다"
+
+msgid "In {distance} {landmark} make a sharp turn left {direction_details}."
+msgstr "약 {distance} 앞, {landmark} {direction_details} 왼쪽 일곱시방향입니다"
+
+msgid "In {distance} {landmark} make a sharp turn left onto {road_number}."
+msgstr "약 {distance} 앞, {landmark} {road_number} 로 왼쪽 일곱시방향입니다"
+
+msgid "In {distance} {landmark} make a sharp turn left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {landmark} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 왼쪽 일곱시방향입니다"
+
+msgid "In {distance} {landmark} make a sharp turn left onto {road_name}."
+msgstr "약 {distance} 앞, {landmark} {road_name} 로 왼쪽 일곱시방향입니다"
+
+msgid "In {distance} make a sharp turn left {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} 왼쪽 일곱시방향입니다"
+
+msgid "In {distance} make a sharp turn left onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 왼쪽 일곱시방향입니다"
+
+msgid "In {distance} make a sharp turn left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 왼쪽 일곱시방향입니다"
+
+msgid "In {distance} make a sharp turn left onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 왼쪽 일곱시방향입니다"
+
+msgid "In {distance} {landmark} make a sharp turn left."
+msgstr "약 {distance} 앞, {landmark} 로 왼쪽 일곱시방향입니다"
+
+msgid "In {distance} make a sharp turn left."
+msgstr "약 {distance} 앞, 왼쪽 일곱시방향입니다"
+
+msgid "Make a sharp turn left at {intersection_name}."
+msgstr "{intersection_name} 교차로 에서 왼쪽 일곱시방향입니다"
+
+msgid "{landmark} make a sharp turn left {direction_details}."
+msgstr "{landmark} {direction_details} 왼쪽 일곱시방향입니다"
+
+msgid "{landmark} make a sharp turn left onto {road_number}."
+msgstr "{landmark} {road_number} 로 왼쪽 일곱시방향입니다"
+
+msgid "{landmark} make a sharp turn left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{landmark} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 왼쪽 일곱시방향입니다"
+
+msgid "{landmark} make a sharp turn left onto {road_name}."
+msgstr "{landmark} {road_name} 로 왼쪽 일곱시방향입니다"
+
+msgid "Make a sharp turn left {direction_details}."
+msgstr "{direction_details} 왼쪽 일곱시방향입니다"
+
+msgid "Make a sharp turn left onto {road_number}."
+msgstr "{road_number} 로 왼쪽 일곱시방향입니다"
+
+msgid "Make a sharp turn left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 왼쪽 일곱시방향입니다"
+
+msgid "Make a sharp turn left onto {road_name}."
+msgstr "{road_name} 로 왼쪽 일곱시방향입니다"
+
+msgid "Then make a sharp turn left."
+msgstr "그 다음 왼쪽 일곱시방향입니다"
+
+msgid "{landmark} make a sharp turn left."
+msgstr "{landmark} 로 왼쪽 일곱시방향입니다"
+
+msgid "Make a sharp turn left."
+msgstr "왼쪽 일곱시방향입니다"
+
+msgid "In {distance} make a U-turn at {intersection_name}."
+msgstr "약 {distance} 앞, 유턴입니다"
+
+msgid "In {distance} {landmark} make a U-turn {direction_details}."
+msgstr "약 {distance} 앞, 유턴입니다"
+
+msgid "In {distance} {landmark} make a U-turn onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 유턴입니다"
+
+msgid "In {distance} {landmark} make a U-turn {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 유턴입니다"
+
+msgid "In {distance} {landmark} make a U-turn onto {road_name}."
+msgstr "약 {distance} 앞, 유턴입니다"
+
+msgid "In {distance} make a U-turn {direction_details}."
+msgstr "약 {distance} 앞, 유턴입니다"
+
+msgid "In {distance} make a U-turn onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 유턴입니다"
+
+msgid "In {distance} make a U-turn {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 유턴입니다"
+
+msgid "In {distance} make a U-turn onto {road_name}."
+msgstr "약 {distance} 앞, 유턴입니다"
+
+msgid "In {distance} {landmark} make a U-turn."
+msgstr "약 {distance} 앞, 유턴입니다"
+
+msgid "In {distance} make a U-turn."
+msgstr "약 {distance} 앞, 유턴입니다"
+
+msgid "Make a U-turn at {intersection_name}."
+msgstr "유턴하세요"
+
+msgid "{landmark} make a U-turn {direction_details}."
+msgstr "유턴하세요"
+
+msgid "{landmark} make a U-turn onto {road_number}."
+msgstr "{road_number} 로 유턴하세요"
+
+msgid "{landmark} make a U-turn {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 유턴하세요"
+
+msgid "{landmark} make a U-turn onto {road_name}."
+msgstr "유턴하세요"
+
+msgid "Make a U-turn {direction_details}."
+msgstr "유턴하세요"
+
+msgid "Make a U-turn onto {road_number}."
+msgstr "{road_number} 로 유턴하세요"
+
+msgid "Make a U-turn {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 유턴하세요"
+
+msgid "Make a U-turn onto {road_name}."
+msgstr "유턴하세요"
+
+msgid "Then make a U-turn."
+msgstr "그 다음 유턴하세요"
+
+msgid "{landmark} make a U-turn."
+msgstr "유턴하세요"
+
+msgid "Make a U-turn."
+msgstr "유턴하세요"
+
+msgid "In {distance} follow the road to the right."
+msgstr "약 {distance} 앞, 오른쪽으로 차선을 변경하세요"
+
+msgid "Then follow the road to the right."
+msgstr "그 다음 오른쪽으로 차선을 변경하세요"
+
+msgid "Follow the road to the right."
+msgstr "오른쪽으로 차선을 변경하세요"
+
+msgid "In {distance} follow the road to the left."
+msgstr "약 {distance} 앞, 왼쪽으로 차선을 변경하세요"
+
+msgid "Then follow the road to the left."
+msgstr "그 다음 왼쪽으로 차선을 변경하세요"
+
+msgid "Follow the road to the left."
+msgstr "왼쪽으로 차선을 변경하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the left {direction_details}."
+msgstr ""
+
+msgid "In {distance} take the exit {exit_number} on the left {direction_details}."
+msgstr ""
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the left onto {road_number} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the left onto {road_number} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the left exit {direction_details}."
+msgstr ""
+
+msgid "In {distance} take the left exit {direction_details}."
+msgstr ""
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the left exit onto {road_number} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_number} 로 {toward_name} 방면 왼쪽 출구입니다"
+
+msgid "In {distance} take the left exit onto {road_number} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_number} 로 {toward_name} 방면 왼쪽 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the left at {intersection_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the left at {intersection_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the left at {intersection_name}."
+msgstr "약 {distance} 앞, {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the left at {intersection_name}."
+msgstr "약 {distance} 앞, {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the left onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the left onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the left onto {road_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the left onto {road_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the left onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the left onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the left exit at {intersection_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 왼쪽 출구입니다"
+
+msgid "In {distance} take the left exit at {intersection_name}."
+msgstr "약 {distance} 앞, 왼쪽 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the left exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 왼쪽 출구입니다"
+
+msgid "In {distance} take the left exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 왼쪽 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the left exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 왼쪽 출구입니다"
+
+msgid "In {distance} take the left exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 왼쪽 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the left exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 왼쪽 출구입니다"
+
+msgid "In {distance} take the left exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 왼쪽 출구입니다"
+
+msgid "In {distance} take the left exit onto {road_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {toward_name} 방면 왼쪽 출구입니다"
+
+msgid "In {distance} take the left exit onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 왼쪽 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the left {direction_details}."
+msgstr ""
+
+msgid "Take the exit {exit_number} on the left {direction_details}."
+msgstr ""
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the left toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the left toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the left."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the left."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgid "Take the left exit {direction_details}."
+msgstr ""
+
+msgid "Take the left exit toward {toward_name}."
+msgstr "{toward_name} 방면 왼쪽 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the left toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the left toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the left."
+msgstr "약 {distance} 앞, {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the left."
+msgstr "약 {distance} 앞, {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the left exit toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 왼쪽 출구입니다"
+
+msgid "In {distance} take the left exit toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 왼쪽 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the left exit."
+msgstr "약 {distance} 앞, 왼쪽 출구입니다"
+
+msgid "In {distance} take the left exit."
+msgstr "약 {distance} 앞, 왼쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the left {direction_details}."
+msgstr ""
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the left onto {road_number} toward {toward_name}."
+msgstr "{road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the left onto {road_number} toward {toward_name}."
+msgstr "{road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the left onto {road_number} toward {toward_name}."
+msgstr "{road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the left at {intersection_name} toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the left at {intersection_name} toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the left at {intersection_name} toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the left at {intersection_name}."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the left at {intersection_name}."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the left at {intersection_name}."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the left onto {road_number}."
+msgstr "{road_number} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the left onto {road_number}."
+msgstr "{road_number} 로 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the left onto {road_number}."
+msgstr "{road_number} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the left {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the left onto {road_name} toward {toward_name}."
+msgstr "{road_name} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the left onto {road_name} toward {toward_name}."
+msgstr "{road_name} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the left onto {road_name} toward {toward_name}."
+msgstr "{road_name} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the left onto {road_name}."
+msgstr "{road_name} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the left onto {road_name}."
+msgstr "{road_name} 로 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the left onto {road_name}."
+msgstr "{road_name} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the left exit {direction_details}."
+msgstr ""
+
+msgctxt "second_freeway_exit"
+msgid "Take the left exit onto {road_number} toward {toward_name}."
+msgstr "{road_number} 로 {toward_name} 방면 왼쪽 출구입니다"
+
+msgid "Take the left exit onto {road_number} toward {toward_name}."
+msgstr "{road_number} 로 {toward_name} 방면 왼쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the left exit at {intersection_name} toward {toward_name}."
+msgstr "{toward_name} 방면 왼쪽 출구입니다"
+
+msgid "Take the left exit at {intersection_name} toward {toward_name}."
+msgstr "{toward_name} 방면 왼쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the left exit at {intersection_name}."
+msgstr "왼쪽 출구입니다"
+
+msgid "Take the left exit at {intersection_name}."
+msgstr "왼쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the left exit onto {road_number}."
+msgstr "{road_number} 로 왼쪽 출구입니다"
+
+msgid "Take the left exit onto {road_number}."
+msgstr "{road_number} 로 왼쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the left exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 왼쪽 출구입니다"
+
+msgid "Take the left exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 왼쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the left exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 왼쪽 출구입니다"
+
+msgid "Take the left exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 왼쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the left exit onto {road_name} toward {toward_name}."
+msgstr "{road_name} 로 {toward_name} 방면 왼쪽 출구입니다"
+
+msgid "Take the left exit onto {road_name} toward {toward_name}."
+msgstr "{road_name} 로 {toward_name} 방면 왼쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the left exit onto {road_name}."
+msgstr "{road_name} 로 왼쪽 출구입니다"
+
+msgid "Take the left exit onto {road_name}."
+msgstr "{road_name} 로 왼쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Then take the exit {exit_number} on the left."
+msgstr "그 다음 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Then take the exit {exit_number} on the left."
+msgstr "그 다음 {exit_number} 출구를 이용하세요"
+
+msgid "Then take the exit {exit_number} on the left."
+msgstr "그 다음 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Then take the left exit."
+msgstr "그 다음 왼쪽 출구입니다"
+
+msgid "Then take the left exit."
+msgstr "그 다음 왼쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the left toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the left."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the left exit toward {toward_name}."
+msgstr "{toward_name} 방면 왼쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the left exit."
+msgstr "왼쪽 출구입니다"
+
+msgid "Take the left exit."
+msgstr "왼쪽 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the right {direction_details}."
+msgstr ""
+
+msgid "In {distance} take the exit {exit_number} on the right {direction_details}."
+msgstr ""
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the right onto {road_number} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the right onto {road_number} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the right exit {direction_details}."
+msgstr ""
+
+msgid "In {distance} take the right exit {direction_details}."
+msgstr ""
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the right exit onto {road_number} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_number} 로 {toward_name} 방면 오른쪽 출구입니다"
+
+msgid "In {distance} take the right exit onto {road_number} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_number} 로 {toward_name} 방면 오른쪽 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the right at {intersection_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the right at {intersection_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the right at {intersection_name}."
+msgstr "약 {distance} 앞, {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the right at {intersection_name}."
+msgstr "약 {distance} 앞, {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the right onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the right onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the right onto {road_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the right onto {road_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the right onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the right onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the right exit at {intersection_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 오른쪽 출구입니다"
+
+msgid "In {distance} take the right exit at {intersection_name}."
+msgstr "약 {distance} 앞, 오른쪽 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the right exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 오른쪽 출구입니다"
+
+msgid "In {distance} take the right exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 오른쪽 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the right exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 오른쪽 출구입니다"
+
+msgid "In {distance} take the right exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 오른쪽 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the right exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 오른쪽 출구입니다"
+
+msgid "In {distance} take the right exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 오른쪽 출구입니다"
+
+msgid "In {distance} take the right exit onto {road_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {toward_name} 방면 오른쪽 출구입니다"
+
+msgid "In {distance} take the right exit onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 오른쪽 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the right {direction_details}."
+msgstr ""
+
+msgid "Take the exit {exit_number} on the right {direction_details}."
+msgstr ""
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the right toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the right toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the right."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the right."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgid "Take the right exit {direction_details}."
+msgstr ""
+
+msgid "Take the right exit toward {toward_name}."
+msgstr "{toward_name} 방면 오른쪽 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the right toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the right toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the right."
+msgstr "약 {distance} 앞, {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the right."
+msgstr "약 {distance} 앞, {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the right exit toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 오른쪽 출구입니다"
+
+msgid "In {distance} take the right exit toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 오른쪽 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the right exit."
+msgstr "약 {distance} 앞, 오른쪽 출구입니다"
+
+msgid "In {distance} take the right exit."
+msgstr "약 {distance} 앞, 오른쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the right {direction_details}."
+msgstr ""
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the right onto {road_number} toward {toward_name}."
+msgstr "{road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the right onto {road_number} toward {toward_name}."
+msgstr "{road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the right onto {road_number} toward {toward_name}."
+msgstr "{road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the right at {intersection_name} toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the right at {intersection_name} toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the right at {intersection_name} toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the right at {intersection_name}."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the right at {intersection_name}."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the right at {intersection_name}."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the right onto {road_number}."
+msgstr "{road_number} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the right onto {road_number}."
+msgstr "{road_number} 로 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the right onto {road_number}."
+msgstr "{road_number} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the right {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the right onto {road_name} toward {toward_name}."
+msgstr "{road_name} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the right onto {road_name} toward {toward_name}."
+msgstr "{road_name} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the right onto {road_name} toward {toward_name}."
+msgstr "{road_name} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the right onto {road_name}."
+msgstr "{road_name} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} on the right onto {road_name}."
+msgstr "{road_name} 로 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} on the right onto {road_name}."
+msgstr "{road_name} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the right exit {direction_details}."
+msgstr ""
+
+msgctxt "second_freeway_exit"
+msgid "Take the right exit onto {road_number} toward {toward_name}."
+msgstr "{road_number} 로 {toward_name} 방면 오른쪽 출구입니다"
+
+msgid "Take the right exit onto {road_number} toward {toward_name}."
+msgstr "{road_number} 로 {toward_name} 방면 오른쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the right exit at {intersection_name} toward {toward_name}."
+msgstr "{toward_name} 방면 오른쪽 출구입니다"
+
+msgid "Take the right exit at {intersection_name} toward {toward_name}."
+msgstr "{toward_name} 방면 오른쪽 도로로 주행하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the right exit at {intersection_name}."
+msgstr "오른쪽 출구입니다"
+
+msgid "Take the right exit at {intersection_name}."
+msgstr "오른쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the right exit onto {road_number}."
+msgstr "{road_number} 로 오른쪽 출구입니다"
+
+msgid "Take the right exit onto {road_number}."
+msgstr "{road_number} 로 오른쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the right exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 오른쪽 출구입니다"
+
+msgid "Take the right exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 오른쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the right exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 오른쪽 출구입니다"
+
+msgid "Take the right exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 오른쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the right exit onto {road_name} toward {toward_name}."
+msgstr "{road_name} 로 {toward_name} 방면 오른쪽 출구입니다"
+
+msgid "Take the right exit onto {road_name} toward {toward_name}."
+msgstr "{road_name} 로 {toward_name} 방면 오른쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the right exit onto {road_name}."
+msgstr "{road_name} 로 오른쪽 출구입니다"
+
+msgid "Take the right exit onto {road_name}."
+msgstr "{road_name} 로 오른쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Then take the exit {exit_number} on the right."
+msgstr "그 다음 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Then take the exit {exit_number} on the right."
+msgstr "그 다음 {exit_number} 출구를 이용하세요"
+
+msgid "Then take the exit {exit_number} on the right."
+msgstr "그 다음 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Then take the right exit."
+msgstr "그 다음 오른쪽 출구입니다"
+
+msgid "Then take the right exit."
+msgstr "그 다음 오른쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the right toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} on the right."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the right exit toward {toward_name}."
+msgstr "{toward_name} 방면 오른쪽 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the right exit."
+msgstr "오른쪽 출구입니다"
+
+msgid "Take the right exit."
+msgstr "오른쪽 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} {direction_details}."
+msgstr ""
+
+msgid "In {distance} take the exit {exit_number} {direction_details}."
+msgstr ""
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} onto {road_number} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} onto {road_number} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {direction_details}."
+msgstr ""
+
+msgid "In {distance} take the exit {direction_details}."
+msgstr ""
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit onto {road_number} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_number} 로 {toward_name} 방면 출구입니다"
+
+msgid "In {distance} take the exit onto {road_number} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_number} 로 {toward_name} 방면 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} at {intersection_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} at {intersection_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} at {intersection_name}."
+msgstr "약 {distance} 앞, {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} at {intersection_name}."
+msgstr "약 {distance} 앞, {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} onto {road_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} onto {road_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit at {intersection_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 출구입니다"
+
+msgid "In {distance} take the exit at {intersection_name}."
+msgstr "약 {distance} 앞, 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 출구입니다"
+
+msgid "In {distance} take the exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 출구입니다"
+
+msgid "In {distance} take the exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 출구입니다"
+
+msgid "In {distance} take the exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 출구입니다"
+
+msgid "In {distance} take the exit onto {road_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {toward_name} 방면 출구입니다"
+
+msgid "In {distance} take the exit onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} {direction_details}."
+msgstr ""
+
+msgid "Take the exit {exit_number} {direction_details}."
+msgstr ""
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number}."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number}."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {direction_details}."
+msgstr ""
+
+msgid "Take the exit toward {toward_name}."
+msgstr "{toward_name} 방면 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number}."
+msgstr "약 {distance} 앞, {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number}."
+msgstr "약 {distance} 앞, {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 출구입니다"
+
+msgid "In {distance} take the exit toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 출구입니다"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit."
+msgstr "약 {distance} 앞, 출구입니다"
+
+msgid "In {distance} take the exit."
+msgstr "약 {distance} 앞, 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} {direction_details}."
+msgstr ""
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} onto {road_number} toward {toward_name}."
+msgstr "{road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} onto {road_number} toward {toward_name}."
+msgstr "{road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} onto {road_number} toward {toward_name}."
+msgstr "{road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} at {intersection_name} toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} at {intersection_name} toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} at {intersection_name} toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} at {intersection_name}."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} at {intersection_name}."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} at {intersection_name}."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} onto {road_number}."
+msgstr "{road_number} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} onto {road_number}."
+msgstr "{road_number} 로 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} onto {road_number}."
+msgstr "{road_number} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} onto {road_name} toward {toward_name}."
+msgstr "{road_name} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} onto {road_name} toward {toward_name}."
+msgstr "{road_name} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "Take the exit {exit_number} onto {road_name} toward {toward_name}."
+msgstr "{road_name} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} onto {road_name}."
+msgstr "{road_name} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Take the exit {exit_number} onto {road_name}."
+msgstr "{road_name} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {direction_details}."
+msgstr ""
+
+msgid "Take the exit {exit_number} onto {road_name}."
+msgstr "{road_name} 로 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit onto {road_number} toward {toward_name}."
+msgstr "{road_number} 로 {toward_name} 방면 출구입니다"
+
+msgid "Take the exit onto {road_number} toward {toward_name}."
+msgstr "{road_number} 로 {toward_name} 방면 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit at {intersection_name} toward {toward_name}."
+msgstr "{toward_name} 방면 출구입니다"
+
+msgid "Take the exit at {intersection_name} toward {toward_name}."
+msgstr "{toward_name} 방면 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit at {intersection_name}."
+msgstr "출구입니다"
+
+msgid "Take the exit at {intersection_name}."
+msgstr "출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit onto {road_number}."
+msgstr "{road_number} 로 출구입니다"
+
+msgid "Take the exit onto {road_number}."
+msgstr "{road_number} 로 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 출구입니다"
+
+msgid "Take the exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 출구입니다"
+
+msgid "Take the exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit onto {road_name} toward {toward_name}."
+msgstr "{road_name} 로 {toward_name} 방면 출구입니다"
+
+msgid "Take the exit onto {road_name} toward {toward_name}."
+msgstr "{road_name} 로 {toward_name} 방면 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit onto {road_name}."
+msgstr "{road_name} 로 출구입니다"
+
+msgid "Take the exit onto {road_name}."
+msgstr "{road_name} 로 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Then take the exit {exit_number}."
+msgstr "그 다음 {exit_number} 출구를 이용하세요"
+
+msgctxt "has_exit_name"
+msgid "Then take the exit {exit_number}."
+msgstr "그 다음 {exit_number} 출구를 이용하세요"
+
+msgid "Then take the exit {exit_number}."
+msgstr "그 다음 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Then take the exit."
+msgstr "그 다음 출구입니다"
+
+msgid "Then take the exit."
+msgstr "그 다음 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number} toward {toward_name}."
+msgstr "{toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit {exit_number}."
+msgstr "{exit_number} 출구를 이용하세요"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit toward {toward_name}."
+msgstr "{toward_name} 방면 출구입니다"
+
+msgctxt "second_freeway_exit"
+msgid "Take the exit."
+msgstr "출구입니다"
+
+msgid "Take the exit."
+msgstr "출구입니다"
+
+msgid "In {distance} keep left at {intersection_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {intersection_name} 교차로 에서 {toward_name} 방면 왼쪽 도로로 주행하세요"
+
+msgid "In {distance} keep left at {intersection_name}."
+msgstr "약 {distance} 앞, {intersection_name} 교차로 에서 왼쪽 도로로 주행하세요"
+
+msgid "In {distance} keep left toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 왼쪽 도로로 주행하세요"
+
+msgid "In {distance} keep left."
+msgstr "약 {distance} 앞, 왼쪽 도로로 주행하세요"
+
+msgid "Keep left at {intersection_name} toward {toward_name}."
+msgstr "{intersection_name} 교차로 에서 {toward_name} 방면 왼쪽 도로로 주행하세요"
+
+msgid "Keep left at {intersection_name}."
+msgstr "{intersection_name} 교차로 에서 왼쪽 도로로 주행하세요"
+
+msgid "Then keep left."
+msgstr "그 다음 왼쪽 도로로 주행하세요"
+
+msgid "Keep left toward {toward_name}."
+msgstr "{toward_name} 방면 왼쪽 도로로 주행하세요"
+
+msgid "Keep left."
+msgstr "왼쪽 도로로 주행하세요"
+
+msgid "In {distance} keep right at {intersection_name} toward {toward_name}."
+msgstr "약 {distance} 앞, {intersection_name} 교차로 에서 {toward_name} 방면 오른쪽 도로로 주행하세요"
+
+msgid "In {distance} keep right at {intersection_name}."
+msgstr "약 {distance} 앞, {intersection_name} 교차로 에서 오른쪽 도로로 주행하세요"
+
+msgid "In {distance} keep right toward {toward_name}."
+msgstr "약 {distance} 앞, {toward_name} 방면 오른쪽 도로로 주행하세요"
+
+msgid "In {distance} keep right."
+msgstr "약 {distance} 앞, 오른쪽 도로로 주행하세요"
+
+msgid "Keep right at {intersection_name} toward {toward_name}."
+msgstr "{intersection_name} 교차로 에서 {toward_name} 방면 오른쪽 도로로 주행하세요"
+
+msgid "Keep right at {intersection_name}."
+msgstr "{intersection_name} 교차로 에서 오른쪽 도로로 주행하세요"
+
+msgid "Then keep right."
+msgstr "그 다음 오른쪽 도로로 주행하세요"
+
+msgid "Keep right toward {toward_name}."
+msgstr "{toward_name} 방면 오른쪽 도로로 주행하세요"
+
+msgid "Keep right."
+msgstr "오른쪽 도로로 주행하세요"
+
+# HAS TO BE EMPTY
+msgid "In {distance} take {road_number}."
+msgstr ""
+
+# HAS TO BE EMPTY
+msgid "Then take {road_number}."
+msgstr ""
+
+# HAS TO BE EMPTY
+msgid "Take {road_number}."
+msgstr ""
+
+# HAS TO BE EMPTY
+msgid "In {distance} take {road_name}."
+msgstr ""
+
+# HAS TO BE EMPTY
+msgid "Then take {road_name}."
+msgstr ""
+
+# HAS TO BE EMPTY
+msgid "In {distance} take the freeway."
+msgstr ""
+
+# HAS TO BE EMPTY
+msgid "Then take the freeway."
+msgstr ""
+
+# HAS TO BE EMPTY
+msgid "Take {road_name}."
+msgstr ""
+
+# HAS TO BE EMPTY
+msgid "Take the freeway."
+msgstr ""
+
+msgid "Make a U-turn when possible."
+msgstr "유턴하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout in {distance} go straight, {roundabout_exit_number} exit."
+msgstr "약 {distance} 앞, {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout go straight, {roundabout_exit_number} exit {direction_details}."
+msgstr "{direction_details} {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout in {distance} go straight, {roundabout_exit_number} exit."
+msgstr "약 {distance} 앞, {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout go straight, {roundabout_exit_number} exit {direction_details}."
+msgstr "{direction_details} {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} {roundabout_exit_number} 출구에서 현재 방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} go straight, {roundabout_exit_number} exit."
+msgstr "약 {distance} 앞, {roundabout_exit_number} 출구에서 현재 방향 으로 주행하세요"
+
+msgid "At the roundabout go straight, {roundabout_exit_number} exit {direction_details}."
+msgstr "{direction_details} {roundabout_exit_number} 출구에서 현재 방향 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout in {distance} turn right, {roundabout_exit_number} exit {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout in {distance} turn right, {roundabout_exit_number} exit."
+msgstr "약 {distance} 앞, {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout turn right, {roundabout_exit_number} exit {direction_details}."
+msgstr "{direction_details} {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp right"
+msgid "At the roundabout in {distance} turn right, {roundabout_exit_number} exit {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} {roundabout_exit_number} 출구에서 오른쪽 다섯시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp right"
+msgid "At the roundabout in {distance} turn right, {roundabout_exit_number} exit."
+msgstr "약 {distance} 앞, {roundabout_exit_number} 출구에서 오른쪽 다섯시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp right"
+msgid "At the roundabout turn right, {roundabout_exit_number} exit {direction_details}."
+msgstr "{direction_details} {roundabout_exit_number} 출구에서 오른쪽 다섯시방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} turn right, {roundabout_exit_number} exit {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} {roundabout_exit_number} 출구에서 오른쪽 으로 주행하세요"
+
+msgid "At the roundabout in {distance} turn right, {roundabout_exit_number} exit."
+msgstr "약 {distance} 앞, {roundabout_exit_number} 출구에서 오른쪽 으로 주행하세요"
+
+msgid "At the roundabout turn right, {roundabout_exit_number} exit {direction_details}."
+msgstr "{direction_details} {roundabout_exit_number} 출구에서 오른쪽 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout in {distance} turn left, {roundabout_exit_number} exit {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout in {distance} turn left, {roundabout_exit_number} exit."
+msgstr "약 {distance} 앞, {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout turn left, {roundabout_exit_number} exit {direction_details}."
+msgstr "{direction_details} {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp left"
+msgid "At the roundabout in {distance} turn left, {roundabout_exit_number} exit {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} {roundabout_exit_number} 출구에서 왼쪽 일곱시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp left"
+msgid "At the roundabout in {distance} turn left, {roundabout_exit_number} exit."
+msgstr "약 {distance} 앞, {roundabout_exit_number} 출구에서 왼쪽 일곱시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp left"
+msgid "At the roundabout turn left, {roundabout_exit_number} exit {direction_details}."
+msgstr "{direction_details} {roundabout_exit_number} 출구에서 왼쪽 일곱시방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} turn left, {roundabout_exit_number} exit {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} {roundabout_exit_number} 출구에서 왼쪽 으로 주행하세요"
+
+msgid "At the roundabout in {distance} turn left, {roundabout_exit_number} exit."
+msgstr "약 {distance} 앞, {roundabout_exit_number} 출구에서 왼쪽 으로 주행하세요"
+
+msgid "At the roundabout turn left, {roundabout_exit_number} exit {direction_details}."
+msgstr "{direction_details} {roundabout_exit_number} 출구에서 왼쪽 으로 주행하세요"
+
+msgid "At the roundabout in {distance} make a U-turn, {roundabout_exit_number} exit {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} {roundabout_exit_number} 출구에서 왔던 방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} make a U-turn, {roundabout_exit_number} exit."
+msgstr "약 {distance} 앞, {roundabout_exit_number} 출구에서 왔던 방향 으로 주행하세요"
+
+msgid "At the roundabout make a U-turn, {roundabout_exit_number} exit {direction_details}."
+msgstr "{direction_details} {roundabout_exit_number} 출구에서 왔던 방향 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout in {distance} go straight, {roundabout_exit_number} exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout in {distance} go straight, {roundabout_exit_number} exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} go straight, {roundabout_exit_number} exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {roundabout_exit_number} 출구에서 현재 방향 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout in {distance} go straight, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout in {distance} go straight, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} go straight, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 현재 방향 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout in {distance} go straight, {roundabout_exit_number} exit onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout in {distance} go straight, {roundabout_exit_number} exit onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} go straight, {roundabout_exit_number} exit onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {roundabout_exit_number} 출구에서 현재 방향 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout go straight, {roundabout_exit_number} exit onto {road_number}."
+msgstr "{road_number} 로 {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout go straight, {roundabout_exit_number} exit onto {road_number}."
+msgstr "{road_number} 로 {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgid "At the roundabout go straight, {roundabout_exit_number} exit onto {road_number}."
+msgstr "{road_number} 로 {roundabout_exit_number} 출구에서 현재 방향 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout go straight, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout go straight, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgid "At the roundabout go straight, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 현재 방향 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout go straight, {roundabout_exit_number} exit onto {road_name}."
+msgstr "{road_name} 로 {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout go straight, {roundabout_exit_number} exit onto {road_name}."
+msgstr "{road_name} 로 {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgid "At the roundabout go straight, {roundabout_exit_number} exit onto {road_name}."
+msgstr "{road_name} 로 {roundabout_exit_number} 출구에서 현재 방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} make a U-turn, {roundabout_exit_number} exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {roundabout_exit_number} 출구에서 왔던 방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} make a U-turn, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 왔던 방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} make a U-turn, {roundabout_exit_number} exit onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {roundabout_exit_number} 출구에서 왔던 방향 으로 주행하세요"
+
+msgid "At the roundabout make a U-turn, {roundabout_exit_number} exit onto {road_number}."
+msgstr "{road_number} 로 {roundabout_exit_number} 출구에서 왔던 방향 으로 주행하세요"
+
+msgid "At the roundabout make a U-turn, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 왔던 방향 으로 주행하세요"
+
+msgid "At the roundabout make a U-turn, {roundabout_exit_number} exit onto {road_name}."
+msgstr "{road_name} 로 {roundabout_exit_number} 출구에서 왔던 방향 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout in {distance} turn right, {roundabout_exit_number} exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp right"
+msgid "At the roundabout in {distance} turn right, {roundabout_exit_number} exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {roundabout_exit_number} 출구에서 오른쪽 다섯시방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} turn right, {roundabout_exit_number} exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {roundabout_exit_number} 출구에서 오른쪽 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout in {distance} turn right, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp right"
+msgid "At the roundabout in {distance} turn right, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 오른쪽 다섯시방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} turn right, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 오른쪽 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout in {distance} turn right, {roundabout_exit_number} exit onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp right"
+msgid "At the roundabout in {distance} turn right, {roundabout_exit_number} exit onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {roundabout_exit_number} 출구에서 오른쪽 다섯시방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} turn right, {roundabout_exit_number} exit onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {roundabout_exit_number} 출구에서 오른쪽 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout turn right, {roundabout_exit_number} exit onto {road_number}."
+msgstr "{road_number} 로 {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp right"
+msgid "At the roundabout turn right, {roundabout_exit_number} exit onto {road_number}."
+msgstr "{road_number} 로 {roundabout_exit_number} 출구에서 오른쪽 다섯시방향 으로 주행하세요"
+
+msgid "At the roundabout turn right, {roundabout_exit_number} exit onto {road_number}."
+msgstr "{road_number} 로 {roundabout_exit_number} 출구에서 오른쪽 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout turn right, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp right"
+msgid "At the roundabout turn right, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 오른쪽 다섯시방향 으로 주행하세요"
+
+msgid "At the roundabout turn right, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 오른쪽 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout turn right, {roundabout_exit_number} exit onto {road_name}."
+msgstr "{road_name} 로 {roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp right"
+msgid "At the roundabout turn right, {roundabout_exit_number} exit onto {road_name}."
+msgstr "{road_name} 로 {roundabout_exit_number} 출구에서 오른쪽 다섯시방향 으로 주행하세요"
+
+msgid "At the roundabout turn right, {roundabout_exit_number} exit onto {road_name}."
+msgstr "{road_name} 로 {roundabout_exit_number} 출구에서 오른쪽 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout in {distance} turn left, {roundabout_exit_number} exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp left"
+msgid "At the roundabout in {distance} turn left, {roundabout_exit_number} exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {roundabout_exit_number} 출구에서 왼쪽 일곱시방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} turn left, {roundabout_exit_number} exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {roundabout_exit_number} 출구에서 왼쪽 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout in {distance} turn left, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp left"
+msgid "At the roundabout in {distance} turn left, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 왼쪽 일곱시방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} turn left, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 왼쪽 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout in {distance} turn left, {roundabout_exit_number} exit onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp left"
+msgid "At the roundabout in {distance} turn left, {roundabout_exit_number} exit onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {roundabout_exit_number} 출구에서 왼쪽 일곱시방향 으로 주행하세요"
+
+msgid "At the roundabout in {distance} turn left, {roundabout_exit_number} exit onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {roundabout_exit_number} 출구에서 왼쪽 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout turn left, {roundabout_exit_number} exit onto {road_number}."
+msgstr "{road_number} 로 {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp left"
+msgid "At the roundabout turn left, {roundabout_exit_number} exit onto {road_number}."
+msgstr "{road_number} 로 {roundabout_exit_number} 출구에서 왼쪽 일곱시방향 으로 주행하세요"
+
+msgid "At the roundabout turn left, {roundabout_exit_number} exit onto {road_number}."
+msgstr "{road_number} 로 {roundabout_exit_number} 출구에서 왼쪽 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout turn left, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp left"
+msgid "At the roundabout turn left, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 왼쪽 일곱시방향 으로 주행하세요"
+
+msgid "At the roundabout turn left, {roundabout_exit_number} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 왼쪽 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout turn left, {roundabout_exit_number} exit onto {road_name}."
+msgstr "{road_name} 로 {roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp left"
+msgid "At the roundabout turn left, {roundabout_exit_number} exit onto {road_name}."
+msgstr "{road_name} 로 {roundabout_exit_number} 출구에서 왼쪽 일곱시방향 으로 주행하세요"
+
+msgid "At the roundabout turn left, {roundabout_exit_number} exit onto {road_name}."
+msgstr "{road_name} 로 {roundabout_exit_number} 출구에서 왼쪽 으로 주행하세요"
+
+msgid "At the roundabout in {distance} take the {roundabout_exit_number_v2} exit onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 {roundabout_exit_number} 출구에서 으로 주행하세요"
+
+msgid "At the roundabout in {distance} take the {roundabout_exit_number_v2} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 으로 주행하세요"
+
+msgid "At the roundabout in {distance} take the {roundabout_exit_number_v2} exit onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 {roundabout_exit_number} 출구에서 으로 주행하세요"
+
+msgid "At the roundabout take the {roundabout_exit_number_v2} exit onto {road_number}."
+msgstr "{road_number} 로 {roundabout_exit_number} 출구에서 으로 주행하세요"
+
+msgid "At the roundabout take the {roundabout_exit_number_v2} exit {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {roundabout_exit_number} 출구에서 으로 주행하세요"
+
+msgid "At the roundabout take the {roundabout_exit_number_v2} exit onto {road_name}."
+msgstr "{road_name} 로 {roundabout_exit_number} 출구에서 으로 주행하세요"
+
+msgid "At the roundabout in {distance} take the {roundabout_exit_number_v2} exit."
+msgstr "약 {distance} 앞, {roundabout_exit_number} 출구에서"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout go straight, {roundabout_exit_number} exit."
+msgstr "{roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout go straight, {roundabout_exit_number} exit."
+msgstr "{roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgid "At the roundabout go straight, {roundabout_exit_number} exit."
+msgstr "{roundabout_exit_number} 출구에서 현재 방향 으로 주행하세요"
+
+msgid "At the roundabout make a U-turn, {roundabout_exit_number} exit."
+msgstr "{roundabout_exit_number} 출구에서 왔던 방향 으로 주행하세요"
+
+msgctxt "roundabout slight right"
+msgid "At the roundabout turn right, {roundabout_exit_number} exit."
+msgstr "{roundabout_exit_number} 출구에서 오른쪽 두시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp right"
+msgid "At the roundabout turn right, {roundabout_exit_number} exit."
+msgstr "{roundabout_exit_number} 출구에서 오른쪽 다섯시방향 으로 주행하세요"
+
+msgid "At the roundabout turn right, {roundabout_exit_number} exit."
+msgstr "{roundabout_exit_number} 출구에서 오른쪽 으로 주행하세요"
+
+msgctxt "roundabout slight left"
+msgid "At the roundabout turn left, {roundabout_exit_number} exit."
+msgstr "{roundabout_exit_number} 출구에서 왼쪽 열한시방향 으로 주행하세요"
+
+msgctxt "roundabout sharp left"
+msgid "At the roundabout turn left, {roundabout_exit_number} exit."
+msgstr "{roundabout_exit_number} 출구에서 왼쪽 일곱시방향 으로 주행하세요"
+
+msgid "At the roundabout turn left, {roundabout_exit_number} exit."
+msgstr "{roundabout_exit_number} 출구에서 왼쪽 으로 주행하세요"
+
+msgid "At the roundabout take the {roundabout_exit_number_v2} exit."
+msgstr "{roundabout_exit_number} 출구에서 으로 주행하세요"
+
+msgid "In {distance} exit the roundabout {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} 출구에서 으로 주행하세요"
+
+# HAS TO BE EMPTY
+msgid "In {distance} exit the roundabout onto {road_number}."
+msgstr "약 {distance} 앞, {road_number} 로 출구에서 으로 주행하세요"
+
+# HAS TO BE EMPTY
+msgid "In {distance} exit the roundabout {road_name_preposition_and_article_for_into_case} {road_name_for_into_case}."
+msgstr "약 {distance} 앞, {road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 출구에서 으로 주행하세요"
+
+# HAS TO BE EMPTY
+msgid "In {distance} exit the roundabout onto {road_name}."
+msgstr "약 {distance} 앞, {road_name} 로 출구에서 으로 주행하세요"
+
+# HAS TO BE EMPTY
+msgid "In {distance} exit the roundabout."
+msgstr "약 {distance} 앞, 출구에서 으로 주행하세요"
+
+msgid "Exit the roundabout."
+msgstr "출구에서 으로 주행하세요"
+
+msgid "In {distance} take the ferry {road_name}."
+msgstr "약 {distance} 앞, 여객선 터미널에 도착합니다"
+
+msgid "In {distance} take the {road_name} train."
+msgstr ""
+
+msgid "In {distance} take the ferry."
+msgstr "약 {distance} 앞, 여객선 터미널에 도착합니다"
+
+msgid "In {distance} take the train."
+msgstr ""
+
+msgid "Take the ferry {road_name}."
+msgstr "여객선 터미널에 도착합니다. 음성안내가 일시적으로 중지됩니다"
+
+msgid "Take the {road_name} train."
+msgstr ""
+
+msgid "Then take the ferry."
+msgstr "그 다음 여객선 터미널에 도착합니다"
+
+msgid "Take the ferry."
+msgstr "여객선 터미널에 도착합니다. 음성안내가 일시적으로 중지됩니다"
+
+msgid "Then take the train."
+msgstr ""
+
+msgid "Take the train."
+msgstr ""
+
+# HAS TO BE EMPTY
+msgid "Disembark from the ferry."
+msgstr ""
+
+# HAS TO BE EMPTY
+msgid "Disembark from the train."
+msgstr ""
+
+msgid "In {distance} keep left to enter the HOV carpool lane."
+msgstr ""
+
+msgid "In {distance} keep right to enter the HOV carpool lane."
+msgstr ""
+
+msgid "Keep right to enter the HOV carpool lane."
+msgstr ""
+
+msgid "Keep left to enter the HOV carpool lane."
+msgstr ""
+
+msgid "In {distance} keep left to exit the HOV carpool lane."
+msgstr ""
+
+msgid "In {distance} keep right to exit the HOV carpool lane."
+msgstr ""
+
+msgid "Keep right to exit the HOV carpool lane."
+msgstr ""
+
+msgid "Keep left to exit the HOV carpool lane."
+msgstr ""
+
+msgctxt "exit_highway"
+msgid "onto {road_number} toward {toward_name}"
+msgstr "{road_number} 로 {toward_name} 방면"
+
+msgctxt "turn_left_right"
+msgid "onto {road_number} toward {toward_name}"
+msgstr "{road_number} 로 {toward_name} 방면"
+
+msgctxt "turn_go_straight"
+msgid "onto {road_number} toward {toward_name}"
+msgstr "{road_number} 로 {toward_name} 방면"
+
+msgctxt "uturn"
+msgid "onto {road_number} toward {toward_name}"
+msgstr "{road_number} 로 {toward_name} 방면"
+
+msgid "onto {road_number} toward {toward_name}"
+msgstr "{road_number} 로 {toward_name} 방면"
+
+msgctxt "exit_highway"
+msgid "onto {road_number}"
+msgstr "{road_number} 로"
+
+msgctxt "turn_left_right"
+msgid "onto {road_number}"
+msgstr "{road_number} 로"
+
+msgctxt "turn_go_straight"
+msgid "onto {road_number}"
+msgstr "{road_number} 로"
+
+msgctxt "uturn"
+msgid "onto {road_number}"
+msgstr "{road_number} 로"
+
+msgid "onto {road_number}"
+msgstr "{road_number} 로"
+
+msgid "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}"
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로 {toward_name} 방면"
+
+msgid "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case}"
+msgstr "{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} 로"
+
+msgctxt "turn_go_straight"
+msgid "onto {road_name} toward {toward_name}"
+msgstr "{road_name} 로 {toward_name} 방면"
+
+msgctxt "uturn"
+msgid "onto {road_name} toward {toward_name}"
+msgstr "{road_name} 로 {toward_name} 방면"
+
+msgid "onto {road_name} toward {toward_name}"
+msgstr "{road_name} 로 {toward_name} 방면"
+
+msgctxt "turn_go_straight"
+msgid "onto {road_name}"
+msgstr "{road_name} 로"
+
+msgctxt "uturn"
+msgid "onto {road_name}"
+msgstr "{road_name} 로"
+
+msgid "onto {road_name}"
+msgstr "{road_name} 로"
+
+msgid "toward {toward_name}"
+msgstr "{toward_name} 방면"
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Afghanistan"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Albania"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Algeria"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Andorra"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Angola"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Argentina"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Armenia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Austria"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Azerbaijan"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Bahrain"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Bangladesh"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Belarus"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Belgium"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Belize"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Benin"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Bhutan"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Bolivia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Bosnia and Herzegowina"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Botswana"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Brazil"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Brunei"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Bulgaria"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Burkina Faso"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Burundi"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Cambodia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Cameroon"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Canada"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "the Central African Republic"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Chad"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Chile"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "China"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Colombia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "the Republic of the Congo"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "the Democratic Republic of the Congo"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Costa Rica"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Ivory Coast"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Croatia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Cyprus"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "the Czech Republic"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Denmark"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Djibouti"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "the Dominican Republic"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "East Timor"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Ecuador"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Egypt"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "El Salvador"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Equatorial Guinea"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Eritrea"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Estonia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Ethiopia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Finland"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "France"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "French Guiana"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Gabon"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "the Gambia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Georgia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Germany"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Ghana"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Gibraltar"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Greece"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Guatemala"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Guinea"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Guinea-Bissau"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Guyana"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Haiti"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Vatican City"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Honduras"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Hong Kong"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Hungary"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "India"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Indonesia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Iran"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Iraq"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Ireland"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Israel"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Italy"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Jamaica"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Jordan"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Kazakhstan"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Kenya"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "North Korea"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "South Korea"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Kosovo"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Kuwait"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Kyrgyzstan"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Laos"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Latvia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Lebanon"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Lesotho"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Liberia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Libya"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Liechtenstein"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Lithuania"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Luxembourg"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Macau"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "North Macedonia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Malawi"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Malaysia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Mali"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Malta"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Mauritania"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Mexico"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Moldova"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Monaco"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Mongolia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Montenegro"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Morocco"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Mozambique"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Myanmar"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Namibia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Nepal"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "the Netherlands"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Nicaragua"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Niger"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Nigeria"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Norway"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Oman"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Pakistan"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Palestine"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Panama"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Papua New Guinea"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Paraguay"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Peru"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Poland"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Portugal"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Qatar"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Romania"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "the Russian Federation"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Rwanda"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Saint Martin"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "San Marino"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Saudi Arabia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Senegal"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Serbia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Sierra Leone"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Singapore"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Sint Maarten"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Slovakia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Slovenia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Somalia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "South Africa"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "South Sudan"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Spain"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Sudan"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Suriname"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Swaziland"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Sweden"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Switzerland"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Syria"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Tajikistan"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Tanzania"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Thailand"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Timor-Leste"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Togo"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Tunisia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Turkey"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Turkmenistan"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Uganda"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Ukraine"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "the United Arab Emirates"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "the United Kingdom"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "the United States of America"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Uruguay"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Uzbekistan"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Venezuela"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Vietnam"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Western Sahara"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Yemen"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Zambia"
+msgstr ""
+
+# HAS TO BE EMPTY
+msgctxt "you are entering {country}"
+msgid "Zimbabwe"
+msgstr ""
+
+msgctxt "{roundabout_exit_number}"
+msgid "first"
+msgstr "첫번째"
+
+msgctxt "{roundabout_exit_number}"
+msgid "second"
+msgstr "두번째"
+
+msgctxt "{roundabout_exit_number}"
+msgid "third"
+msgstr "세번째"
+
+msgctxt "{roundabout_exit_number}"
+msgid "fourth"
+msgstr "네번째"
+
+msgctxt "{roundabout_exit_number}"
+msgid "fifth"
+msgstr "다섯번째"
+
+msgctxt "{roundabout_exit_number}"
+msgid "sixth"
+msgstr "여섯번째"
+
+msgctxt "{roundabout_exit_number}"
+msgid "seventh"
+msgstr "일곱번째"
+
+msgctxt "{roundabout_exit_number}"
+msgid "eighth"
+msgstr "여덟번째"
+
+msgctxt "{roundabout_exit_number}"
+msgid "ninth"
+msgstr "아홉번째"
+
+msgctxt "{roundabout_exit_number}"
+msgid "tenth"
+msgstr "열번째"
+
+msgctxt "{roundabout_exit_number}"
+msgid "eleventh"
+msgstr "열한번째"
+
+msgctxt "{roundabout_exit_number}"
+msgid "twelfth"
+msgstr "열두번째"
+
+msgctxt "{roundabout_exit_number_v2}"
+msgid "first"
+msgstr "첫번째"
+
+msgctxt "{roundabout_exit_number_v2}"
+msgid "second"
+msgstr "두번째"
+
+msgctxt "{roundabout_exit_number_v2}"
+msgid "third"
+msgstr "세번째"
+
+msgctxt "{roundabout_exit_number_v2}"
+msgid "fourth"
+msgstr "네번째"
+
+msgctxt "{roundabout_exit_number_v2}"
+msgid "fifth"
+msgstr "다섯번째"
+
+msgctxt "{roundabout_exit_number_v2}"
+msgid "sixth"
+msgstr "여섯번째"
+
+msgctxt "{roundabout_exit_number_v2}"
+msgid "seventh"
+msgstr "일곱번째"
+
+msgctxt "{roundabout_exit_number_v2}"
+msgid "eighth"
+msgstr "여덟번째"
+
+msgctxt "{roundabout_exit_number_v2}"
+msgid "ninth"
+msgstr "아홉번째"
+
+msgctxt "{roundabout_exit_number_v2}"
+msgid "tenth"
+msgstr "열번째"
+
+msgctxt "{roundabout_exit_number_v2}"
+msgid "eleventh"
+msgstr "열한번째"
+
+msgctxt "{roundabout_exit_number_v2}"
+msgid "twelfth"
+msgstr "열두번째"
+
+msgctxt "{landmark}"
+msgid "at the end of the road"
+msgstr "도로 끝에서"
+
+msgctxt "{landmark}"
+msgid "at the second traffic light"
+msgstr "두번째신호등에서"
+
+msgctxt "{landmark}"
+msgid "at the traffic light"
+msgstr "다음 신호등에서"
+
+# template msg used (en-US.po): "Caution! Traffic ahead."
+# template msg used (en-GB.po): "Caution! Stationary traffic ahead."
+msgid "Caution! Stationary traffic ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Traffic ahead."
+# template msg used (en-GB.po): "Caution! Queuing traffic ahead."
+msgid "Caution! Queuing traffic ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Traffic ahead."
+# template msg used (en-GB.po): "Caution! Slow traffic ahead."
+msgid "Caution! Slow traffic ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Accident ahead."
+msgid "Caution! Accident ahead."
+msgstr "주의! 긴급 정보가 수신되었습니다"
+
+# template msg used (en-US.po): "Caution! Road block ahead."
+# template msg used (en-GB.po): "Caution! Road closed ahead."
+msgid "Caution! Road closed ahead."
+msgstr "주의! 경로에 통제 구간이 있습니다 "
+
+# template msg used (en-US.po): "Caution! Exit restrictions ahead."
+msgid "Caution! Exit restrictions ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Entry restrictions ahead."
+msgid "Caution! Entry restrictions ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Road construction ahead."
+# template msg used (en-GB.po): "Caution! Roadworks ahead."
+msgid "Caution! Roadworks ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Road narrows ahead."
+# template msg used (en-GB.po): "Caution! Narrow lanes ahead."
+msgid "Caution! Narrow lanes ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Hold-ups ahead."
+# template msg used (en-GB.po): "Caution! Incidents ahead."
+msgid "Caution! Incidents ahead."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Obstruction on the roadway ahead."
+# template msg used (en-GB.po): "Caution! Obstruction hazards ahead."
+msgid "Caution! Obstruction hazards ahead."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Dangerous situation ahead."
+msgid "Caution! Dangerous situation ahead."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Vehicle carrying hazardous materials ahead."
+# template msg used (en-GB.po): "Caution! Vehicles carrying hazardous materials ahead."
+msgid "Caution! Vehicles carrying hazardous materials ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Security incident ahead."
+msgid "Caution! Security incident ahead."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Heavy load vehicles ahead."
+# template msg used (en-GB.po): "Caution! Exceptional loads ahead."
+msgid "Caution! Exceptional loads ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Slippery road ahead."
+msgid "Caution! Slippery road ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Possible flash flooding ahead."
+# template msg used (en-GB.po): "Caution! Danger of flash floods ahead."
+msgid "Caution! Danger of flash floods ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Dangerous driving conditions ahead."
+# template msg used (en-GB.po): "Caution! Hazardous driving conditions ahead."
+msgid "Caution! Hazardous driving conditions ahead."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Traffic restrictions ahead."
+msgid "Caution! Traffic restrictions ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Strong winds ahead."
+msgid "Caution! Strong winds ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Snow ahead."
+# template msg used (en-GB.po): "Caution! Snowfall ahead."
+msgid "Caution! Snowfall ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Smog alert ahead."
+msgid "Caution! Smog alert ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Heavy rain ahead."
+msgid "Caution! Heavy rain ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Reduced visibility ahead."
+msgid "Caution! Reduced visibility ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Fog ahead."
+msgid "Caution! Fog ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Dangerous weather conditions ahead."
+msgid "Caution! Dangerous weather conditions ahead."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Vehicle traveling in the wrong direction ahead."
+# template msg used (en-GB.po): "Caution! Driver on wrong carriageway ahead."
+msgid "Caution! Driver on wrong carriageway ahead."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Delays ahead."
+msgid "Caution! Delays ahead."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Air raid siren ahead."
+# template msg used (en-GB.po): "Caution! Air raid, danger ahead."
+msgid "Caution! Air raid, danger ahead."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Gunfire on roadway ahead."
+# template msg used (en-GB.po): "Caution! Gunfire on the road, danger ahead."
+msgid "Caution! Gunfire on the road, danger ahead."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Emergency vehicles ahead."
+msgid "Caution! Emergency vehicles ahead."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Police intervention ahead."
+# template msg used (en-GB.po): "Caution! Police intervention, danger ahead."
+msgid "Caution! Police intervention, danger ahead."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! High-speed chase ahead."
+msgid "Caution! High-speed chase ahead."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-GB.po): "Caution! Unknown traffic event ahead."
+# HAS TO BE EMPTY
+msgid "Caution! Unknown traffic event ahead."
+msgstr "도로에 알수없는 규제가 있을 수 있습니다 "
+
+# template msg used (en-US.po): "Caution! Traffic on {road_number}."
+# template msg used (en-GB.po): "Caution! Stationary traffic on {road_number}."
+msgid "Caution! Stationary traffic on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Traffic on {road_number}."
+# template msg used (en-GB.po): "Caution! Queuing traffic on {road_number}."
+msgid "Caution! Queuing traffic on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Traffic on {road_number}."
+# template msg used (en-GB.po): "Caution! Slow traffic on {road_number}."
+msgid "Caution! Slow traffic on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Accident on {road_number}."
+msgid "Caution! Accident on {road_number}."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Road block on {road_number}."
+# template msg used (en-GB.po): "Caution! Road closed on {road_number}."
+msgid "Caution! Road closed on {road_number}."
+msgstr "주의! 경로에 통제 구간이 있습니다 "
+
+# template msg used (en-US.po): "Caution! Exit restrictions on {road_number}."
+msgid "Caution! Exit restrictions on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Entry restrictions on {road_number}."
+msgid "Caution! Entry restrictions on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Road construction on {road_number}."
+# template msg used (en-GB.po): "Caution! Roadworks on {road_number}."
+msgid "Caution! Roadworks on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Road narrows on {road_number}."
+# template msg used (en-GB.po): "Caution! Narrow lanes on {road_number}."
+msgid "Caution! Narrow lanes on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Hold-ups on {road_number}."
+# template msg used (en-GB.po): "Caution! Incidents on {road_number}."
+msgid "Caution! Incidents on {road_number}."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Obstruction on the roadway on {road_number}."
+# template msg used (en-GB.po): "Caution! Obstruction hazards on {road_number}."
+msgid "Caution! Obstruction hazards on {road_number}."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Dangerous situation on {road_number}."
+msgid "Caution! Dangerous situation on {road_number}."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Vehicles carrying hazardous materials on {road_number}."
+msgid "Caution! Vehicles carrying hazardous materials on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Security incident on {road_number}."
+msgid "Caution! Security incident on {road_number}."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Heavy load vehicles on {road_number}."
+# template msg used (en-GB.po): "Caution! Exceptional loads on {road_number}."
+msgid "Caution! Exceptional loads on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Slippery road on {road_number}."
+msgid "Caution! Slippery road on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Possible flash flooding on {road_number}."
+# template msg used (en-GB.po): "Caution! Danger of flash floods on {road_number}."
+msgid "Caution! Danger of flash floods on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Dangerous driving conditions on {road_number}."
+# template msg used (en-GB.po): "Caution! Hazardous driving conditions on {road_number}."
+msgid "Caution! Hazardous driving conditions on {road_number}."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Traffic restrictions on {road_number}."
+msgid "Caution! Traffic restrictions on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Strong winds on {road_number}."
+msgid "Caution! Strong winds on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Snow on {road_number}."
+# template msg used (en-GB.po): "Caution! Snowfall on {road_number}."
+msgid "Caution! Snowfall on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Smog alert on {road_number}."
+msgid "Caution! Smog alert on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Heavy rain on {road_number}."
+msgid "Caution! Heavy rain on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Reduced visibility on {road_number}."
+msgid "Caution! Reduced visibility on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Fog on {road_number}."
+msgid "Caution! Fog on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Dangerous weather conditions on {road_number}."
+msgid "Caution! Dangerous weather conditions on {road_number}."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Vehicle traveling in the wrong direction on {road_number}."
+# template msg used (en-GB.po): "Caution! Driver on wrong carriageway on {road_number}."
+msgid "Caution! Driver on wrong carriageway on {road_number}."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Delays on {road_number}."
+msgid "Caution! Delays on {road_number}."
+msgstr "새로운 교통정보를 수신하였습니다"
+
+# template msg used (en-US.po): "Caution! Air raid siren on {road_number}."
+# template msg used (en-GB.po): "Caution! Air raid, danger on {road_number}."
+msgid "Caution! Air raid, danger on {road_number}."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Gunfire on roadway on {road_number}."
+# template msg used (en-GB.po): "Caution! Gunfire on the road, danger on {road_number}."
+msgid "Caution! Gunfire on the road, danger on {road_number}."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Emergency vehicles on {road_number}."
+msgid "Caution! Emergency vehicles on {road_number}."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! Police intervention on {road_number}."
+# template msg used (en-GB.po): "Caution! Police intervention, danger on {road_number}."
+msgid "Caution! Police intervention, danger on {road_number}."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-US.po): "Caution! High-speed chase on {road_number}."
+msgid "Caution! High-speed chase on {road_number}."
+msgstr "주의! 긴급 정보가 수신되었습니다 "
+
+# template msg used (en-GB.po): "Caution! Unknown traffic event on {road_number}."
+# HAS TO BE EMPTY
+msgid "Caution! Unknown traffic event on {road_number}."
+msgstr "도로에 알수없는 규제가 있을 수 있습니다 "
+
+msgid "Attention! The route has a complete closure. An alternative route cannot be recommended."
+msgstr "주의! 경로에 통제 구간이 있습니다"
+
+msgid "Attention! The destination cannot be reached with the current charging plan. An alternative route cannot be recommended."
+msgstr ""
+
+msgid "Attention! The route contains traffic delays of {delay}."
+msgstr ""
+
+msgid "There is an alternative route."
+msgstr "단축된 경로가 존재합니다"
+
+msgid "The route was changed due to current traffic conditions."
+msgstr "경로에 새로운 교통 상황이 반영되었습니다"
+
+msgid "The route was changed due to current traffic conditions. Charging plan has been modified."
+msgstr ""
+
+msgid "There is an alternative route with a faster arrival time of {advantage}."
+msgstr "{advantage} 단축된 경로가 존재합니다"
+
+msgid "There is an alternative route with a faster arrival time of {advantage}. Charging plan has been modified."
+msgstr "{advantage} 단축된 경로가 존재합니다. 필요한 급속 충전소가 추가되었습니다"
+
+msgid "Attention! The route contains traffic delays of {delay}. There is an alternative route with a faster arrival time of {advantage}."
+msgstr "{advantage} 단축된 경로가 존재합니다"
+
+msgid "Attention! The route contains traffic delays of {delay}. There is an alternative route with a faster arrival time of {advantage}. Charging plan has been modified."
+msgstr "{advantage} 단축된 경로가 존재합니다. 필요한 급속 충전소가 추가되었습니다"
+
+msgid "Attention! The route has a complete closure. There is an alternative route with an expected arrival time at {time_of_arrival}."
+msgstr ""
+
+msgid "Attention! The route has a complete closure. There is an alternative route with an expected arrival time at {time_of_arrival}. Charging plan has been modified."
+msgstr ""
+
+msgid "The route was changed based on the current consumption values. Charging plan has been modified."
+msgstr ""
+
+msgid "Attention! The destination cannot be reached with the current charging plan. There is an alternate route available with an adjusted charging plan."
+msgstr ""
+
+msgid "You will reach a ferry after {distance}."
+msgstr "약 {distance} 앞, 여객선 터미널에 도착합니다"
+
+msgid "You will reach a motorail after {distance}."
+msgstr ""
+
+msgid "Attention! Ferry ahead."
+msgstr ""
+
+msgid "Attention! Motorail train ahead."
+msgstr ""
+
+msgid "Attention! Toll gate ahead."
+msgstr ""
+
+msgid "Attention! Time-restricted road ahead."
+msgstr ""
+
+msgid "Attention! Limited access ahead."
+msgstr ""
+
+msgid "Attention! Pedestrian zone ahead."
+msgstr ""
+
+msgid "Average speed zone starts in {distance}. The speed limit is {speed_limit}."
+msgstr "약 {distance} 앞, 제한속도 시속 {speed_limit} 구간 단속 시점이 있습니다"
+
+msgid "Average speed zone starts in {distance}."
+msgstr "약 {distance} 앞, 구간 단속 시점이 있습니다"
+
+msgid "Average speed zone."
+msgstr "구간 단속 시점이 있습니다"
+
+msgid "Average speed zone ends in {distance}. The speed limit is {speed_limit}."
+msgstr "약 {distance} 앞, 제한속도 시속 {speed_limit} 구간 단속 종점이 있습니다"
+
+msgid "Average speed zone ends in {distance}."
+msgstr "약 {distance} 앞, 구간 단속 종점이 있습니다"
+
+msgid "End of average speed zone."
+msgstr "구간 단속 종점이 있습니다"
+
+msgid "Portable speed camera in {distance}. The speed limit is {speed_limit}."
+msgstr "약 {distance} 앞, 제한속도 시속 {speed_limit} 이동식 단속이 있습니다"
+
+msgid "Portable speed camera in {distance}."
+msgstr "약 {distance} 앞, 이동식 단속이 있습니다"
+
+msgid "Portable speed camera."
+msgstr "이동식 단속이 있습니다"
+
+msgid "Red light camera in {distance}. The speed limit is {speed_limit}."
+msgstr "약 {distance} 앞, 교차로 신호 위반 및 제한속도 시속 {speed_limit} 단속이 있습니다"
+
+msgid "Red light camera in {distance}."
+msgstr "약 {distance} 앞, 교차로 신호 위반 단속이 있습니다"
+
+msgid "Red light camera."
+msgstr "교차로 신호 위반 단속이 있습니다"
+
+msgid "Series of speed cameras in {distance}."
+msgstr "약 {distance} 앞, 연속된 과속 단속 카메라가 있습니다"
+
+msgid "Series of speed cameras."
+msgstr "연속된 과속 단속 카메라가 있습니다"
+
+msgid "Bus lane camera in {distance}."
+msgstr "약 {distance} 앞, 버스 전용 차로 위반 단속이 있습니다"
+
+msgid "Bus lane camera."
+msgstr "버스 전용 차로 위반 단속이 있습니다"
+
+msgid "Accident risk area in {distance}."
+msgstr "약 {distance} 앞, 사고다발지역이 있습니다"
+
+msgid "Accident risk area."
+msgstr "사고다발지역이 있습니다"
+
+msgid "Speed camera in {distance}. The speed limit is {speed_limit}."
+msgstr "약 {distance} 앞, 제한속도 시속 {speed_limit} 단속이 있습니다"
+
+msgid "Speed camera in {distance}."
+msgstr "약 {distance} 앞, 제한속도 단속이 있습니다"
+
+msgid "Speed camera."
+msgstr "제한속도 단속이 있습니다"
+
+msgid "Lane violation camera in {distance}."
+msgstr "약 {distance} 앞, 터널내 차선 변경 금지 구간이 있습니다"
+
+msgid "Lane violation camera."
+msgstr "터널내 차선 변경 금지 구간이 있습니다"
+
+msgid "Traffic information collection camera in {distance}."
+msgstr "약 {distance} 앞, 교통 정보 수집 장치가 있습니다"
+
+msgid "Traffic information collection camera."
+msgstr "교통 정보 수집 장치가 있습니다"
+
+msgid "in {distance} there will be merging traffic from the right"
+msgstr "약 {distance} 앞, 오른쪽에서 합류가 있습니다"
+
+msgid "in {distance} there will be merging traffic from the left"
+msgstr "약 {distance} 앞, 왼쪽에서 합류가 있습니다"
+
+msgid "in {distance} there will be merging traffic"
+msgstr "약 {distance} 앞, 합류가 있습니다"
+
+msgid "in {distance} there will be a series of merging traffic from the right"
+msgstr "약 {distance} 앞, 오른쪽에서 연속된 합류가 있습니다"
+
+msgid "in {distance} there will be a series of merging traffic from the left"
+msgstr "약 {distance} 앞, 왼쪽에서 연속된 합류가 있습니다"
+
+msgid "in {distance} there will be a series of merging traffic"
+msgstr "약 {distance} 앞, 연속된 합류가 있습니다"
+
+msgid "there will be merging traffic from the right"
+msgstr "오른쪽에서 합류가 있습니다"
+
+msgid "there will be merging traffic from the left"
+msgstr "왼쪽에서 합류가 있습니다"
+
+msgid "there will be a series of merging traffic from the right"
+msgstr "오른쪽에서 연속된 합류가 있습니다"
+
+msgid "there will be a series of merging traffic from the left"
+msgstr "왼쪽에서 연속된 합류가 있습니다"
+
+msgid "there will be merging traffic"
+msgstr "합류가 있습니다"
+
+msgid "there will be a series of merging traffic"
+msgstr "연속된 합류가 있습니다"
+
+msgid "in {distance} there will be a railroad crossing"
+msgstr "약 {distance} 앞, 철도건널목이 있습니다"
+
+msgid "in {distance} there will be a series of railroad crossings"
+msgstr "약 {distance} 앞, 연속된 철도건널목이 있습니다"
+
+msgid "there will be a railroad crossing"
+msgstr "철도건널목이 있습니다"
+
+msgid "there will be a series of railroad crossings"
+msgstr "연속된 철도건널목이 있습니다"
+
+msgid "Route guidance is not active."
+msgstr ""
+
+msgid "Please drive to the route shown."
+msgstr ""
+
+msgid "Caution! The route contains traffic-related delays of {delay}."
+msgstr ""
+
+msgid "No route can be calculated for this destination."
+msgstr ""
+
+msgid "The destination is on a limited-access road."
+msgstr ""
+
+msgid "The next stopover is on a limited-access road."
+msgstr ""
+
+msgid "Attention! The route contains {avoid_criterion}."
+msgstr ""
+
+msgid "Attention! The route contains {avoid_criterion} and {avoid_criterion_2}."
+msgstr ""
+
+msgid "Attention! The route contains {avoid_criterion}, {avoid_criterion_2} and {avoid_criterion_3}."
+msgstr ""
+
+msgid "Attention! The route contains {avoid_criterion}, {avoid_criterion_2}, {avoid_criterion_3} and {avoid_criterion_4}."
+msgstr ""
+
+msgid "Attention! The route contains {avoid_criterion}, {avoid_criterion_2}, {avoid_criterion_3}, {avoid_criterion_4} and {avoid_criterion_5}."
+msgstr ""
+
+msgid "Attention! The route contains {avoid_criterion}, {avoid_criterion_2}, {avoid_criterion_3}, {avoid_criterion_4}, {avoid_criterion_5} and {avoid_criterion_6}."
+msgstr ""
+
+msgid "Attention! The route contains {avoid_criterion}, {avoid_criterion_2}, {avoid_criterion_3}, {avoid_criterion_4}, {avoid_criterion_5}, {avoid_criterion_6} and {avoid_criterion_7}."
+msgstr ""
+
+msgid "The route contains {allow_criterion}."
+msgstr ""
+
+msgid "The route contains {allow_criterion} and {allow_criterion_2}."
+msgstr ""
+
+msgctxt "of {speed_limit}"
+msgid "{count} kilometer per hour"
+msgid_plural "{count} kilometers per hour"
+msgstr[0] "{count} 킬로미터"
+msgstr[1] "{count} 킬로미터"
+
+msgctxt "of {speed_limit}"
+msgid "{count} mile per hour"
+msgid_plural "{count} miles per hour"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "The route contains {avoid_criterion}"
+msgid "motorail train connections"
+msgstr ""
+
+msgctxt "The route contains {avoid_criterion}"
+msgid "ferry connections"
+msgstr ""
+
+msgctxt "The route contains {avoid_criterion}"
+msgid "toll roads"
+msgstr ""
+
+msgctxt "The route contains {avoid_criterion}"
+msgid "roads requiring a toll sticker"
+msgstr ""
+
+msgctxt "The route contains {avoid_criterion}"
+msgid "seasonally restricted roads"
+msgstr ""
+
+msgctxt "The route contains {avoid_criterion}"
+msgid "motorways"
+msgstr ""
+
+msgctxt "The route contains {avoid_criterion}"
+msgid "tunnels"
+msgstr ""
+
+msgctxt "The route contains {allow_criterion}"
+msgid "motorail train connections"
+msgstr ""
+
+msgctxt "The route contains {allow_criterion}"
+msgid "ferry connections"
+msgstr ""
+
+msgctxt "In {distance}"
+msgid "{count} meter"
+msgid_plural "{count} meters"
+msgstr[0] "{count} 미터"
+msgstr[1] "{count} 미터"
+
+msgctxt "In {distance}"
+msgid "{count} kilometer"
+msgid_plural "{count} kilometers"
+msgstr[0] "{count} 킬로미터"
+msgstr[1] "{count} 킬로미터"
+
+msgctxt "In {distance}"
+msgid "{count} foot"
+msgid_plural "{count} feet"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "In {distance}"
+msgid "{count} yard"
+msgid_plural "{count} yards"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "In {distance}"
+msgid "{count} mile"
+msgid_plural "{count} miles"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "follow for {distance}"
+msgid "{count} meter"
+msgid_plural "{count} meters"
+msgstr[0] "{count} 미터"
+msgstr[1] "{count} 미터"
+
+msgctxt "follow for {distance}"
+msgid "{count} kilometer"
+msgid_plural "{count} kilometers"
+msgstr[0] "{count} 킬로미터"
+msgstr[1] "{count} 킬로미터"
+
+msgctxt "follow for {distance}"
+msgid "{count} foot"
+msgid_plural "{count} feet"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "follow for {distance}"
+msgid "{count} yard"
+msgid_plural "{count} yards"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "follow for {distance}"
+msgid "{count} mile"
+msgid_plural "{count} miles"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "after {distance}"
+msgid "{count} meter"
+msgid_plural "{count} meters"
+msgstr[0] "{count} 미터"
+msgstr[1] "{count} 미터"
+
+msgctxt "after {distance}"
+msgid "{count} kilometer"
+msgid_plural "{count} kilometers"
+msgstr[0] "{count} 킬로미터"
+msgstr[1] "{count} 킬로미터"
+
+msgctxt "after {distance}"
+msgid "{count} foot"
+msgid_plural "{count} feet"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "after {distance}"
+msgid "{count} yard"
+msgid_plural "{count} yards"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "after {distance}"
+msgid "{count} mile"
+msgid_plural "{count} miles"
+msgstr[0] ""
+msgstr[1] ""
+
+msgctxt "In {distance}"
+msgid "a quarter of a mile"
+msgstr ""
+
+msgctxt "In {distance}"
+msgid "half a mile"
+msgstr ""
+
+msgctxt "In {distance}"
+msgid "three quarters of a mile"
+msgstr ""
+
+msgctxt "In {distance}"
+msgid "one and a half miles"
+msgstr ""
+
+msgctxt "In {distance}"
+msgid "two and a half miles"
+msgstr ""
+
+msgctxt "follow for {distance}"
+msgid "a quarter of a mile"
+msgstr ""
+
+msgctxt "follow for {distance}"
+msgid "half a mile"
+msgstr ""
+
+msgctxt "follow for {distance}"
+msgid "three quarters of a mile"
+msgstr ""
+
+msgctxt "follow for {distance}"
+msgid "one and a half miles"
+msgstr ""
+
+msgctxt "follow for {distance}"
+msgid "two and a half miles"
+msgstr ""
+
+msgctxt "In {distance}"
+msgid "one kilometer"
+msgstr "일 킬로미터"
+
+msgctxt "In {distance}"
+msgid "two kilometers"
+msgstr "이 킬로미터"
+
+msgctxt "In {distance}"
+msgid "three kilometers"
+msgstr "삼 킬로미터"
+
+msgctxt "In {distance}"
+msgid "one mile"
+msgstr ""
+
+msgctxt "In {distance}"
+msgid "two miles"
+msgstr ""
+
+msgctxt "In {distance}"
+msgid "three miles"
+msgstr ""
+
+msgctxt "follow for {distance}"
+msgid "one kilometer"
+msgstr "일 킬로미터"
+
+msgctxt "follow for {distance}"
+msgid "two kilometers"
+msgstr "이 킬로미터"
+
+msgctxt "follow for {distance}"
+msgid "three kilometers"
+msgstr "삼 킬로미터"
+
+msgctxt "follow for {distance}"
+msgid "one mile"
+msgstr ""
+
+msgctxt "follow for {distance}"
+msgid "two miles"
+msgstr ""
+
+msgctxt "follow for {distance}"
+msgid "three miles"
+msgstr ""
+
+msgctxt "after {distance}"
+msgid "one kilometer"
+msgstr "일 킬로미터"
+
+msgctxt "after {distance}"
+msgid "two kilometers"
+msgstr "이 킬로미터"
+
+msgctxt "after {distance}"
+msgid "three kilometers"
+msgstr "삼 킬로미터"
+
+msgctxt "after {distance}"
+msgid "one mile"
+msgstr ""
+
+msgctxt "after {distance}"
+msgid "two miles"
+msgstr ""
+
+msgctxt "after {distance}"
+msgid "three miles"
+msgstr ""
+
+msgctxt "delays of {delay}"
+msgid "{count_hours} and {count_minutes}"
+msgstr "{count_hours} 시간 {count_minutes} 분이"
+
+msgctxt "There is an alternative route with a faster arrival time of {advantage}."
+msgid "{count_hours} and {count_minutes}"
+msgstr "{count_hours} 시간 {count_minutes} 분이"
+
+msgctxt "delays of {delay}"
+msgid "{count} minute"
+msgid_plural "{count} minutes"
+msgstr[0] "{count} 분이"
+msgstr[1] "{count} 분이"
+
+msgctxt "There is an alternative route with a faster arrival time of {advantage}."
+msgid "{count} minute"
+msgid_plural "{count} minutes"
+msgstr[0] "{count} 분이"
+msgstr[1] "{count} 분이"
+
+msgctxt "delays of {delay}"
+msgid "{count} hour"
+msgid_plural "{count} hours"
+msgstr[0] "{count} 시간"
+msgstr[1] "{count} 시간"
+
+msgctxt "There is an alternative route with a faster arrival time of {advantage}."
+msgid "{count} hour"
+msgid_plural "{count} hours"
+msgstr[0] "{count} 시간"
+msgstr[1] "{count} 시간"
+
+msgctxt "delays of {delay}"
+msgid "1 minute"
+msgstr "일분이"
+
+msgctxt "There is an alternative route with a faster arrival time of {advantage}."
+msgid "1 minute"
+msgstr "일분이"
+
+msgctxt "delays of {delay}"
+msgid "1 hour"
+msgstr "일시간"
+
+msgctxt "There is an alternative route with a faster arrival time of {advantage}."
+msgid "1 hour"
+msgstr "일시간"

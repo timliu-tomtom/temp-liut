@@ -1,0 +1,659 @@
+
+### H-Search ###
+| Criterion | selectionCriterion |namedObjectClass | 
+| --- | --- | --- |
+| A | 0 | 0 COUNTRY |
+| B | 9 | 2 ORDER_1 |
+| C | 1 | 9 ORDER_8 |
+| D | 6 | 10 ORDER_9 |
+| E | 17 | 24 NEIGHBORHOOD |
+
+
+| H-search and reverse| clientlib-common-Address | nk1-reverse-geo |
+| --- | --- | --- |
+| Country | Country | 
+| Prefecture | State | stateName
+| Municipality | City | cityName
+| Oaza | CityDistrict | districtName
+| Chome/aza | CityBlock | localityName
+| House number | HouseNumber
+
+
+nk1-VHCommon-Model-Imp-VH-Proto-SafetyLocationEntry.proto
+
+nk1-VHCommon-Model-Imp-VH-Proto-SafetyLocationProvider.proto ?
+
+### Safety location in VH ###
+
+nk1-Routing-RouteInfo-Api-ICameraProvider.h
+
+../Engines/MapMatching/DrivingAssistance/VehicleHorizonCommon/SafetyLocation/Interface/TomTom/NavKit/VehicleHorizon/SafetyLocation/SafetyLocationData.h
+
+../Engines/MapMatching/DrivingAssistance/Model/Implementation/TomTom/NavKit/VehicleHorizon/Protobuf/PathSafetyLocation.proto
+nk1-VHCommon-Proto-Api-Imp-Converter-PathSafetyLocationConverter
+
+### Online routing ###
+nk2-trip-onboard -> http request -> NKWorkerService (docker) -> thrift -> NKWorkerEngine (docker, nk1) -> Routing engine (as a lib of NKWorkerEngine)
+
+build NKWorkerService 和 NKWorkerEngine 會產生各自的 docker image (系統須裝docker, 看起來是用/usr/bin/docker)
+run-processes-nkw 可以跑 NKWorkerService 和 NKWorkerEngine 在 docker 裡
+run docker可以跑起來, 有web demo tool loccalhost:5000 
+
+For debugging, `run-processes-nkw -no-engine` and 自己跑 `nk1/bin/NKWorkerEngine` , 就可以看到NKWorkerEngine的log, breakpoint...
+
+e2e test
+run-e2e-test.py (start server)
+再用intellij open nk2-e2e-test and run
+
+有VPN的話, ifconfig會看到 mtu xxxx
+要把docker-setup script裡面mtu的值改成該值
+
+press ctrl+c only ONCE and wait it gratefully stop (close virtual internet), do not force stop, force stopping may cause virtual network not close properly and impact normal network access.
+
+docker image prune -a (清掉沒在用的docker image)
+
+需裝ant
+
+
+### ASAN ###
+
+https://jira.tomtomgroup.com/browse/NAV-81770
+
+
+### Tollgate instruction ###
+HCP3\
+  map contains TOLL_ENTRY/TOLL_EXIT, TOLL_GATE_PAYMENT_TYPE, MASK\
+  DataAccess implemented in GuidanceDataReader with TollBoothPlaza\
+  https://bitbucket.tomtomgroup.com/projects/NAVKIT/repos/dev-geoexpansion/pull-requests/228/overview
+  
+  RoutingDataPerTile -> TTollBoothPlazasStorage\
+  RoutingDataPerTile -> TTollBoothPaymentTypesStorage
+
+  Instruction engine implemented with TollBoothPlaza\
+  https://bitbucket.tomtomgroup.com/projects/NAVKIT2/repos/nk2-navigation-instruction-engine/pull-requests/1232/overview
+
+  map does not have tollgate name\
+  
+Caruso2\
+  map contains TOLL_PAYMENT_TYPE, MASK\
+  DataAccess implemented with LandGuidanceReader\
+  https://bitbucket.tomtomgroup.com/projects/NAVKIT/repos/dev-geoexpansion/pull-requests/53/overview
+  https://bitbucket.tomtomgroup.com/projects/NAVKIT/repos/dev-geoexpansion/pull-requests/73/overview
+
+  The implementation in instruction engine with TollBoothPlaza does not work for get payment type\
+  Potential solution 
+   * Handle [TOLL_PAYMENT_TYPE, MASK] in GuidanceDataReader and stored to TTollBoothPaymentTypesStorage as well\
+   * Instruction engine introduce own tollgate struct combine plaza and RoutingData::GetPaymentType(arc)\ 
+
+
+
+
+
+
+
+### CLion debug ###
+run search-onboard-service-app, (in conan build, specify searchlib:build_type=debug (since artifactory is release, make debug will pull down and re-build))which use searchlib
+go to build, find xxx.cmake find searchlib hash code
+open .conan/<hash code>/xxx.cpp and set break point
+
+
+
+Given no side road required for HOV
+hov stop, waypoint and toll not stop
+  - container
+    -- missing side road for fork if there is side road before hov enter generation point
+    -- missing side road for waypoint if it is in the sequence of hov exit generation ranges
+  - provider (pass last_instruction_offset)
+    -- extra side road if waypoint is between [hov enter, hov exit]
+       it takes fork (before hov enter) as last_instruction_offset
+       (to fix - pass far away instruction offset to generate() as well)
+hov not stop, waypoint and toll not stop
+  - container
+    -- ok
+  - provider (pass last_instruction_offset)
+    -- ok
+
+hov stop, waypoint and toll stop
+  - container
+    -- missing side road after waypoint
+    -- missing side road for fork if there is side road before hov enter generation point
+    -- missing side road for waypoint if it is in the sequence of hov exit generation ranges
+  - provider (pass last_instruction_offset)
+    -- extra side road if waypoint is between [hov enter, gereration of hov exit]
+       it takes fork (before hov enter) as last_instruction_offset
+       (to fix - pass far away instruction offset to generate() as well)
+
+hov1
+====
+TTDebug, Generate() start, last_instruction_end_offset 0 cm===========
+TTDebug, Genreate() last line length 5349 cm, end offset 3300 cm
+TTDebug, process inst type Departure, offset 0 cm
+TTDebug, max of last_instruction_end_offset 0 cm, instruction.offset 0 cm
+TTDebug, request side road [0 cm, 0 cm
+TTDebug, udpate last_instruction_end_offset to 0 cm
+TTDebug, process inst type Turn, offset 3300 cm
+TTDebug, max of last_instruction_end_offset 0 cm, instruction.offset 3300 cm
+TTDebug, request side road [0 cm, 3300 cm
+TTDebug, udpate last_instruction_end_offset to 3300 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 3300 cm===========
+TTDebug, Genreate() process line length 6351 cm, end offset 9700 cm
+TTDebug, Genreate() process line length 3315 cm, end offset 13000 cm
+TTDebug, Genreate() process line length 11167 cm, end offset 24200 cm
+TTDebug, Genreate() last line length 11250 cm, end offset 35500 cm
+TTDebug, process inst type EnterHov, offset 228884 cm
+TTDebug, not request side road
+TTDebug, udpate last_instruction_end_offset to 228884 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 3300 cm===========
+TTDebug, Genreate() process line length 21162 cm, end offset 56700 cm
+TTDebug, Genreate() process line length 4617 cm, end offset 61300 cm
+TTDebug, Genreate() process line length 46488 cm, end offset 107800 cm
+TTDebug, Genreate() process line length 33316 cm, end offset 141100 cm
+TTDebug, Genreate() process line length 19413 cm, end offset 160500 cm
+TTDebug, Genreate() process line length 28948 cm, end offset 189400 cm
+TTDebug, Genreate() process line length 6107 cm, end offset 195500 cm
+TTDebug, Genreate() last line length 29391 cm, end offset 224900 cm
+TTDebug, process inst type Fork, offset 224900 cm
+TTDebug, max of last_instruction_end_offset 3300 cm, instruction.offset 224900 cm
+TTDebug, request side road [124900 cm, 224900 cm
+TTDebug, udpate last_instruction_end_offset to 224900 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 224900 cm===========
+TTDebug, Genreate() process line length 45471 cm, end offset 270400 cm
+TTDebug, Genreate() process line length 28003 cm, end offset 298400 cm
+TTDebug, Genreate() process line length 44038 cm, end offset 342400 cm
+TTDebug, Genreate() process line length 16022 cm, end offset 358400 cm
+TTDebug, Genreate() process line length 31594 cm, end offset 390000 cm
+TTDebug, Genreate() process line length 66969 cm, end offset 457000 cm
+TTDebug, Genreate() process line length 17344 cm, end offset 474300 cm
+TTDebug, Genreate() process line length 4541 cm, end offset 478800 cm
+TTDebug, Genreate() process line length 102077 cm, end offset 580900 cm
+TTDebug, Genreate() process line length 21865 cm, end offset 602800 cm
+TTDebug, Genreate() last line length 12322 cm, end offset 615100 cm
+TTDebug, process inst type ExitHov, offset 908900 cm
+TTDebug, not request side road
+TTDebug, udpate last_instruction_end_offset to 908900 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 228884 cm===========
+TTDebug, Genreate() last line length 60090 cm, end offset 675200 cm
+TTDebug, process inst type ExitHov, offset 908900 cm
+TTDebug, not request side road
+TTDebug, udpate last_instruction_end_offset to 908900 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 228884 cm===========
+TTDebug, Genreate() process line length 3891 cm, end offset 679100 cm
+TTDebug, Genreate() process line length 23116 cm, end offset 702200 cm
+TTDebug, Genreate() last line length 24915 cm, end offset 727100 cm
+TTDebug, process inst type ExitHov, offset 908900 cm
+TTDebug, not request side road
+TTDebug, udpate last_instruction_end_offset to 908900 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 228884 cm===========
+TTDebug, Genreate() process line length 29645 cm, end offset 756700 cm
+TTDebug, Genreate() last line length 32644 cm, end offset 789300 cm
+TTDebug, process inst type ExitHov, offset 908900 cm
+TTDebug, not request side road
+TTDebug, udpate last_instruction_end_offset to 908900 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 228884 cm===========
+TTDebug, Genreate() last line length 17889 cm, end offset 807200 cm
+TTDebug, process inst type ExitHov, offset 908900 cm
+TTDebug, not request side road
+TTDebug, udpate last_instruction_end_offset to 908900 cm
+TTDebug, Generate() start, last_instruction_end_offset 228884 cm===========
+TTDebug, Genreate() last line length 57837 cm, end offset 865000 cm
+TTDebug, process inst type ExitHov, offset 908900 cm
+TTDebug, not request side road
+TTDebug, udpate last_instruction_end_offset to 908900 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 228884 cm===========
+TTDebug, Genreate() last line length 43894 cm, end offset 908900 cm
+TTDebug, process inst type ExitHov, offset 908900 cm
+TTDebug, not request side road
+TTDebug, udpate last_instruction_end_offset to 908900 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 908900 cm===========
+TTDebug, Genreate() process line length 19527 cm, end offset 928400 cm
+TTDebug, Genreate() process line length 29937 cm, end offset 958300 cm
+TTDebug, Genreate() process line length 18418 cm, end offset 976700 cm
+TTDebug, Genreate() process line length 32457 cm, end offset 1009200 cm
+TTDebug, Genreate() last line length 51029 cm, end offset 1060200 cm
+TTDebug, process inst type Fork, offset 1060200 cm
+TTDebug, max of last_instruction_end_offset 908900 cm, instruction.offset 1060200 cm
+TTDebug, request side road [960200 cm, 1060200 cm
+TTDebug, udpate last_instruction_end_offset to 1060200 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 1060200 cm===========
+TTDebug, Genreate() process line length 35693 cm, end offset 1095900 cm
+TTDebug, Genreate() process line length 17438 cm, end offset 1113300 cm
+TTDebug, Genreate() process line length 3474 cm, end offset 1116800 cm
+TTDebug, Genreate() process line length 16751 cm, end offset 1133600 cm
+TTDebug, Genreate() process line length 32108 cm, end offset 1165700 cm
+TTDebug, Genreate() process line length 47329 cm, end offset 1213000 cm
+TTDebug, Genreate() process line length 17579 cm, end offset 1230600 cm
+TTDebug, Genreate() process line length 50408 cm, end offset 1281000 cm
+TTDebug, Genreate() process line length 10465 cm, end offset 1291500 cm
+TTDebug, Genreate() last line length 45015 cm, end offset 1292700 cm
+TTDebug, process inst type Arrival, offset 1292700 cm
+TTDebug, max of last_instruction_end_offset 1060200 cm, instruction.offset 1292700 cm
+TTDebug, request side road [1192700 cm, 1292700 cm
+TTDebug, udpate last_instruction_end_offset to 1292700 cm
+
+
+
+hov2
+====
+TTDebug, Generate() start, last_instruction_end_offset 0 cm===========
+TTDebug, Genreate() process line length 55831 cm, end offset 16700 cm
+TTDebug, Genreate() process line length 117763 cm, end offset 134500 cm
+TTDebug, Genreate() process line length 29829 cm, end offset 164300 cm
+TTDebug, Genreate() process line length 18780 cm, end offset 183100 cm
+TTDebug, Genreate() process line length 38600 cm, end offset 221700 cm
+TTDebug, Genreate() process line length 18388 cm, end offset 240100 cm
+TTDebug, Genreate() last line length 51260 cm, end offset 291400 cm
+TTDebug, process inst type Departure, offset 0 cm
+TTDebug, max of last_instruction_end_offset 0 cm, instruction.offset 0 cm
+TTDebug, request side road [0 cm, 0 cm
+TTDebug, udpate last_instruction_end_offset to 0 cm
+TTDebug, process inst type Fork, offset 291400 cm
+TTDebug, max of last_instruction_end_offset 0 cm, instruction.offset 291400 cm
+TTDebug, request side road [191400 cm, 291400 cm
+TTDebug, udpate last_instruction_end_offset to 291400 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 291400 cm===========
+TTDebug, Genreate() process line length 98656 cm, end offset 390100 cm
+TTDebug, Genreate() process line length 41317 cm, end offset 431400 cm
+TTDebug, Genreate() process line length 26226 cm, end offset 457600 cm
+TTDebug, Genreate() process line length 2225 cm, end offset 459800 cm
+TTDebug, Genreate() process line length 32491 cm, end offset 492300 cm
+TTDebug, Genreate() process line length 18174 cm, end offset 510500 cm
+TTDebug, Genreate() last line length 30766 cm, end offset 541300 cm
+TTDebug, process inst type ExitHov, offset 685167 cm
+TTDebug, not request side road
+TTDebug, udpate last_instruction_end_offset to 685167 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 291400 cm===========
+TTDebug, Genreate() last line length 54202 cm, end offset 595500 cm
+TTDebug, process inst type ExitHov, offset 685167 cm
+TTDebug, not request side road
+TTDebug, udpate last_instruction_end_offset to 685167 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 291400 cm===========
+TTDebug, Genreate() last line length 23580 cm, end offset 619100 cm
+TTDebug, process inst type ExitHov, offset 685167 cm
+TTDebug, not request side road
+TTDebug, udpate last_instruction_end_offset to 685167 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 291400 cm===========
+TTDebug, Genreate() last line length 76539 cm, end offset 695600 cm
+TTDebug, process inst type ExitHov, offset 685167 cm
+TTDebug, not request side road
+TTDebug, udpate last_instruction_end_offset to 685167 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 685167 cm===========
+TTDebug, Genreate() process line length 27521 cm, end offset 723100 cm
+TTDebug, Genreate() process line length 11679 cm, end offset 734800 cm
+TTDebug, Genreate() process line length 82268 cm, end offset 817100 cm
+TTDebug, Genreate() process line length 6846 cm, end offset 823900 cm
+TTDebug, Genreate() process line length 72133 cm, end offset 896000 cm
+TTDebug, Genreate() process line length 12318 cm, end offset 908300 cm
+TTDebug, Genreate() process line length 48306 cm, end offset 956600 cm
+TTDebug, Genreate() last line length 13556 cm, end offset 970200 cm
+TTDebug, process inst type Fork, offset 970200 cm
+TTDebug, max of last_instruction_end_offset 685167 cm, instruction.offset 970200 cm
+TTDebug, request side road [870200 cm, 970200 cm
+TTDebug, udpate last_instruction_end_offset to 970200 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 970200 cm===========
+TTDebug, Genreate() process line length 29640 cm, end offset 999800 cm
+TTDebug, Genreate() process line length 30072 cm, end offset 1029900 cm
+TTDebug, Genreate() process line length 40765 cm, end offset 1070700 cm
+TTDebug, Genreate() process line length 26618 cm, end offset 1097300 cm
+TTDebug, Genreate() process line length 4769 cm, end offset 1102100 cm
+TTDebug, Genreate() process line length 16750 cm, end offset 1118900 cm
+TTDebug, Genreate() last line length 25730 cm, end offset 1144600 cm
+TTDebug, process inst type Exit, offset 1144600 cm
+TTDebug, max of last_instruction_end_offset 970200 cm, instruction.offset 1144600 cm
+TTDebug, request side road [1044600 cm, 1144600 cm
+TTDebug, udpate last_instruction_end_offset to 1144600 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 1144600 cm===========
+TTDebug, Genreate() process line length 17262 cm, end offset 1161900 cm
+TTDebug, Genreate() process line length 18102 cm, end offset 1180000 cm
+TTDebug, Genreate() last line length 9894 cm, end offset 1189900 cm
+TTDebug, process inst type Turn, offset 1189900 cm
+TTDebug, max of last_instruction_end_offset 1144600 cm, instruction.offset 1189900 cm
+TTDebug, request side road [1144600 cm, 1189900 cm
+TTDebug, udpate last_instruction_end_offset to 1189900 cm
+
+TTDebug, Generate() start, last_instruction_end_offset 1189900 cm===========
+TTDebug, Genreate() last line length 5813 cm, end offset 1194200 cm
+TTDebug, process inst type Arrival, offset 1194200 cm
+TTDebug, max of last_instruction_end_offset 1189900 cm, instruction.offset 1194200 cm
+TTDebug, request side road [1189900 cm, 1194200 cm
+TTDebug, udpate last_instruction_end_offset to 1194200 cm
+
+
+
+
+
+
+
+
+viewModel    fragment         recycler
+
+receiving
+avlaiable
+candidete
+      consonant data list
+        ---> 
+                     Adapter
+                      ---->
+
+==============================================
+                      click
+                     <=======
+  onConsonantItemClicked
+        <=====
+
+       position
+        ----->
+                    smoothScrollTo
+                      ---->
+===========================================================
+              init.addCandidateListStateListener
+                ===> 
+                      scroll
+                    <=========
+         scroll 
+        <=====
+
+        conosnat data list           
+         =====>
+                     Adapter
+                    ========>
+
+
+                    Per discussion on slack, will not offer side roads for hov instructions because
+* hov instruction does not have maneuver view either.
+* The generation of hov instruction varies from other instructions.  it is generated even it is beyond the _last_processed_line_, see also the [hov adr](https://bitbucket.tomtomgroup.com/projects/NAVKIT2/repos/nk2-navigation-instruction-engine/browse/documentation/architecture/src/adr/2021-09-13T11:50:00+0200-integration-of-hov-situation-handler.adoc)
+In the figure, the further HovEnter is generated in advance. At that time, it does not know the existence of Fork, and will take side roads before the Fork and also treat the Fork as valid side road.
+```
+      Generated in iteration#1     Generated in iteration#0
+             \                          /  
+            Fork                    HovEnter
+  --->  ----> * -------> -------> -----*-------->
+   |      |
+   |      last_processed_line in iteration#1
+   |
+ last_processed_line in iteration#0
+```
+There is no trivial solution and need further discussion if we really want side roads for hov.
+
+
+/code/navigation-instruction-engine/src/situation_handlers/../lane_guidance/lane_guidance_builder.hpp:23:10: error: 'TomTom/NavKit/MapDataAccess/Map/Map.h' file not found [clang-diagnostic-error]
+#include <TomTom/NavKit/MapDataAccess/Map/Map.h>
+
+/code/navigation-instruction-engine/src/situation_handlers/lane_data_fetcher.hpp:28:10: error: 'lane_guidance/lane_guidance_builder.hpp' file not found [clang-diagnostic-error]
+#include <lane_guidance/lane_guidance_builder.hpp>
+
+
+clang-tidy-10  -p=./build ./navigation-instruction-engine/src/get_full_instruction_list_specialization.hpp
+
+clang-tidy-10 --line-filter="[{\"name\":\"/home/liut/TT/repo/nk2/nk2-navigation-instruction-engine/navigation-instruction-engine/src/get_full_instruction_list_specializations.hpp\",\"lines\":[[9999999,9999999]]}]" -p=./build ./navigation-instruction-engine/src/get_full_instruction_list_specializations.hpp
+
+-line-filter=[{"name":"get_full_instruction_list_specializationD.hpp","lines":[[9999999,9999999]]},{"name":".hpp"},{"name":".cpp"}]
+
+
+
+feat: fix according to comment
+
+- implement optimization and add doc
+- store last visted offset instead of line iter
+- limit the search of the next side road
+- make input end offset inclusive
+
+
+feat: fix according to comment
+
+- revert parameter back to inclusive 
+- naming and doc
+
+
+Tim      1
+Vinent 1 1   1
+Robert 1   1 1
+Cindy  1 1 1 1  
+Nina     1 1
+
+
+805
+高雄市 旗津区
+旗津三路962巷 8
+
+
+  nds:2413:2700:35199
+高雄市 旗津区
+旗津三路962巷 8
+
+
+  nds:2413:2700:35199
+
+
+  AddressProcessor::Populate()
+      InitializeAddressParts();
+      PopulateAddressFromAttribute(address_builder);
+      PopulateAddressFromClosestRoad(*location_, address_builder);
+             PopulateAddressFromAdminAreaNames()
+                    address_builder.WithMunicipalitySubdivisionName(order9);
+                    address_builder.WithCityName(std::move(order9));
+                    address_builder.WithMunicipalityName("");
+         
+      FinalizeAddressParts(address_builder);
+
+      <feature type="nt_container" index="95">
+                                <linkId type="uint16_t">293</linkId>
+                            </feature>
+
+
+                            https://nds.tomtomgroup.com/webviewer/43840/?action=FeatureInfo%3Flang%3DNULL%26poiCategoryCollectionId%3D0%26iconCollectionId%3D0%26productId%3D2410%26updateRegionId%3D2700%26namedObjectId%3D29413%26panTo%3Dtrue%26zoomTo%3Dtrue%26disputantId%3D0%26theme%3DDEFAULT%26routingService%3D0%26routeType%3DTIME_WITH_PENALTY%26vehicleType%3DPERSONAL_CAR%26labeling%3Dtrue%26icons%3Dtrue&zoom=17.999999999479492&lat=22.6085&lon=120.2738&layers=FFFBFFFFFFF000FFFTTF0000TT&poiCategoryCollectionId=0&iconCollectionId=0&disputantId=0&lang=NULL&theme=DEFAULT&routingService=0&routeType=TIME_WITH_PENALTY&vehicleType=PERSONAL_CAR&labeling=true&icons=true
+
+
+https://stackoverflow.com/questions/38950802/how-to-display-line-numbers-in-side-by-side-diff-in-unix
+sdiff -l ../../old.txt ../../new.txt | cat -n | grep -v -e '($'
+
+
+Input: AnnouncementData(distance: 10000 cm, message_type: ExtendedConfirmation, instruction: AudioInstruction {Exit Driving side: Right Itinerary side: Unknown Incoming: RoadInfo {{'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}} { } urban: true controlled access: false motorway: false} Outgoing: RoadInfo {{'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}} { } urban: true controlled access: false motorway: false} Landmark: -- Signpost:  { toward: {'text': 'toward name and phonetic', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': 'encoded text', 'alphabet': 'lhplus', 'value_language': 'country [] language [] script []'}}, Exit name: {'text': 'exit name and phonetic', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': 'encoded text', 'alphabet': 'lhplus', 'value_language': 'country [] language [] script []'}}, Exit number: {'text': 'exit number and phonetic', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': 'encoded text', 'alphabet': 'lhplus', 'value_language': 'country [] language [] script []'}}} Traffic light offset: -- Exit direction:  Left Side street offset:  1 cm Fork direction: -- Intersection name: {'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}} Turn direction: -- Switch highway direction: -- EnterHOV direction: -- ExitHOV direction: -- Merge side: -- Roundabout: -- ExitRoundabout: -- BorderCrossing: -- AutotransportType: --}, next_instruction: none)
+
+
+Input: AnnouncementData(distance: 10000 cm, message_type: FarAway, instruction: AudioInstruction {Exit Driving side: Right Itinerary side: Unknown Incoming: RoadInfo {{'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}} { } urban: true controlled access: false motorway: false} Outgoing: RoadInfo {{'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}} { } urban: true controlled access: false motorway: false} Landmark: -- Signpost:  { toward: {'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}}, Exit name: {'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}}, Exit number: {'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}}} Traffic light offset: -- Exit direction: -- Side street offset: -- Fork direction: -- Intersection name: {'text': 'intersection name and phonetic', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': 'encoded text', 'alphabet': 'lhplus', 'value_language': 'country [] language [] script []'}} Turn direction: -- Switch highway direction: -- EnterHOV direction: -- ExitHOV direction: -- Merge side: -- Roundabout: -- ExitRoundabout: -- BorderCrossing: -- AutotransportType: --}, next_instruction: none)
+Result: <?xml version="1.0" encoding="UTF-8"?><speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="ja-JP">およそ 100 メートル 先, 出口です</speak>
+
+
+      Rule{{
+               MessageTypeIs(MessageType::kFarAway, MessageType::kMain, MessageType::kWarning),
+               InstructionTypeIs(Type::kExit),
+               ExitDirectionIs(ExitDirection::kLeft),
+               IsDrivingSide(DrivingSide::kRight),
+               HasSignpost(),
+               HasExitNumber(),
+               HasExitName(),
+               HasTowardName(),
+               IsVerbosityLevel(VerbosityLevel::kComprehensive),
+           },
+           Translate(  //
+               "In {distance} take the exit {exit_number} on the left toward {toward_name}.",
+               "has_exit_name")},
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the left toward {toward_name}."
+msgstr "{distance} 後請從 {exit_name} 出口離開9"
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the left exit {direction_details}."
+msgstr "{distance} 後請從左側出口離開1"
+
+
+Input: AnnouncementData(distance: 10000 cm, message_type: FarAway, instruction: AudioInstruction {Exit Driving side: Right Itinerary side: Unknown Incoming: RoadInfo {{'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}} { } urban: true controlled access: false motorway: false} Outgoing: RoadInfo {{'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}} { } urban: true controlled access: false motorway: false} Landmark: -- Signpost:  { toward: {'text': 'toward name and phonetic', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': 'encoded text', 'alphabet': 'lhplus', 'value_language': 'country [] language [] script []'}}, Exit name: {'text': 'exit name and phonetic', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': 'encoded text', 'alphabet': 'lhplus', 'value_language': 'country [] language [] script []'}}, Exit number: {'text': 'exit number and phonetic', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': 'encoded text', 'alphabet': 'lhplus', 'value_language': 'country [] language [] script []'}}} Traffic light offset: -- Exit direction:  Left Side street offset: -- Fork direction: -- Intersection name: {'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}} Turn direction: -- Switch highway direction: -- EnterHOV direction: -- ExitHOV direction: -- Merge side: -- Roundabout: -- ExitRoundabout: -- BorderCrossing: -- AutotransportType: --}, next_instruction: none)
+
+
+
+Input: AnnouncementData(distance: 10000 cm, message_type: FarAway, instruction: AudioInstruction {Exit Driving side: Right Itinerary side: Unknown Incoming: RoadInfo {{'text': 'incoming road name and phonetic', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': 'encoded text', 'alphabet': 'lhplus', 'value_language': 'country [] language [] script []'}} { } urban: true controlled access: false motorway: false} Outgoing: RoadInfo {{'text': 'outgoing road name and phonetic', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': 'encoded text', 'alphabet': 'lhplus', 'value_language': 'country [] language [] script []'}} { {'text': 'outgoing road number', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}}} urban: true controlled access: false motorway: false} Landmark: -- Signpost:  { toward: {'text': 'toward name and phonetic', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': 'encoded text', 'alphabet': 'lhplus', 'value_language': 'country [] language [] script []'}}, Exit name: {'text': 'exit name and phonetic', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': 'encoded text', 'alphabet': 'lhplus', 'value_language': 'country [] language [] script []'}}, Exit number: {'text': 'exit number and phonetic', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': 'encoded text', 'alphabet': 'lhplus', 'value_language': 'country [] language [] script []'}}} Traffic light offset: -- Exit direction:  Left Side street offset: -- Fork direction: -- Intersection name: {'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}} Turn direction: -- Switch highway direction: -- EnterHOV direction: -- ExitHOV direction: -- Merge side: -- Roundabout: -- ExitRoundabout: -- BorderCrossing: -- AutotransportType: --}, next_instruction: none)
+
+
+
+               InstructionTypeIs(Type::kExit),
+               
+               HasRoadNumber(),
+
+               Or<Not<HasStreetName>, Not<IsUrbanArea>>(), and (!streetname OR !urban)
+                                                                false          false
+               HasTowardName(),                                 (        false       )
+
+
+line 58
+      Rule{{
+               MessageTypeIs(MessageType::kFarAway, MessageType::kWarning, MessageType::kMain),
+               InstructionTypeIs(Type::kExit),
+               HasExitNumber(),
+               HasExitName(),
+               HasRoadNumber(),
+               HasTowardName(),
+               IsVerbosityLevel(VerbosityLevel::kComprehensive),
+               ExitDirectionIs(ExitDirection::kLeft),
+               IsDrivingSide(DrivingSide::kRight),
+           },
+           Translate(  //
+               "In {distance} take the exit {exit_number} on the left onto {road_number} toward "
+               "{toward_name}.",
+               "has_exit_name")},
+      Rule{{
+               MessageTypeIs(MessageType::kFarAway, MessageType::kWarning, MessageType::kMain),
+               InstructionTypeIs(Type::kExit),
+               HasExitNumber(),
+               HasRoadNumber(),
+               HasTowardName(),
+               IsVerbosityLevel(VerbosityLevel::kComprehensive),
+               ExitDirectionIs(ExitDirection::kLeft),
+               IsDrivingSide(DrivingSide::kRight),
+           },
+           Translate(  //
+               "In {distance} take the exit {exit_number} on the left onto {road_number} toward "
+               "{toward_name}.")},
+
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the left onto {road_number} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the left onto {road_number} toward {toward_name}."
+msgstr "약 {distance} 앞, {road_number} 로 {toward_name} 방면 {exit_number} 출구를 이용하세요"
+
+4802c4802
+< Result: <?xml version="1.0" encoding="UTF-8"?><speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="ko-KR">약 100 미터 앞, outgoing road number 로 toward name and phonetic 방면 exit number and phonetic 출구를 이용하세요</speak>
+---
+
+
+line 1
+      Rule{{
+               MessageTypeIs(MessageType::kFarAway, MessageType::kWarning, MessageType::kMain),
+               InstructionTypeIs(Type::kExit),
+               HasExitNumber(),
+               HasExitName(),
+               HasRoadNumber(),
+               HasTowardName(),
+               IsVerbosityLevel(VerbosityLevel::kComprehensive),
+               ExitDirectionIs(ExitDirection::kLeft),
+               IsDrivingSide(DrivingSide::kRight),
+           },
+           Translate(  //
+               "In {distance} take the exit {exit_number} on the left {direction_details}.",
+               "has_exit_name")},
+      Rule{{
+               MessageTypeIs(MessageType::kFarAway, MessageType::kWarning, MessageType::kMain),
+               InstructionTypeIs(Type::kExit),
+               HasExitNumber(),
+               HasRoadNumber(),
+               HasTowardName(),
+               IsVerbosityLevel(VerbosityLevel::kComprehensive),
+               ExitDirectionIs(ExitDirection::kLeft),
+               IsDrivingSide(DrivingSide::kRight),
+           },
+           Translate(  //
+               "In {distance} take the exit {exit_number} on the left {direction_details}.")},
+
+msgctxt "has_exit_name"
+msgid "In {distance} take the exit {exit_number} on the left {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} {exit_number} 출구를 이용하세요"
+
+msgid "In {distance} take the exit {exit_number} on the left {direction_details}."
+msgstr "약 {distance} 앞, {direction_details} {exit_number} 출구를 이용하세요"
+
+> Result: <?xml version="1.0" encoding="UTF-8"?><speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="ko-KR">약 100 미터 앞, outgoing road name and phonetic 로 toward name and phonetic 방면 exit number and phonetic 출구를 이용하세요</speak>
+
+{road_number} 로 {toward_name} 방면 {exit_number}
+outgoing road number 로 toward name and phonetic 방면 exit number and phonetic               
+
+
+
+
+
+Input: AnnouncementData(distance: 10000 cm, message_type: FarAway, instruction: AudioInstruction {Exit Driving side: Right Itinerary side: Unknown Incoming: RoadInfo {{'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}} { } urban: false controlled access: false motorway: false} Outgoing: RoadInfo {{'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}} { {'text': 'outgoing road number', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}}} urban: true controlled access: false motorway: false} Landmark: -- Signpost:  { toward: {'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}}, Exit name: {'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}}, Exit number: {'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}}} Traffic light offset: -- Exit direction:  Left Side street offset: -- Fork direction: -- Intersection name: {'text': '', 'text_language': 'country [] language [] script []', 'generic_use_case_phonetic_string': {'value': '', 'alphabet': '', 'value_language': 'country [] language [] script []'}} Turn direction: -- Switch highway direction: -- EnterHOV direction: -- ExitHOV direction: -- Merge side: -- Roundabout: -- ExitRoundabout: -- BorderCrossing: -- AutotransportType: --}, next_instruction: none)
+
+692
+Result: Rule Eng: In {distance} take the left exit.###
+
+641
+약 100 미터 앞, outgoing road number 로 왼쪽 출구입니
+      Rule{{
+               MessageTypeIs(MessageType::kFarAway, MessageType::kMain),
+               InstructionTypeIs(Type::kExit),
+               ExitDirectionIs(ExitDirection::kLeft),
+               IsDrivingSide(DrivingSide::kRight),
+               HasSignpost(),
+               IsVerbosityLevel(VerbosityLevel::kCompact),
+           },
+           Translate(  //
+               "In {distance} take the left exit {direction_details}.")},
+
+
+              30 18 19 19 20 1
+              48 + 38 + 21
+            
+207246 70276 麥當勞-府中
+
+新光
+
+https://nds.tomtomgroup.com/webviewer/43840/?action=FeatureInfo%3Flang%3DNULL%26poiCategoryCollectionId%3D0%26iconCollectionId%3D0%26mode%3DNEAREST_POI%26lon%3D13527035.739219%26lat%3D2881354.1438284%26scale%3D1821.844205863098%26disputantId%3D0%26theme%3DDEFAULT%26routingService%3D0%26routeType%3DTIME_WITH_PENALTY%26vehicleType%3DPERSONAL_CAR%26labeling%3Dtrue%26icons%3Dtrue&zoom=18.291537549196&lat=25.04565&lon=121.51496&layers=FFFBFFFFFFT000FFFTTF0000TT&&poiCategoryCollectionId=0&iconCollectionId=0&disputantId=0&lang=NULL&theme=DEFAULT&routingService=0&routeType=TIME_WITH_PENALTY&vehicleType=PERSONAL_CAR&labeling=true&icons=true
+
+https://nds.tomtomgroup.com/webviewer/43840/?action=FeatureInfo%3Flang%3DNULL%26poiCategoryCollectionId%3D0%26iconCollectionId%3D0%26mode%3DNEAREST_POI%26lon%3D13527981.353484%26lat%3D2881414.6149003%26scale%3D1821.844205863098%26disputantId%3D0%26theme%3DDEFAULT%26routingService%3D0%26routeType%3DTIME_WITH_PENALTY%26vehicleType%3DPERSONAL_CAR%26labeling%3Dtrue%26icons%3Dtrue&zoom=18.291537549196&lat=25.04585&lon=121.52427&layers=FFFBFFFFFFT000FFFTTF0000TT&&poiCategoryCollectionId=0&iconCollectionId=0&disputantId=0&lang=NULL&theme=DEFAULT&routingService=0&routeType=TIME_WITH_PENALTY&vehicleType=PERSONAL_CAR&labeling=true&icons=true
+
+https://nds.tomtomgroup.com/webviewer/43840/?action=FeatureInfo%3Flang%3DNULL%26poiCategoryCollectionId%3D0%26iconCollectionId%3D0%26mode%3DNEAREST_POI%26lon%3D13527377.884602%26lat%3D2881367.6840997%26scale%3D1821.844205863098%26disputantId%3D0%26theme%3DDEFAULT%26routingService%3D0%26routeType%3DTIME_WITH_PENALTY%26vehicleType%3DPERSONAL_CAR%26labeling%3Dtrue%26icons%3Dtrue&zoom=18.291537549196&lat=25.04558&lon=121.51868&layers=FFFBFFFFFFT000FFFTTF0000TT&&poiCategoryCollectionId=0&iconCollectionId=0&disputantId=0&lang=NULL&theme=DEFAULT&routingService=0&routeType=TIME_WITH_PENALTY&vehicleType=PERSONAL_CAR&labeling=true&icons=true
+
+
+catId 273
+
+SELECT l.poiId, l.catId, r.isBrand from poiTable l INNER JOIN poiCategoryTable r where l.catId == r.isBrand AND r.isBrand is 1
+
+
+https://nds.tomtomgroup.com/webviewer/43927/?action=FeatureInfo%3Flang%3DGBR_eng_Latn%26poiCategoryCollectionId%3D0%26iconCollectionId%3D0%26mode%3DNEAREST_POI%26lon%3D1484169.1182216%26lat%3D6892336.6371566%26scale%3D2132.7295838497844%26disputantId%3D0%26theme%3DDEFAULT%26routingService%3D0%26routeType%3DTIME_WITH_PENALTY%26vehicleType%3DPERSONAL_CAR%26labeling%3Dtrue%26icons%3Dtrue&zoom=18&lat=52.50723&lon=13.3344&layers=FFFBFFFFFFFT000FFFTTF0000TT&&poiCategoryCollectionId=0&iconCollectionId=0&disputantId=0&lang=GBR_eng_Latn&theme=DEFAULT&routingService=0&routeType=TIME_WITH_PENALTY&vehicleType=PERSONAL_CAR&labeling=true&icons=true
+
+
+
+充電スタンド(急速充電) (1901)
+https://nds.tomtomgroup.com/webviewer/41307/?action=FeatureInfo%3Flang%3D*_*_Jpan%26poiCategoryCollectionId%3D0%26iconCollectionId%3D0%26productId%3D0%26updateRegionId%3D4456%26buildingBlockId%3D4%26poiId%3D37537140%26panTo%3Dtrue%26zoomTo%3Dtrue%26disputantId%3D0%26theme%3DDEFAULT%26routingService%3D0%26routeType%3DTIME_WITH_PENALTY%26vehicleType%3DPERSONAL_CAR%26labeling%3Dtrue%26icons%3Dtrue&zoom=17.999999999516927&lat=33.60127&lon=133.61461&layers=FFFBFFFFFF0FFTTF00TT&&poiCategoryCollectionId=0&iconCollectionId=0&disputantId=0&lang=*_*_Jpan&theme=DEFAULT&routingService=0&routeType=TIME_WITH_PENALTY&vehicleType=PERSONAL_CAR&labeling=true&icons=true
+
+
+充電スタンド(一般充電) (1902)
+https://nds.tomtomgroup.com/webviewer/41307/?action=FeatureInfo%3Flang%3D*_*_Jpan%26poiCategoryCollectionId%3D0%26iconCollectionId%3D0%26productId%3D0%26updateRegionId%3D4456%26buildingBlockId%3D4%26poiId%3D17278780%26panTo%3Dtrue%26zoomTo%3Dtrue%26disputantId%3D0%26theme%3DDEFAULT%26routingService%3D0%26routeType%3DTIME_WITH_PENALTY%26vehicleType%3DPERSONAL_CAR%26labeling%3Dtrue%26icons%3Dtrue&zoom=17.999999999516927&lat=32.93867&lon=130.55902&layers=FFFBFFFFFF0FFTTF00TT&&poiCategoryCollectionId=0&iconCollectionId=0&disputantId=0&lang=*_*_Jpan&theme=DEFAULT&routingService=0&routeType=TIME_WITH_PENALTY&vehicleType=PERSONAL_CAR&labeling=true&icons=true
+
+充電スタンド(一般充電コンセント型) (1903)
+https://nds.tomtomgroup.com/webviewer/41307/?action=FeatureInfo%3Flang%3D*_*_Jpan%26poiCategoryCollectionId%3D0%26iconCollectionId%3D0%26productId%3D0%26updateRegionId%3D4456%26buildingBlockId%3D4%26poiId%3D86511060%26panTo%3Dtrue%26zoomTo%3Dtrue%26disputantId%3D0%26theme%3DDEFAULT%26routingService%3D0%26routeType%3DTIME_WITH_PENALTY%26vehicleType%3DPERSONAL_CAR%26labeling%3Dtrue%26icons%3Dtrue&zoom=17.999999999516927&lat=34.6463&lon=135.51076&layers=FFFBFFFFFF0FFTTF00TT&&poiCategoryCollectionId=0&iconCollectionId=0&disputantId=0&lang=*_*_Jpan&theme=DEFAULT&routingService=0&routeType=TIME_WITH_PENALTY&vehicleType=PERSONAL_CAR&labeling=true&icons=true
+
+充電スタンド (40916)
+https://nds.tomtomgroup.com/webviewer/41307/?action=FeatureInfo%3Flang%3DNULL%26poiCategoryCollectionId%3D0%26iconCollectionId%3D0%26productId%3D0%26updateRegionId%3D4456%26buildingBlockId%3D4%26poiId%3D43834580%26disputantId%3D0%26theme%3DDEFAULT%26routingService%3D0%26routeType%3DTIME_WITH_PENALTY%26vehicleType%3DPERSONAL_CAR%26labeling%3Dtrue%26icons%3Dtrue&zoom=16.999999999516927&lat=34.0422&lon=131.9126&layers=FFFBFFFFFF0FFTTF00TT&&poiCategoryCollectionId=0&iconCollectionId=0&disputantId=0&lang=NULL&theme=DEFAULT&routingService=0&routeType=TIME_WITH_PENALTY&vehicleType=PERSONAL_CAR&labeling=true&icons=true
+
+
+username = korea
+password = 7fTPck5Zh3GＣ

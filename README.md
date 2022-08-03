@@ -61,9 +61,11 @@ chmod 777 /mnt/media_rw
 ```
 #### NK2 ####
 ```
-export NDS_DEFAULT_KEYSTORE_PASSWORD=dL8Oe.5pi9dk4-
+export NDS_DEFAULT_KEYSTORE_PASSWORD=....
 export ANDROID_SDK_ROOT=~/TT/repo/AndroidSdk/
-export ANDROID_SDK_ROOT=~/home/liut/Android/Sdk
+export ANDROID_SDK_ROOT=/home/liut/Android/Sdk
+export ANDROID_HOME=/home/liut/Android/Sdk
+export ANDROID_HOME=/home/liut/TT/repo/nk2ui/navapp-automotive/Env/Linux/Android/sdk
 export JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64
 
 conan install -u . --install-folder=build -pr linux_x86_64-clang5
@@ -72,21 +74,22 @@ conan create -u . <version>@local/testing -pr linux_x86_64-clang5
 conan export . 1.0.50@tomtom/stable
 sed -i "s/#: .*\(\/navigation-instruction-text-generation.*\d\+\)/#: \/tom2\/nk2\/nk2-navigation-instruction-text-generation\1/g" "${POT_TEMPLATE_PATH}"
 PROJECT_DIR=$(git rev-parse --show-toplevel); docker run --rm -it --mount type=bind,source="$PROJECT_DIR",target="$PROJECT_DIR" -w "$PROJECT_DIR" docker-navkit2.navkit-pipeline.tt3.com/tomtom/clangformat:0.2.0 run-clang-format
+python3 -m pip install conan==1.46.2
 ```
 
 #### NK2 dev-app ####
 ```
-LD_LIBRARY_PATH=./lib bin/nav-engine --map ~/TT/maps/13744_icup_mg_traffic-lights_ca_points/DATA --keystore ~/TT/maps/NAVKIT_DEV.NKS --password dL8Oe.5pi9dk4- --api VNC4iGjGLSuJwZwNbZ2TGaCD9qzqs0Dw --guidance-mode onboard-v2 --mapdisplay-mode onboard 2>&1 >/dev/null | grep -e "safetylocation"
-bin/nav-dimui --api VNC4iGjGLSuJwZwNbZ2TGaCD9qzqs0Dw
+LD_LIBRARY_PATH=./lib bin/nav-engine --map ~/TT/maps/13744_icup_mg_traffic-lights_ca_points/DATA --keystore ~/TT/maps/NAVKIT_DEV.NKS --password dL8Oe.5pi9dk4- --api ... --guidance-mode onboard-v2 --mapdisplay-mode onboard 2>&1 >/dev/null | grep -e "safetylocation"
+bin/nav-dimui --api ...
 
-LD_LIBRARY_PATH=../lib ./nav-engine --api VNC4iGjGLSuJwZwNbZ2TGaCD9qzqs0Dw --map /home/ubuntu/Map/HCP3_KOR_42_20M9_ER011.1/DATA --keystore /home/ubuntu/Keystore/HCP3_DEV_NK.NKS --password dL8Oe.5pi9dk4- --mm-uri tcp://0.0.0.0:8080 --trip-uri tcp://0.0.0.0:8081 --vh-uri tcp://0.0.0.0:8082 --vehicle-uri tcp://0.0.0.0:8083 --userprofile-uri tcp://0.0.0.0:8084 --suggestions-uri tcp://0.0.0.0:8085 --datarecorder-uri tcp://0.0.0.0:8086 --rg-uri tcp://0.0.0.0:8087 --mapdisplay-uri tcp://0.0.0.0:8088 --mapdisplay-mode onboard
+LD_LIBRARY_PATH=../lib ./nav-engine --api ... --map /home/ubuntu/Map/HCP3_KOR_42_20M9_ER011.1/DATA --keystore /home/ubuntu/Keystore/HCP3_DEV_NK.NKS --password dL8Oe.5pi9dk4- --mm-uri tcp://0.0.0.0:8080 --trip-uri tcp://0.0.0.0:8081 --vh-uri tcp://0.0.0.0:8082 --vehicle-uri tcp://0.0.0.0:8083 --userprofile-uri tcp://0.0.0.0:8084 --suggestions-uri tcp://0.0.0.0:8085 --datarecorder-uri tcp://0.0.0.0:8086 --rg-uri tcp://0.0.0.0:8087 --mapdisplay-uri tcp://0.0.0.0:8088 --mapdisplay-mode onboard
 ```
 
 
 #### NK2UI ####
 ```
-./gradlew build -PapiKey=VNC4iGjGLSuJwZwNbZ2TGaCD9qzqs0Dw
-./gradlew :app:assembleDebug -Pnk2ApiKey=VNC4iGjGLSuJwZwNbZ2TGaCD9qzqs0Dw --stacktrace
+./gradlew build -PapiKey=...
+./gradlew :app:assembleDebug -Pnk2ApiKey=.... --stacktrace
 
 ./gradlew :structuredSearchComponentUi:test
 ./gradlew :structuredSearchComponentUi:runAndroidTest
@@ -97,19 +100,10 @@ LD_LIBRARY_PATH=../lib ./nav-engine --api VNC4iGjGLSuJwZwNbZ2TGaCD9qzqs0Dw --map
 
 ```
 
-
+#### GoSDK ###
 ```
-
-./guidance_kml_dumper \
---input /home/liut/TT/repo/nk2/nk2-navigation-instruction-engine/navigation-instruction-engine/test/regression/instruction_regression/reference/hcp3_berlin \
---recursive \
---overwrite \
---dumping_mode instruction \
---folder_id instructions_reference \
---map_path /home/liut/TT/repo/nk2/nk2-navigation-instruction-engine/build/bin/regression_test/instruction_regression/maps/hcp3_berlin/hcp3_berlin \
---keystore_path /home/liut/TT/maps/HCP3_DEV_NK.NKS \
---keystore_password dL8Oe.5pi9dk4- \
-2>&1 >/dev/null \
-| grep -nH -A 20 -B 20 -e "TTDebug, offset 7200"
+./gradlew :apps:navigation-demo-app:assebleDebug
+./gradlew :search:structured-search-client-api:build
+./gradlew :search:structured-search-client-api:testDebugUnitTest
 
 ```
