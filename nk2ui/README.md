@@ -109,3 +109,210 @@ Prod -> Feature is done and UX is according to final specs.
 chmod 2770 -> group rwx rws
 chmod 4770 ->
 ```  
+
+
+145663	赤稲田	102	1	23896153	23896156	23896450	23911458	24066644 984/3 = 328
+                                   岩手県       金ケ崎町     西根
+
+
+
+鹿児島市 -> 吉野町
+大分県 中津市 その他
+
+           C++                                 android 
+           total  filtering incr      address  query filter    with addr      without addr
+9500 h     0.130  0.081               0.11     0.16   0.1      1710kb         1025kb                  685-ﾍ 2270-ﾛ
+1600 h                                                                                  ?
+328 aza    0.011  0.003                                        63kb                          
+ 
+北海道->鹿部町>本别
+
+
+job?.cancel()
+job = viewModelScope.launch {
+    api.cancelAllOngoingTask()
+	result = api.filter()
+}
+
+=========
+api.cancelAllOngoingTask()
+api.filter("A")
+// job 1 cancel
+api.cancelAllOngoingTask() // api.filter("A") is fished
+api.filter("B")
+===========
+
+
+=========
+api.cancelAllOngoingTask() (from job1)
+// job 1 cancel
+api.cancelAllOngoingTask()  (from job2)
+
+api.filter("A") // wont do
+
+api.filter("B")
+===========
+
+/////////////////////////////
+
+job?.cancel()
+api.cancelAllOngoingTask()
+job = api.filter()
+
+
+===
+api.cancelAllOngoingTask()
+job1 { api.filter("A", callback1) }
+
+job1.cancel
+api.cancelAllOngoingTask() // api.filter("A") is fished
+job2 { api.filter("B") }
+====
+api.cancelAllOngoingTask() (from 1 call)
+job1.cancel
+api.cancelAllOngoingTask()  (from 2 call)
+
+api.filter("A") // wont do
+
+api.filter("B")
+
+
+//////////////////////////////
+// c++
+class Api {
+  cancelAllOngoingTask() {
+    stop = true;
+	blockUntilAllTaskFinished()
+  }
+  filter(string input) {
+    stop = false;
+    startNewTask(new FilterCandidateTask(input))
+
+  }
+  	
+}
+
+
+
+Ctrl + ALT + Q
+
+Meanwhile I am wondering do we need to stuck in this topic in this PR?
+Quote the beginning of the conversation
+What do other Client’s do with regard to Locale? I’m not sure that the Client should have to retain additional state themselves, 
+The other api do not provide user preferred locale in results either. For go-sdk user, he need to keep the preferred locale passed to api if he need it later. That is what we do globally, at least for now.
+
+
+
+
+we are waiting for Zenrin to compile a newer map, but i’m not sure if it will use tomtom key or bmw key
+(aug?)
+
+we can do this to check Caruso is working
+BMW map (data same as caruso) + nk1 + automovite ui
+
+https://tomtomslack.slack.com/archives/G01FRT77JHY/p1659586126831779?thread_ts=1655280044.337799&cid=G01FRT77JHY
+
+
+JVMIX  50815
+JVSGN 117710
+total 168525 
+
+
+    @TestCaseIssueId("NAV-92185")
+    @Test
+    fun `should expose observed junction view tag`() = viewModel.junctionViewTag.observeForTestingBlocking {
+        // GIVEN
+        junctionViewTagFlow.value = "someTag"
+        assertEquals("someTag", viewModel.junctionViewTag.value)
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* MapDisplay provides junction view content -> 5sp
+
+* Display junction view in horizon panel 
+  ** Junction view fragment.kt   \
+  ** hide uep, cm, etc tollgate  / 3sp (testing required)
+
+  ** transition                 - 3sp (testing required)
+
+* Enlarge junction view if required                                     \
+                                                                         \ 
+                                                                         \  3sp (testing required)
+* Filter out tollgate junction view	                                   /
+  ** option 1: if next instruction is tollgate, do not show jv (X)    /
+  ** option 2: filter out jv if it is small (360x240)          (O)   /
+
+
+* [placeholder] user settings
+* [placeholder] click x to dismiss jv
+
+
+* Prepare the test scope
+
+* cucumber test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

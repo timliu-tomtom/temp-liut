@@ -1,0 +1,1413 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dita xml:lang="en-GB">
+  <topic product="NAVKIT2.tomtom.com" rev="0.2.0">
+    <body>
+      <screen>
+        <uicontrol id="Follow {road_number} for {distance}." translate="yes" otherprops="">Follow the {road_number} for {distance}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} for {distance}." translate="yes" otherprops="">Follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} for {distance}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Follow {road_name} for {distance}." translate="yes" otherprops="">Follow {road_name} for {distance}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Follow the freeway for {distance}." translate="yes" otherprops="">Follow the motorway for {distance}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Follow the road for {distance}." translate="yes" otherprops="">Follow the road for {distance}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} you will enter {country}." translate="yes" otherprops="">In {distance} you will enter {country}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You are entering {country}." translate="yes" otherprops="">You are entering {country}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Start driving on {road_number}." translate="yes" otherprops="">Start driving on the {road_number}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Start driving on {road_name}." translate="yes" otherprops="">Start driving on {road_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Start driving." translate="yes" otherprops="">Start driving.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You have reached your destination at {road_number}. It is on the right." translate="yes" otherprops="">You have reached your destination at the {road_number}. It is on the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You have reached your destination at {road_name}. It is on the right." translate="yes" otherprops="">You have reached your destination at {road_name}. It is on the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You have reached your destination, it is on the right." translate="yes" otherprops="">You have reached your destination, it is on the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You have reached your destination at {road_number}. It is on the left." translate="yes" otherprops="">You have reached your destination at the {road_number}. It is on the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You have reached your destination at {road_name}. It is on the left." translate="yes" otherprops="">You have reached your destination at {road_name}. It is on the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You have reached your destination, it is on the left." translate="yes" otherprops="">You have reached your destination, it is on the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} you will reach your destination." translate="yes" otherprops="">In {distance} you will reach your destination.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You have reached your destination." translate="yes" otherprops="">You have reached your destination.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You have reached your stop at {road_number}. It is on the right." translate="yes" otherprops="">You have reached your stop at the {road_number}. It is on the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You have reached your stop at {road_name}. It is on the right." translate="yes" otherprops="">You have reached your stop at {road_name}. It is on the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You have reached your stop, it is on the right." translate="yes" otherprops="">You have reached your stop, it is on the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You have reached your stop at {road_number}. It is on the left." translate="yes" otherprops="">You have reached your stop at the {road_number}. It is on the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You have reached your stop at {road_name}. It is on the left." translate="yes" otherprops="">You have reached your stop at {road_name}. It is on the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You have reached your stop, it is on the left." translate="yes" otherprops="">You have reached your stop, it is on the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} you will reach your stop." translate="yes" otherprops="">In {distance} you will reach your stop.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You have reached your stop at {road_number}." translate="yes" otherprops="">You have reached your stop at the {road_number}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You have reached your stop at {road_name}." translate="yes" otherprops="">You have reached your stop at {road_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="You have reached your stop." translate="yes" otherprops="">You have reached your stop.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} go straight {direction_details}." translate="yes" otherprops="">In {distance} go straight {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} go straight." translate="yes" otherprops="">In {distance} go straight ahead.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Go straight {direction_details}." translate="yes" otherprops="">Go straight {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then go straight." translate="yes" otherprops="">Then go straight ahead.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Go straight." translate="yes" otherprops="">Go straight ahead.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} bear right at {intersection_name}." translate="yes" otherprops="">In {distance} bear right at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} {landmark} bear right {direction_details}." translate="yes" otherprops="">In {distance} {landmark} bear right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} bear right {direction_details}." translate="yes" otherprops="">In {distance} bear right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} {landmark} bear right." translate="yes" otherprops="">In {distance} {landmark} bear right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} bear right." translate="yes" otherprops="">In {distance} bear right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Bear right at {intersection_name}." translate="yes" otherprops="">Bear right at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{landmark} bear right {direction_details}." translate="yes" otherprops="">{landmark} bear right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Bear right {direction_details}." translate="yes" otherprops="">Bear right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then bear right." translate="yes" otherprops="">Then bear right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{landmark} bear right." translate="yes" otherprops="">{landmark} bear right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Bear right." translate="yes" otherprops="">Bear right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} turn right at {intersection_name}." translate="yes" otherprops="">In {distance} turn right at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} {landmark} turn right {direction_details}." translate="yes" otherprops="">In {distance} {landmark} turn right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} turn right {direction_details}." translate="yes" otherprops="">In {distance} turn right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} {landmark} turn right." translate="yes" otherprops="">In {distance} {landmark} turn right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} turn right." translate="yes" otherprops="">In {distance} turn right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Turn right at {intersection_name}." translate="yes" otherprops="">Turn right at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{landmark} turn right {direction_details}." translate="yes" otherprops="">{landmark} turn right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Turn right {direction_details}." translate="yes" otherprops="">Turn right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then turn right." translate="yes" otherprops="">Then turn right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{landmark} turn right." translate="yes" otherprops="">{landmark} turn right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Turn right." translate="yes" otherprops="">Turn right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} make a sharp turn right at {intersection_name}." translate="yes" otherprops="">In {distance} make a sharp turn right at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} {landmark} make a sharp turn right {direction_details}." translate="yes" otherprops="">In {distance} {landmark} make a sharp turn right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} make a sharp turn right {direction_details}." translate="yes" otherprops="">In {distance} make a sharp turn right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} {landmark} make a sharp turn right." translate="yes" otherprops="">In {distance} {landmark} make a sharp turn right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} make a sharp turn right." translate="yes" otherprops="">In {distance} make a sharp turn right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Make a sharp turn right at {intersection_name}." translate="yes" otherprops="">Make a sharp turn right at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{landmark} make a sharp turn right {direction_details}." translate="yes" otherprops="">{landmark} make a sharp turn right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Make a sharp turn right {direction_details}." translate="yes" otherprops="">Make a sharp turn right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then make a sharp turn right." translate="yes" otherprops="">Then make a sharp turn right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{landmark} make a sharp turn right." translate="yes" otherprops="">{landmark} make a sharp turn right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Make a sharp turn right." translate="yes" otherprops="">Make a sharp turn right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} bear left at {intersection_name}." translate="yes" otherprops="">In {distance} bear left at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} {landmark} bear left {direction_details}." translate="yes" otherprops="">In {distance} {landmark} bear left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} bear left {direction_details}." translate="yes" otherprops="">In {distance} bear left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} {landmark} bear left." translate="yes" otherprops="">In {distance} {landmark} bear left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} bear left." translate="yes" otherprops="">In {distance} bear left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Bear left at {intersection_name}." translate="yes" otherprops="">Bear left at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{landmark} bear left {direction_details}." translate="yes" otherprops="">{landmark} bear left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Bear left {direction_details}." translate="yes" otherprops="">Bear left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then bear left." translate="yes" otherprops="">Then bear left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{landmark} bear left." translate="yes" otherprops="">{landmark} bear left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Bear left." translate="yes" otherprops="">Bear left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} turn left at {intersection_name}." translate="yes" otherprops="">In {distance} turn left at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} {landmark} turn left {direction_details}." translate="yes" otherprops="">In {distance} {landmark} turn left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} turn left {direction_details}." translate="yes" otherprops="">In {distance} turn left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} {landmark} turn left." translate="yes" otherprops="">In {distance} {landmark} turn left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} turn left." translate="yes" otherprops="">In {distance} turn left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Turn left at {intersection_name}." translate="yes" otherprops="">Turn left at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{landmark} turn left {direction_details}." translate="yes" otherprops="">{landmark} turn left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Turn left {direction_details}." translate="yes" otherprops="">Turn left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then turn left." translate="yes" otherprops="">Then turn left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{landmark} turn left." translate="yes" otherprops="">{landmark} turn left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Turn left." translate="yes" otherprops="">Turn left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} make a sharp turn left at {intersection_name}." translate="yes" otherprops="">In {distance} make a sharp turn left at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} {landmark} make a sharp turn left {direction_details}." translate="yes" otherprops="">In {distance} {landmark} make a sharp turn left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} make a sharp turn left {direction_details}." translate="yes" otherprops="">In {distance} make a sharp turn left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} {landmark} make a sharp turn left." translate="yes" otherprops="">In {distance} {landmark} make a sharp turn left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} make a sharp turn left." translate="yes" otherprops="">In {distance} make a sharp turn left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Make a sharp turn left at {intersection_name}." translate="yes" otherprops="">Make a sharp turn left at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{landmark} make a sharp turn left {direction_details}." translate="yes" otherprops="">{landmark} make a sharp turn left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Make a sharp turn left {direction_details}." translate="yes" otherprops="">Make a sharp turn left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then make a sharp turn left." translate="yes" otherprops="">Then make a sharp turn left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{landmark} make a sharp turn left." translate="yes" otherprops="">{landmark} make a sharp turn left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Make a sharp turn left." translate="yes" otherprops="">Make a sharp turn left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} make a U-turn at {intersection_name}." translate="yes" otherprops="">In {distance} make a U-turn at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} {landmark} make a U-turn {direction_details}." translate="yes" otherprops="">In {distance} {landmark} make a U-turn {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} make a U-turn {direction_details}." translate="yes" otherprops="">In {distance} make a U-turn {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} {landmark} make a U-turn." translate="yes" otherprops="">In {distance} {landmark} make a U-turn.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} make a U-turn." translate="yes" otherprops="">In {distance} make a U-turn.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Make a U-turn at {intersection_name}." translate="yes" otherprops="">Make a U-turn at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{landmark} make a U-turn {direction_details}." translate="yes" otherprops="">{landmark} make a U-turn {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Make a U-turn {direction_details}." translate="yes" otherprops="">Make a U-turn {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then make a U-turn." translate="yes" otherprops="">Then make a U-turn.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{landmark} make a U-turn." translate="yes" otherprops="">{landmark} make a U-turn.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Make a U-turn." translate="yes" otherprops="">Make a U-turn.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} follow the road to the right." translate="yes" otherprops="">In {distance} follow the road to the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then follow the road to the right." translate="yes" otherprops="">Then follow the road to the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Follow the road to the right." translate="yes" otherprops="">Follow the road to the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} follow the road to the left." translate="yes" otherprops="">In {distance} follow the road to the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then follow the road to the left." translate="yes" otherprops="">Then follow the road to the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Follow the road to the left." translate="yes" otherprops="">Follow the road to the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} on the left at {intersection_name} toward {toward_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the left at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit {exit_number} on the left at {intersection_name} toward {toward_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the left at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} on the left at {intersection_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the left at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit {exit_number} on the left at {intersection_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the left at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} on the left {direction_details}." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit {exit_number} on the left {direction_details}." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the left exit at {intersection_name} toward {toward_name}." translate="yes" otherprops="">In {distance} take the left exit at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the left exit at {intersection_name}." translate="yes" otherprops="">In {distance} take the left exit at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the left exit {direction_details}." translate="yes" otherprops="">In {distance} take the left exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the left exit {direction_details}." translate="yes" otherprops="">In {distance} take the left exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} on the left toward {toward_name}." translate="yes" otherprops="">Take the exit {exit_number} on the left toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit {exit_number} on the left toward {toward_name}." translate="yes" otherprops="">Take the exit {exit_number} on the left toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} on the left." translate="yes" otherprops="">Take the exit {exit_number} on the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit {exit_number} on the left." translate="yes" otherprops="">Take the exit {exit_number} on the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the left exit toward {toward_name}." translate="yes" otherprops="">Take the left exit toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} on the left toward {toward_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the left toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit {exit_number} on the left toward {toward_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the left toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} on the left." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit {exit_number} on the left." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the left exit toward {toward_name}." translate="yes" otherprops="">In {distance} take the left exit toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the left exit toward {toward_name}." translate="yes" otherprops="">In {distance} take the left exit toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the left exit." translate="yes" otherprops="">In {distance} take the left exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the left exit." translate="yes" otherprops="">In {distance} take the left exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} on the left at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Take the second exit on the left at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} on the left at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Take the exit {exit_number} on the left at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit {exit_number} on the left at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Take the exit {exit_number} on the left at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} on the left at {intersection_name}." translate="yes" otherprops="">Take the second exit on the left at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} on the left at {intersection_name}." translate="yes" otherprops="">Take the exit {exit_number} on the left at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit {exit_number} on the left at {intersection_name}." translate="yes" otherprops="">Take the exit {exit_number} on the left at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} on the left {direction_details}." translate="yes" otherprops="">Take the second exit on the left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} on the left {direction_details}." translate="yes" otherprops="">Take the exit {exit_number} on the left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit {exit_number} on the left {direction_details}." translate="yes" otherprops="">Take the exit {exit_number} on the left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the left exit at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Take the second exit on the left at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the left exit at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Take the left exit at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the left exit at {intersection_name}." translate="yes" otherprops="">Take the second exit on the left at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the left exit at {intersection_name}." translate="yes" otherprops="">Take the left exit at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the left exit {direction_details}." translate="yes" otherprops="">Take the second exit on the left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the left exit {direction_details}." translate="yes" otherprops="">Take the left exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Then take the exit {exit_number} on the left." translate="yes" otherprops="">Then take the second exit on the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Then take the exit {exit_number} on the left." translate="yes" otherprops="">Then take the exit {exit_number} on the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then take the exit {exit_number} on the left." translate="yes" otherprops="">Then take the exit {exit_number} on the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Then take the left exit." translate="yes" otherprops="">Then take the second exit on the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then take the left exit." translate="yes" otherprops="">Then take the left exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} on the left." translate="yes" otherprops="">Take the second exit on the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the left exit." translate="yes" otherprops="">Take the second exit on the left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the left exit." translate="yes" otherprops="">Take the left exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} on the right at {intersection_name} toward {toward_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the right at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit {exit_number} on the right at {intersection_name} toward {toward_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the right at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} on the right at {intersection_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the right at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit {exit_number} on the right at {intersection_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the right at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} on the right {direction_details}." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit {exit_number} on the right {direction_details}." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the right exit at {intersection_name} toward {toward_name}." translate="yes" otherprops="">In {distance} take the right exit at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the right exit at {intersection_name}." translate="yes" otherprops="">In {distance} take the right exit at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the right exit {direction_details}." translate="yes" otherprops="">In {distance} take the right exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the right exit {direction_details}." translate="yes" otherprops="">In {distance} take the right exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} on the right toward {toward_name}." translate="yes" otherprops="">Take the exit {exit_number} on the right toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit {exit_number} on the right toward {toward_name}." translate="yes" otherprops="">Take the exit {exit_number} on the right toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} on the right." translate="yes" otherprops="">Take the exit {exit_number} on the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit {exit_number} on the right." translate="yes" otherprops="">Take the exit {exit_number} on the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the right exit toward {toward_name}." translate="yes" otherprops="">Take the right exit toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} on the right toward {toward_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the right toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit {exit_number} on the right toward {toward_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the right toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} on the right." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit {exit_number} on the right." translate="yes" otherprops="">In {distance} take the exit {exit_number} on the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the right exit toward {toward_name}." translate="yes" otherprops="">In {distance} take the right exit toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the right exit toward {toward_name}." translate="yes" otherprops="">In {distance} take the right exit toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the right exit." translate="yes" otherprops="">In {distance} take the right exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the right exit." translate="yes" otherprops="">In {distance} take the right exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} on the right at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Take the second exit on the right at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} on the right at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Take the exit {exit_number} on the right at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit {exit_number} on the right at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Take the exit {exit_number} on the right at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} on the right at {intersection_name}." translate="yes" otherprops="">Take the second exit on the right at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} on the right at {intersection_name}." translate="yes" otherprops="">Take the exit {exit_number} on the right at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit {exit_number} on the right at {intersection_name}." translate="yes" otherprops="">Take the exit {exit_number} on the right at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} on the right {direction_details}." translate="yes" otherprops="">Take the second exit on the right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} on the right {direction_details}." translate="yes" otherprops="">Take the exit {exit_number} on the right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit {exit_number} on the right {direction_details}." translate="yes" otherprops="">Take the exit {exit_number} on the right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the right exit at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Take the second exit on the right at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the right exit at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Take the right exit at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the right exit at {intersection_name}." translate="yes" otherprops="">Take the second exit on the right at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the right exit at {intersection_name}." translate="yes" otherprops="">Take the right exit at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the right exit {direction_details}." translate="yes" otherprops="">Take the second exit on the right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the right exit {direction_details}." translate="yes" otherprops="">Take the right exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Then take the exit {exit_number} on the right." translate="yes" otherprops="">Then take the second exit on the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Then take the exit {exit_number} on the right." translate="yes" otherprops="">Then take the exit {exit_number} on the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then take the exit {exit_number} on the right." translate="yes" otherprops="">Then take the exit {exit_number} on the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Then take the right exit." translate="yes" otherprops="">Then take the second exit on the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then take the right exit." translate="yes" otherprops="">Then take the right exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} on the right." translate="yes" otherprops="">Take the second exit on the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the right exit." translate="yes" otherprops="">Take the second exit on the right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the right exit." translate="yes" otherprops="">Take the right exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} at {intersection_name} toward {toward_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit {exit_number} at {intersection_name} toward {toward_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} at {intersection_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit {exit_number} at {intersection_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} {direction_details}." translate="yes" otherprops="">In {distance} take the exit {exit_number} {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit {exit_number} {direction_details}." translate="yes" otherprops="">In {distance} take the exit {exit_number} {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit at {intersection_name} toward {toward_name}." translate="yes" otherprops="">In {distance} take the exit at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit at {intersection_name}." translate="yes" otherprops="">In {distance} take the exit at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {direction_details}." translate="yes" otherprops="">In {distance} take the exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit {direction_details}." translate="yes" otherprops="">In {distance} take the exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} toward {toward_name}." translate="yes" otherprops="">Take the exit {exit_number} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit {exit_number} toward {toward_name}." translate="yes" otherprops="">Take the exit {exit_number} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number}." translate="yes" otherprops="">Take the exit {exit_number}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit {exit_number}." translate="yes" otherprops="">Take the exit {exit_number}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit toward {toward_name}." translate="yes" otherprops="">Take the exit toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} toward {toward_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit {exit_number} toward {toward_name}." translate="yes" otherprops="">In {distance} take the exit {exit_number} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number}." translate="yes" otherprops="">In {distance} take the exit {exit_number}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit {exit_number}." translate="yes" otherprops="">In {distance} take the exit {exit_number}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit toward {toward_name}." translate="yes" otherprops="">In {distance} take the exit toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit toward {toward_name}." translate="yes" otherprops="">In {distance} take the exit toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖In {distance} take the exit." translate="yes" otherprops="">In {distance} take the exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the exit." translate="yes" otherprops="">In {distance} take the exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Take the second exit at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Take the exit {exit_number} at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit {exit_number} at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Take the exit {exit_number} at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} at {intersection_name}." translate="yes" otherprops="">Take the second exit at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} at {intersection_name}." translate="yes" otherprops="">Take the exit {exit_number} at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit {exit_number} at {intersection_name}." translate="yes" otherprops="">Take the exit {exit_number} at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} {direction_details}." translate="yes" otherprops="">Take the second exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} {direction_details}." translate="yes" otherprops="">Take the exit {exit_number} {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit {exit_number} {direction_details}." translate="yes" otherprops="">Take the exit {exit_number} {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the exit at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Take the second exit at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Take the exit at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the exit at {intersection_name}." translate="yes" otherprops="">Take the second exit at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit at {intersection_name}." translate="yes" otherprops="">Take the exit at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the exit {direction_details}." translate="yes" otherprops="">Take the second exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit {direction_details}." translate="yes" otherprops="">Take the exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Then take the exit {exit_number}." translate="yes" otherprops="">Then take the second exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="has_exit_name➖Then take the exit {exit_number}." translate="yes" otherprops="">Then take the exit {exit_number}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then take the exit {exit_number}." translate="yes" otherprops="">Then take the exit {exit_number}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Then take the exit." translate="yes" otherprops="">Then take the second exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then take the exit." translate="yes" otherprops="">Then take the exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the exit {exit_number}." translate="yes" otherprops="">Take the second exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="second_freeway_exit➖Take the exit." translate="yes" otherprops="">Take the second exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the exit." translate="yes" otherprops="">Take the exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} keep left at {intersection_name} toward {toward_name}." translate="yes" otherprops="">In {distance} keep left at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} keep left at {intersection_name}." translate="yes" otherprops="">In {distance} keep left at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} keep left {direction_details}." translate="yes" otherprops="">In {distance} keep left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} keep left." translate="yes" otherprops="">In {distance} keep left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Keep left at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Keep left at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Keep left at {intersection_name}." translate="yes" otherprops="">Keep left at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then keep left." translate="yes" otherprops="">Then keep left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Keep left {direction_details}." translate="yes" otherprops="">Keep left {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Keep left." translate="yes" otherprops="">Keep left.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} keep right at {intersection_name} toward {toward_name}." translate="yes" otherprops="">In {distance} keep right at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} keep right at {intersection_name}." translate="yes" otherprops="">In {distance} keep right at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} keep right {direction_details}." translate="yes" otherprops="">In {distance} keep right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} keep right." translate="yes" otherprops="">In {distance} keep right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Keep right at {intersection_name} toward {toward_name}." translate="yes" otherprops="">Keep right at {intersection_name} toward {toward_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Keep right at {intersection_name}." translate="yes" otherprops="">Keep right at {intersection_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then keep right." translate="yes" otherprops="">Then keep right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Keep right {direction_details}." translate="yes" otherprops="">Keep right {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Keep right." translate="yes" otherprops="">Keep right.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take {road_number}." translate="yes" otherprops="">In {distance} take the {road_number}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then take {road_number}." translate="yes" otherprops="">Then take the {road_number}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take {road_number}." translate="yes" otherprops="">Take the {road_number}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take {road_name}." translate="yes" otherprops="">In {distance} take {road_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then take {road_name}." translate="yes" otherprops="">Then take {road_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the freeway." translate="yes" otherprops="">In {distance} take the motorway.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then take the freeway." translate="yes" otherprops="">Then take the motorway.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take {road_name}." translate="yes" otherprops="">Take {road_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the freeway." translate="yes" otherprops="">Take the motorway</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Make a U-turn when possible." translate="yes" otherprops="">Make a U-turn when possible.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout slight right➖At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout in {distance} go straight ahead, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout slight right➖At the roundabout in {distance} go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout in {distance} go straight, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout slight right➖At the roundabout go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout go straight ahead, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout slight left➖At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout in {distance} go straight ahead, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout slight left➖At the roundabout in {distance} go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout in {distance} go straight, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout slight left➖At the roundabout go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout go straight ahead, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout in {distance} go straight ahead, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout in {distance} go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout in {distance} go straight, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout go straight ahead, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout slight right➖At the roundabout in {distance} turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout in {distance} turn right, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout slight right➖At the roundabout in {distance} turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout in {distance} turn right, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout slight right➖At the roundabout turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout turn right, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout sharp right➖At the roundabout in {distance} turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout in {distance} turn right, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout sharp right➖At the roundabout in {distance} turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout in {distance} turn right, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout sharp right➖At the roundabout turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout turn right, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout in {distance} turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout in {distance} turn right, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout in {distance} turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout in {distance} turn right, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout turn right, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout slight left➖At the roundabout in {distance} turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout in {distance} turn left, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout slight left➖At the roundabout in {distance} turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout in {distance} turn left, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout slight left➖At the roundabout turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout turn left, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout sharp left➖At the roundabout in {distance} turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout in {distance} turn left, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout sharp left➖At the roundabout in {distance} turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout in {distance} turn left, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout sharp left➖At the roundabout turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout turn left, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout in {distance} turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout in {distance} turn left, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout in {distance} turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout in {distance} turn left, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout turn left, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout in {distance} make a U-turn, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout in {distance} make a U-turn, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout in {distance} make a U-turn, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout in {distance} make a U-turn, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout make a U-turn, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">At the roundabout make a U-turn, {roundabout_exit_number} exit {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout in {distance} take the {roundabout_exit_number_v2} exit." translate="yes" otherprops="">At the roundabout in {distance} take the {roundabout_exit_number_v2} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout slight right➖At the roundabout go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout go straight ahead, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout slight left➖At the roundabout go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout go straight ahead, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout go straight ahead, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout make a U-turn, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout make a U-turn, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout slight right➖At the roundabout turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout turn right, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout sharp right➖At the roundabout turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout turn right, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout turn right, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout slight left➖At the roundabout turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout turn left, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="roundabout sharp left➖At the roundabout turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout turn left, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">At the roundabout turn left, {roundabout_exit_number} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="At the roundabout take the {roundabout_exit_number_v2} exit." translate="yes" otherprops="">At the roundabout take the {roundabout_exit_number_v2} exit.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} exit the roundabout {direction_details}." translate="yes" otherprops="">In {distance} exit the roundabout {direction_details}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} exit the roundabout." translate="yes" otherprops="">In {distance} exit the roundabout.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Exit the roundabout." translate="yes" otherprops="">Exit the roundabout.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the ferry {road_name}." translate="yes" otherprops="">In {distance} take the ferry {road_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the {road_name} train." translate="yes" otherprops="">In {distance} take the {road_name} train.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the ferry." translate="yes" otherprops="">In {distance} take the ferry.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} take the train." translate="yes" otherprops="">In {distance} take the train.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the ferry {road_name}." translate="yes" otherprops="">Take the ferry {road_name}.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the {road_name} train." translate="yes" otherprops="">Take the {road_name} train.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then take the ferry." translate="yes" otherprops="">Then take the ferry.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the ferry." translate="yes" otherprops="">Take the ferry.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then take the train." translate="yes" otherprops="">Then take the train.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Take the train." translate="yes" otherprops="">Take the train.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Disembark from the ferry." translate="yes" otherprops="">Disembark from the ferry.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Disembark from the train." translate="yes" otherprops="">Disembark from the train.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} keep left to enter the HOV carpool lane." translate="yes" otherprops="">In {distance} keep left to enter the HOV carpool lane.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} keep right to enter the HOV carpool lane." translate="yes" otherprops="">In {distance} keep right to enter the HOV carpool lane.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Keep right to enter the HOV carpool lane." translate="yes" otherprops="">Keep right to enter the HOV carpool lane.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Keep left to enter the HOV carpool lane." translate="yes" otherprops="">Keep left to enter the HOV carpool lane.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} keep left to exit the HOV carpool lane." translate="yes" otherprops="">In {distance} keep left to exit the HOV carpool lane.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} keep right to exit the HOV carpool lane." translate="yes" otherprops="">In {distance} keep right to exit the HOV carpool lane.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Keep right to exit the HOV carpool lane." translate="yes" otherprops="">Keep right to exit the HOV carpool lane.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Keep left to exit the HOV carpool lane." translate="yes" otherprops="">Keep left to exit the HOV carpool lane.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="In {distance} pass through the toll gate." translate="yes" otherprops="">In {distance} pass through the toll gate.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Then pass through the toll gate." translate="yes" otherprops="">Then pass through the toll gate.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="Pass through the toll gate." translate="yes" otherprops="">Pass through the toll gate.</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{direction_details} for turn: left, right➖to stay on {road_number} toward {toward_name}" translate="yes" otherprops="">to stay on the {road_number} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in turn messages like 'Turn right {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for fork➖to stay on {road_number} toward {toward_name}" translate="yes" otherprops="">to stay on the {road_number} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in street furcation messages like 'In {distance} keep left {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for turn: left, right➖to stay on {road_number}" translate="yes" otherprops="">to stay on the {road_number}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in turn messages like 'Turn right {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for fork➖to stay on {road_number}" translate="yes" otherprops="">to stay on the {road_number}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in street furcation messages like 'In {distance} keep left {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for exit highway➖onto {road_number} toward {toward_name}" translate="yes" otherprops="">onto the {road_number} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in exit messages like 'Take the exit {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for turn: left, right➖onto {road_number} toward {toward_name}" translate="yes" otherprops="">onto the {road_number} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in turn messages like 'Turn right {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for turn: go straight➖onto {road_number} toward {toward_name}" translate="yes" otherprops="">onto the {road_number} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in go straight messages like 'Go straight {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for U-turn➖onto {road_number} toward {toward_name}" translate="yes" otherprops="">onto the {road_number} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in U-turn messages like 'Make a U-turn {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for fork➖to take {road_number} toward {toward_name}" translate="yes" otherprops="">to take the {road_number} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{direction_details}➖onto {road_number} toward {toward_name}" translate="yes" otherprops="">onto the {road_number} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in messages like 'In {distance} exit the roundabout {direction_details}.', 'At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}.', In {distance} take the exit {direction_details}.</fn>
+        <uicontrol id="{direction_details} for exit highway➖onto {road_number}" translate="yes" otherprops="">onto the {road_number}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in exit messages like 'Take the exit {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for turn: left, right➖onto {road_number}" translate="yes" otherprops="">onto the {road_number}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in turn messages like 'Turn right {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for turn: go straight➖onto {road_number}" translate="yes" otherprops="">onto the {road_number}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in go straight messages like 'Go straight {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for U-turn➖onto {road_number}" translate="yes" otherprops="">onto the {road_number}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in U-turn messages like 'Make a U-turn {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for fork➖to take {road_number}" translate="yes" otherprops="">to take the {road_number}</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{direction_details}➖onto {road_number}" translate="yes" otherprops="">onto the {road_number}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in messages like 'In {distance} exit the roundabout {direction_details}.', 'At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}.', In {distance} take the exit {direction_details}.</fn>
+        <uicontrol id="{direction_details} for turn: left, right➖and continue to follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} toward {toward_name}" translate="yes" otherprops="">and continue to follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in turn messages like 'Turn right {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for fork➖and continue to follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} toward {toward_name}" translate="yes" otherprops="">and continue to follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in street furcation messages like 'In {distance} keep left {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for turn: left, right➖to stay on {road_name} toward {toward_name}" translate="yes" otherprops="">to stay on {road_name} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in turn messages like 'Turn right {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for fork➖to stay on {road_name} toward {toward_name}" translate="yes" otherprops="">to stay on {road_name} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in street furcation messages like 'In {distance} keep left {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for turn: left, right➖and continue to follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case}" translate="yes" otherprops="">and continue to follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in turn messages like 'Turn right {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for fork➖and continue to follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case}" translate="yes" otherprops="">and continue to follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in street furcation messages like 'In {distance} keep left {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for turn: left, right➖to stay on {road_name}" translate="yes" otherprops="">to stay on {road_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in turn messages like 'Turn right {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for fork➖to stay on {road_name}" translate="yes" otherprops="">to stay on {road_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in street furcation messages like 'In {distance} keep left {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for fork➖{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}" translate="yes" otherprops="">{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in street furcation messages like 'In {distance} keep left {direction_details}.'</fn>
+        <uicontrol id="{direction_details}➖{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}" translate="yes" otherprops="">{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in messages like 'In {distance} exit the roundabout {direction_details}.', 'At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}.', In {distance} take the exit {direction_details}.</fn>
+        <uicontrol id="{direction_details} for fork➖{road_name_preposition_and_article_for_into_case} {road_name_for_into_case}" translate="yes" otherprops="">{road_name_preposition_and_article_for_into_case} {road_name_for_into_case}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in street furcation messages like 'In {distance} keep left {direction_details}.'</fn>
+        <uicontrol id="{direction_details}➖{road_name_preposition_and_article_for_into_case} {road_name_for_into_case}" translate="yes" otherprops="">{road_name_preposition_and_article_for_into_case} {road_name_for_into_case}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in messages like 'In {distance} exit the roundabout {direction_details}.', 'At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}.', In {distance} take the exit {direction_details}.</fn>
+        <uicontrol id="{direction_details} for fork➖to take {road_name} toward {toward_name}" translate="yes" otherprops="">to take {road_name} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{direction_details} for fork➖to take {road_name}" translate="yes" otherprops="">to take {road_name}</uicontrol>
+        <fn>(Spoken Text)</fn>
+        <uicontrol id="{direction_details} for turn: go straight➖onto {road_name} toward {toward_name}" translate="yes" otherprops="">onto {road_name} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in go straight messages like 'Go straight {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for U-turn➖onto {road_name} toward {toward_name}" translate="yes" otherprops="">onto {road_name} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in U-turn messages like 'Make a U-turn {direction_details}.'</fn>
+        <uicontrol id="{direction_details}➖onto {road_name} toward {toward_name}" translate="yes" otherprops="">onto {road_name} toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in messages like 'In {distance} exit the roundabout {direction_details}.', 'At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}.', In {distance} take the exit {direction_details}.</fn>
+        <uicontrol id="{direction_details} for turn: go straight➖onto {road_name}" translate="yes" otherprops="">onto {road_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in go straight messages like 'Go straight {direction_details}.'</fn>
+        <uicontrol id="{direction_details} for U-turn➖onto {road_name}" translate="yes" otherprops="">onto {road_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in U-turn messages like 'Make a U-turn {direction_details}.'</fn>
+        <uicontrol id="{direction_details}➖onto {road_name}" translate="yes" otherprops="">onto {road_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in messages like 'In {distance} exit the roundabout {direction_details}.', 'At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}.', In {distance} take the exit {direction_details}.</fn>
+        <uicontrol id="{direction_details}➖toward {toward_name}" translate="yes" otherprops="">toward {toward_name}</uicontrol>
+        <fn>(Spoken Text) String used as a substitute of {direction_details} variable in messages like 'In {distance} exit the roundabout {direction_details}.', 'At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}.', In {distance} take the exit {direction_details}.</fn>
+        <uicontrol id="you are entering {country}➖Afghanistan" translate="yes" otherprops="">Afghanistan</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Albania" translate="yes" otherprops="">Albania</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Algeria" translate="yes" otherprops="">Algeria</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Andorra" translate="yes" otherprops="">Andorra</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Angola" translate="yes" otherprops="">Angola</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Argentina" translate="yes" otherprops="">Argentina</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Armenia" translate="yes" otherprops="">Armenia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Austria" translate="yes" otherprops="">Austria</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Azerbaijan" translate="yes" otherprops="">Azerbaijan</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Bahrain" translate="yes" otherprops="">Bahrain</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Bangladesh" translate="yes" otherprops="">Bangladesh</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Belarus" translate="yes" otherprops="">Belarus</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Belgium" translate="yes" otherprops="">Belgium</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Belize" translate="yes" otherprops="">Belize</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Benin" translate="yes" otherprops="">Benin</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Bhutan" translate="yes" otherprops="">Bhutan</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Bolivia" translate="yes" otherprops="">Bolivia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Bosnia and Herzegowina" translate="yes" otherprops="">Bosnia and Herzegowina</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Botswana" translate="yes" otherprops="">Botswana</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Brazil" translate="yes" otherprops="">Brazil</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Brunei" translate="yes" otherprops="">Brunei</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Bulgaria" translate="yes" otherprops="">Bulgaria</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Burkina Faso" translate="yes" otherprops="">Burkina Faso</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Burundi" translate="yes" otherprops="">Burundi</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Cambodia" translate="yes" otherprops="">Cambodia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Cameroon" translate="yes" otherprops="">Cameroon</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Canada" translate="yes" otherprops="">Canada</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖the Central African Republic" translate="yes" otherprops="">the Central African Republic</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Chad" translate="yes" otherprops="">Chad</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Chile" translate="yes" otherprops="">Chile</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖China" translate="yes" otherprops="">China</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Colombia" translate="yes" otherprops="">Colombia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖the Republic of the Congo" translate="yes" otherprops="">the Republic of the Congo</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖the Democratic Republic of the Congo" translate="yes" otherprops="">the Democratic Republic of the Congo</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Costa Rica" translate="yes" otherprops="">Costa Rica</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Ivory Coast" translate="yes" otherprops="">Ivory Coast</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Croatia" translate="yes" otherprops="">Croatia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Cyprus" translate="yes" otherprops="">Cyprus</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖the Czech Republic" translate="yes" otherprops="">the Czech Republic</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Denmark" translate="yes" otherprops="">Denmark</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Djibouti" translate="yes" otherprops="">Djibouti</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖the Dominican Republic" translate="yes" otherprops="">the Dominican Republic</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖East Timor" translate="yes" otherprops="">East Timor</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Ecuador" translate="yes" otherprops="">Ecuador</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Egypt" translate="yes" otherprops="">Egypt</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖El Salvador" translate="yes" otherprops="">El Salvador</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Equatorial Guinea" translate="yes" otherprops="">Equatorial Guinea</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Eritrea" translate="yes" otherprops="">Eritrea</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Estonia" translate="yes" otherprops="">Estonia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Ethiopia" translate="yes" otherprops="">Ethiopia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Finland" translate="yes" otherprops="">Finland</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖France" translate="yes" otherprops="">France</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖French Guiana" translate="yes" otherprops="">French Guiana</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Gabon" translate="yes" otherprops="">Gabon</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖the Gambia" translate="yes" otherprops="">the Gambia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Georgia" translate="yes" otherprops="">Georgia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Germany" translate="yes" otherprops="">Germany</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Ghana" translate="yes" otherprops="">Ghana</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Gibraltar" translate="yes" otherprops="">Gibraltar</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Greece" translate="yes" otherprops="">Greece</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Guatemala" translate="yes" otherprops="">Guatemala</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Guinea" translate="yes" otherprops="">Guinea</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Guinea-Bissau" translate="yes" otherprops="">Guinea-Bissau</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Guyana" translate="yes" otherprops="">Guyana</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Haiti" translate="yes" otherprops="">Haiti</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Vatican City" translate="yes" otherprops="">Vatican City</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Honduras" translate="yes" otherprops="">Honduras</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Hong Kong" translate="yes" otherprops="">Hong Kong</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Hungary" translate="yes" otherprops="">Hungary</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖India" translate="yes" otherprops="">India</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Indonesia" translate="yes" otherprops="">Indonesia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Iran" translate="yes" otherprops="">Iran</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Iraq" translate="yes" otherprops="">Iraq</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Ireland" translate="yes" otherprops="">Ireland</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Israel" translate="yes" otherprops="">Israel</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Italy" translate="yes" otherprops="">Italy</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Jamaica" translate="yes" otherprops="">Jamaica</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Jordan" translate="yes" otherprops="">Jordan</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Kazakhstan" translate="yes" otherprops="">Kazakhstan</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Kenya" translate="yes" otherprops="">Kenya</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖North Korea" translate="yes" otherprops="">North Korea</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖South Korea" translate="yes" otherprops="">South Korea</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Kosovo" translate="yes" otherprops="">Kosovo</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Kuwait" translate="yes" otherprops="">Kuwait</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Kyrgyzstan" translate="yes" otherprops="">Kyrgyzstan</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Laos" translate="yes" otherprops="">Laos</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Latvia" translate="yes" otherprops="">Latvia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Lebanon" translate="yes" otherprops="">Lebanon</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Lesotho" translate="yes" otherprops="">Lesotho</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Liberia" translate="yes" otherprops="">Liberia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Libya" translate="yes" otherprops="">Libya</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Liechtenstein" translate="yes" otherprops="">Liechtenstein</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Lithuania" translate="yes" otherprops="">Lithuania</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Luxembourg" translate="yes" otherprops="">Luxembourg</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Macau" translate="yes" otherprops="">Macau</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖North Macedonia" translate="yes" otherprops="">North Macedonia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Malawi" translate="yes" otherprops="">Malawi</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Malaysia" translate="yes" otherprops="">Malaysia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Mali" translate="yes" otherprops="">Mali</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Malta" translate="yes" otherprops="">Malta</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Mauritania" translate="yes" otherprops="">Mauritania</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Mexico" translate="yes" otherprops="">Mexico</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Moldova" translate="yes" otherprops="">Moldova</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Monaco" translate="yes" otherprops="">Monaco</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Mongolia" translate="yes" otherprops="">Mongolia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Montenegro" translate="yes" otherprops="">Montenegro</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Morocco" translate="yes" otherprops="">Morocco</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Mozambique" translate="yes" otherprops="">Mozambique</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Myanmar" translate="yes" otherprops="">Myanmar</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Namibia" translate="yes" otherprops="">Namibia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Nepal" translate="yes" otherprops="">Nepal</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖the Netherlands" translate="yes" otherprops="">the Netherlands</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Nicaragua" translate="yes" otherprops="">Nicaragua</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Niger" translate="yes" otherprops="">Niger</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Nigeria" translate="yes" otherprops="">Nigeria</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Norway" translate="yes" otherprops="">Norway</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Oman" translate="yes" otherprops="">Oman</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Pakistan" translate="yes" otherprops="">Pakistan</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Palestine" translate="yes" otherprops="">Palestine</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Panama" translate="yes" otherprops="">Panama</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Papua New Guinea" translate="yes" otherprops="">Papua New Guinea</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Paraguay" translate="yes" otherprops="">Paraguay</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Peru" translate="yes" otherprops="">Peru</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Poland" translate="yes" otherprops="">Poland</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Portugal" translate="yes" otherprops="">Portugal</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Qatar" translate="yes" otherprops="">Qatar</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Romania" translate="yes" otherprops="">Romania</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖the Russian Federation" translate="yes" otherprops="">the Russian Federation</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Rwanda" translate="yes" otherprops="">Rwanda</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Saint Martin" translate="yes" otherprops="">Saint Martin</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖San Marino" translate="yes" otherprops="">San Marino</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Saudi Arabia" translate="yes" otherprops="">Saudi Arabia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Senegal" translate="yes" otherprops="">Senegal</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Serbia" translate="yes" otherprops="">Serbia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Sierra Leone" translate="yes" otherprops="">Sierra Leone</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Singapore" translate="yes" otherprops="">Singapore</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Sint Maarten" translate="yes" otherprops="">Sint Maarten</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Slovakia" translate="yes" otherprops="">Slovakia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Slovenia" translate="yes" otherprops="">Slovenia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Somalia" translate="yes" otherprops="">Somalia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖South Africa" translate="yes" otherprops="">South Africa</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖South Sudan" translate="yes" otherprops="">South Sudan</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Spain" translate="yes" otherprops="">Spain</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Sudan" translate="yes" otherprops="">Sudan</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Suriname" translate="yes" otherprops="">Suriname</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Swaziland" translate="yes" otherprops="">Swaziland</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Sweden" translate="yes" otherprops="">Sweden</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Switzerland" translate="yes" otherprops="">Switzerland</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Syria" translate="yes" otherprops="">Syria</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Tajikistan" translate="yes" otherprops="">Tajikistan</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Tanzania" translate="yes" otherprops="">Tanzania</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Thailand" translate="yes" otherprops="">Thailand</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Timor-Leste" translate="yes" otherprops="">Timor-Leste</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Togo" translate="yes" otherprops="">Togo</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Tunisia" translate="yes" otherprops="">Tunisia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Turkey" translate="yes" otherprops="">Turkey</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Turkmenistan" translate="yes" otherprops="">Turkmenistan</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Uganda" translate="yes" otherprops="">Uganda</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Ukraine" translate="yes" otherprops="">Ukraine</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖the United Arab Emirates" translate="yes" otherprops="">the United Arab Emirates</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖the United Kingdom" translate="yes" otherprops="">the United Kingdom</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖the United States of America" translate="yes" otherprops="">the United States of America</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Uruguay" translate="yes" otherprops="">Uruguay</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Uzbekistan" translate="yes" otherprops="">Uzbekistan</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Venezuela" translate="yes" otherprops="">Venezuela</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Vietnam" translate="yes" otherprops="">Vietnam</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Western Sahara" translate="yes" otherprops="">Western Sahara</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Yemen" translate="yes" otherprops="">Yemen</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Zambia" translate="yes" otherprops="">Zambia</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="you are entering {country}➖Zimbabwe" translate="yes" otherprops="">Zimbabwe</uicontrol>
+        <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
+        <uicontrol id="{roundabout_exit_number}➖first" translate="yes" otherprops="">first</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
+        <uicontrol id="{roundabout_exit_number}➖second" translate="yes" otherprops="">second</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
+        <uicontrol id="{roundabout_exit_number}➖third" translate="yes" otherprops="">third</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
+        <uicontrol id="{roundabout_exit_number}➖fourth" translate="yes" otherprops="">fourth</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
+        <uicontrol id="{roundabout_exit_number}➖fifth" translate="yes" otherprops="">fifth</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
+        <uicontrol id="{roundabout_exit_number}➖sixth" translate="yes" otherprops="">sixth</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
+        <uicontrol id="{roundabout_exit_number}➖seventh" translate="yes" otherprops="">seventh</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
+        <uicontrol id="{roundabout_exit_number}➖eighth" translate="yes" otherprops="">eighth</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
+        <uicontrol id="{roundabout_exit_number}➖ninth" translate="yes" otherprops="">ninth</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
+        <uicontrol id="{roundabout_exit_number}➖tenth" translate="yes" otherprops="">tenth</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
+        <uicontrol id="{roundabout_exit_number}➖eleventh" translate="yes" otherprops="">eleventh</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
+        <uicontrol id="{roundabout_exit_number}➖twelfth" translate="yes" otherprops="">twelfth</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
+        <uicontrol id="{roundabout_exit_number_v2}➖first" translate="yes" otherprops="">first</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
+        <uicontrol id="{roundabout_exit_number_v2}➖second" translate="yes" otherprops="">second</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
+        <uicontrol id="{roundabout_exit_number_v2}➖third" translate="yes" otherprops="">third</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
+        <uicontrol id="{roundabout_exit_number_v2}➖fourth" translate="yes" otherprops="">fourth</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
+        <uicontrol id="{roundabout_exit_number_v2}➖fifth" translate="yes" otherprops="">fifth</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
+        <uicontrol id="{roundabout_exit_number_v2}➖sixth" translate="yes" otherprops="">sixth</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
+        <uicontrol id="{roundabout_exit_number_v2}➖seventh" translate="yes" otherprops="">seventh</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
+        <uicontrol id="{roundabout_exit_number_v2}➖eighth" translate="yes" otherprops="">eighth</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
+        <uicontrol id="{roundabout_exit_number_v2}➖ninth" translate="yes" otherprops="">ninth</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
+        <uicontrol id="{roundabout_exit_number_v2}➖tenth" translate="yes" otherprops="">tenth</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
+        <uicontrol id="{roundabout_exit_number_v2}➖eleventh" translate="yes" otherprops="">eleventh</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
+        <uicontrol id="{roundabout_exit_number_v2}➖twelfth" translate="yes" otherprops="">twelfth</uicontrol>
+        <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
+        <uicontrol id="{landmark}➖at the end of the road" translate="yes" otherprops="">at the end of the road</uicontrol>
+        <fn>(Spoken Text) Used as a substitute of {landmark} placeholder. Ex.: 'In 100 meters {landmark} bear right.' -&gt; 'In 100 meters at the end of the road bear right.'</fn>
+        <uicontrol id="{landmark}➖at the second traffic light" translate="yes" otherprops="">at the second traffic light</uicontrol>
+        <fn>(Spoken Text) Used as a substitute of {landmark} placeholder. Ex.: 'In 100 meters {landmark} bear right.' -&gt; 'In 100 meters at the end of the road bear right.'</fn>
+        <uicontrol id="{landmark}➖at the traffic light" translate="yes" otherprops="">at the traffic light</uicontrol>
+        <fn>(Spoken Text) Used as a substitute of {landmark} placeholder. Ex.: 'In 100 meters {landmark} bear right.' -&gt; 'In 100 meters at the end of the road bear right.'</fn>
+        <uicontrol id="In {distance}➖{count} meter➖{count} meters➖zero" translate="yes" otherprops="">{count} metres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'zero'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} meter➖{count} meters➖one" translate="yes" otherprops="">{count} metre</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'one'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} meter➖{count} meters➖two" translate="yes" otherprops="">{count} metres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'two'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} meter➖{count} meters➖few" translate="yes" otherprops="">{count} metres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'few'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} meter➖{count} meters➖many" translate="yes" otherprops="">{count} metres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'many'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} meter➖{count} meters➖other" translate="yes" otherprops="">{count} metres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'other'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} kilometer➖{count} kilometers➖zero" translate="yes" otherprops="">{count} kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'zero'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} kilometer➖{count} kilometers➖one" translate="yes" otherprops="">{count} kilometre</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'one'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} kilometer➖{count} kilometers➖two" translate="yes" otherprops="">{count} kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'two'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} kilometer➖{count} kilometers➖few" translate="yes" otherprops="">{count} kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'few'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} kilometer➖{count} kilometers➖many" translate="yes" otherprops="">{count} kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'many'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} kilometer➖{count} kilometers➖other" translate="yes" otherprops="">{count} kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'other'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} foot➖{count} feet➖zero" translate="yes" otherprops="">{count} feet</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'zero'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} foot➖{count} feet➖one" translate="yes" otherprops="">{count} foot</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'one'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} foot➖{count} feet➖two" translate="yes" otherprops="">{count} feet</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'two'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} foot➖{count} feet➖few" translate="yes" otherprops="">{count} feet</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'few'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} foot➖{count} feet➖many" translate="yes" otherprops="">{count} feet</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'many'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} foot➖{count} feet➖other" translate="yes" otherprops="">{count} feet</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'other'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} yard➖{count} yards➖zero" translate="yes" otherprops="">{count} yards</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'zero'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} yard➖{count} yards➖one" translate="yes" otherprops="">{count} yard</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'one'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} yard➖{count} yards➖two" translate="yes" otherprops="">{count} yards</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'two'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} yard➖{count} yards➖few" translate="yes" otherprops="">{count} yards</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'few'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} yard➖{count} yards➖many" translate="yes" otherprops="">{count} yards</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'many'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} yard➖{count} yards➖other" translate="yes" otherprops="">{count} yards</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'other'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} mile➖{count} miles➖zero" translate="yes" otherprops="">{count} miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'zero'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} mile➖{count} miles➖one" translate="yes" otherprops="">{count} mile</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'one'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} mile➖{count} miles➖two" translate="yes" otherprops="">{count} miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'two'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} mile➖{count} miles➖few" translate="yes" otherprops="">{count} miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'few'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} mile➖{count} miles➖many" translate="yes" otherprops="">{count} miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'many'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖{count} mile➖{count} miles➖other" translate="yes" otherprops="">{count} miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.' Use plural form of units for the cardinal number {count} from the category 'other'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} meter➖{count} meters➖zero" translate="yes" otherprops="">{count} metres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'zero'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} meter➖{count} meters➖one" translate="yes" otherprops="">{count} metre</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'one'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} meter➖{count} meters➖two" translate="yes" otherprops="">{count} metres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'two'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} meter➖{count} meters➖few" translate="yes" otherprops="">{count} metres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'few'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} meter➖{count} meters➖many" translate="yes" otherprops="">{count} metres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'many'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} meter➖{count} meters➖other" translate="yes" otherprops="">{count} metres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'other'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} kilometer➖{count} kilometers➖zero" translate="yes" otherprops="">{count} kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'zero'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} kilometer➖{count} kilometers➖one" translate="yes" otherprops="">{count} kilometre</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'one'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} kilometer➖{count} kilometers➖two" translate="yes" otherprops="">{count} kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'two'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} kilometer➖{count} kilometers➖few" translate="yes" otherprops="">{count} kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'few'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} kilometer➖{count} kilometers➖many" translate="yes" otherprops="">{count} kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'many'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} kilometer➖{count} kilometers➖other" translate="yes" otherprops="">{count} kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'other'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} foot➖{count} feet➖zero" translate="yes" otherprops="">{count} feet</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'zero'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} foot➖{count} feet➖one" translate="yes" otherprops="">{count} foot</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'one'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} foot➖{count} feet➖two" translate="yes" otherprops="">{count} feet</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'two'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} foot➖{count} feet➖few" translate="yes" otherprops="">{count} feet</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'few'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} foot➖{count} feet➖many" translate="yes" otherprops="">{count} feet</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'many'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} foot➖{count} feet➖other" translate="yes" otherprops="">{count} feet</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'other'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} yard➖{count} yards➖zero" translate="yes" otherprops="">{count} yards</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'zero'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} yard➖{count} yards➖one" translate="yes" otherprops="">{count} yard</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'one'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} yard➖{count} yards➖two" translate="yes" otherprops="">{count} yards</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'two'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} yard➖{count} yards➖few" translate="yes" otherprops="">{count} yards</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'few'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} yard➖{count} yards➖many" translate="yes" otherprops="">{count} yards</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'many'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} yard➖{count} yards➖other" translate="yes" otherprops="">{count} yards</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'other'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} mile➖{count} miles➖zero" translate="yes" otherprops="">{count} miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'zero'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} mile➖{count} miles➖one" translate="yes" otherprops="">{count} mile</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'one'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} mile➖{count} miles➖two" translate="yes" otherprops="">{count} miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'two'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} mile➖{count} miles➖few" translate="yes" otherprops="">{count} miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'few'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} mile➖{count} miles➖many" translate="yes" otherprops="">{count} miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'many'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="follow for {distance}➖{count} mile➖{count} miles➖other" translate="yes" otherprops="">{count} miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.' Use plural form of units for the cardinal number {count} from the category 'other'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} meter➖{count} meters➖zero" translate="yes" otherprops="">{count} metres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'zero'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} meter➖{count} meters➖one" translate="yes" otherprops="">{count} metre</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'one'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} meter➖{count} meters➖two" translate="yes" otherprops="">{count} metres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'two'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} meter➖{count} meters➖few" translate="yes" otherprops="">{count} metres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'few'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} meter➖{count} meters➖many" translate="yes" otherprops="">{count} metres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'many'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} meter➖{count} meters➖other" translate="yes" otherprops="">{count} metres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'other'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} kilometer➖{count} kilometers➖zero" translate="yes" otherprops="">{count} kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'zero'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} kilometer➖{count} kilometers➖one" translate="yes" otherprops="">{count} kilometre</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'one'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} kilometer➖{count} kilometers➖two" translate="yes" otherprops="">{count} kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'two'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} kilometer➖{count} kilometers➖few" translate="yes" otherprops="">{count} kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'few'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} kilometer➖{count} kilometers➖many" translate="yes" otherprops="">{count} kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'many'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} kilometer➖{count} kilometers➖other" translate="yes" otherprops="">{count} kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'other'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} foot➖{count} feet➖zero" translate="yes" otherprops="">{count} feet</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'zero'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} foot➖{count} feet➖one" translate="yes" otherprops="">{count} foot</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'one'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} foot➖{count} feet➖two" translate="yes" otherprops="">{count} feet</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'two'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} foot➖{count} feet➖few" translate="yes" otherprops="">{count} feet</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'few'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} foot➖{count} feet➖many" translate="yes" otherprops="">{count} feet</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'many'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} foot➖{count} feet➖other" translate="yes" otherprops="">{count} feet</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'other'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} yard➖{count} yards➖zero" translate="yes" otherprops="">{count} yards</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'zero'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} yard➖{count} yards➖one" translate="yes" otherprops="">{count} yard</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'one'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} yard➖{count} yards➖two" translate="yes" otherprops="">{count} yards</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'two'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} yard➖{count} yards➖few" translate="yes" otherprops="">{count} yards</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'few'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} yard➖{count} yards➖many" translate="yes" otherprops="">{count} yards</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'many'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} yard➖{count} yards➖other" translate="yes" otherprops="">{count} yards</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'other'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} mile➖{count} miles➖zero" translate="yes" otherprops="">{count} miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'zero'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} mile➖{count} miles➖one" translate="yes" otherprops="">{count} mile</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'one'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} mile➖{count} miles➖two" translate="yes" otherprops="">{count} miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'two'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} mile➖{count} miles➖few" translate="yes" otherprops="">{count} miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'few'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} mile➖{count} miles➖many" translate="yes" otherprops="">{count} miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'many'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="after {distance}➖{count} mile➖{count} miles➖other" translate="yes" otherprops="">{count} miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.' Use plural form of units for the cardinal number {count} from the category 'other'. Keep empty, if the target language does not have this category, see full list of categories: https://unicode-org.github.io/cldr-staging/charts/latest/supplemental/language_plural_rules.html. </fn>
+        <uicontrol id="In {distance}➖a quarter of a mile" translate="yes" otherprops="">a quarter of a mile</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.'</fn>
+        <uicontrol id="In {distance}➖half a mile" translate="yes" otherprops="">half a mile</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.'</fn>
+        <uicontrol id="In {distance}➖three quarters of a mile" translate="yes" otherprops="">three quarters of a mile</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.'</fn>
+        <uicontrol id="In {distance}➖one and a half miles" translate="yes" otherprops="">one and a half miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.'</fn>
+        <uicontrol id="In {distance}➖two and a half miles" translate="yes" otherprops="">two and a half miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.'</fn>
+        <uicontrol id="follow for {distance}➖a quarter of a mile" translate="yes" otherprops="">a quarter of a mile</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.'</fn>
+        <uicontrol id="follow for {distance}➖half a mile" translate="yes" otherprops="">half a mile</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.'</fn>
+        <uicontrol id="follow for {distance}➖three quarters of a mile" translate="yes" otherprops="">three quarters of a mile</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.'</fn>
+        <uicontrol id="follow for {distance}➖one and a half miles" translate="yes" otherprops="">one and a half miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.'</fn>
+        <uicontrol id="follow for {distance}➖two and a half miles" translate="yes" otherprops="">two and a half miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.'</fn>
+        <uicontrol id="In {distance}➖one kilometer" translate="yes" otherprops="">one kilometre</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.'</fn>
+        <uicontrol id="In {distance}➖two kilometers" translate="yes" otherprops="">two kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.'</fn>
+        <uicontrol id="In {distance}➖three kilometers" translate="yes" otherprops="">three kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.'</fn>
+        <uicontrol id="In {distance}➖one mile" translate="yes" otherprops="">one mile</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.'</fn>
+        <uicontrol id="In {distance}➖two miles" translate="yes" otherprops="">two miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.'</fn>
+        <uicontrol id="In {distance}➖three miles" translate="yes" otherprops="">three miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'In {distance} turn left.'</fn>
+        <uicontrol id="follow for {distance}➖one kilometer" translate="yes" otherprops="">one kilometre</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.'</fn>
+        <uicontrol id="follow for {distance}➖two kilometers" translate="yes" otherprops="">two kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.'</fn>
+        <uicontrol id="follow for {distance}➖three kilometers" translate="yes" otherprops="">three kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.'</fn>
+        <uicontrol id="follow for {distance}➖one mile" translate="yes" otherprops="">one mile</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.'</fn>
+        <uicontrol id="follow for {distance}➖two miles" translate="yes" otherprops="">two miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.'</fn>
+        <uicontrol id="follow for {distance}➖three miles" translate="yes" otherprops="">three miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'Follow the road for {distance}.'</fn>
+        <uicontrol id="after {distance}➖one kilometer" translate="yes" otherprops="">one kilometre</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.'</fn>
+        <uicontrol id="after {distance}➖two kilometers" translate="yes" otherprops="">two kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.'</fn>
+        <uicontrol id="after {distance}➖three kilometers" translate="yes" otherprops="">three kilometres</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.'</fn>
+        <uicontrol id="after {distance}➖one mile" translate="yes" otherprops="">one mile</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.'</fn>
+        <uicontrol id="after {distance}➖two miles" translate="yes" otherprops="">two miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.'</fn>
+        <uicontrol id="after {distance}➖three miles" translate="yes" otherprops="">three miles</uicontrol>
+        <fn>(Spoken Text) Distance string used as a substitute of {distance} variable in messages like 'You will reach a ferry after {distance}.'</fn>
+      </screen>
+    </body>
+  </topic>
+</dita>

@@ -1,0 +1,5 @@
+polib~=1.1.1
+docopt~=0.6.2
+lxml~=4.7.1
+parameterized~=0.8.1
+openpyxl~=3.0.7

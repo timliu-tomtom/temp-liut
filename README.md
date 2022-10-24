@@ -97,13 +97,26 @@ LD_LIBRARY_PATH=../lib ./nav-engine --api ... --map /home/ubuntu/Map/HCP3_KOR_42
 // run test in lib
 ./gradlew :structuredSearchComponent:test
 
-
 ```
 
-#### GoSDK ###
+#### GoSDK ####
 ```
-./gradlew :apps:navigation-demo-app:assebleDebug
+./gradlew :apps:navigation-demo-app:assembleDebug
 ./gradlew :search:structured-search-client-api:build
 ./gradlew :search:structured-search-client-api:testDebugUnitTest
 
 ```
+
+#### data inspector ####
+```
+ulimit -n 50000
+```
+
+
+```
+wget --auth-no-challenge --user={what is user name} --ask-password --no-check-certificate https://kc-nds.tomtomgroup.com/file_download/....
+```
+
+wget --auth-no-challenge --user=korea --ask-password https://kc-nds.tomtomgroup.com/file_download/ccae34530160805d5528bc0c08a17984a3c2f4d9/HCP3_KOR_43_22M3_ER026.0.tar --no-check-certificate
+
+

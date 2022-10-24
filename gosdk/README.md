@@ -41,3 +41,17 @@ cmVmdGtuOjAxOjE2OTA0NDcwOTA6Tmt1cjNPd2NzbDMyR1RSYnpBRXVMY0p5MFB Z
 abstract class(.|\n)*data class
 interface(.|\n)*data class
 ```
+
+doc question
+* Android
+** Where/how delopy
+** how to update
+** how to deploy image
+** private in android not in ios ?
+
+* iOS
+
+@Piotr Jozwiak - GO SDK - grants access to customers for documentation
+https://confluence.tomtomgroup.com/display/GOSDK/GO+SDK+Documentation+Guidelines
+https://confluence.tomtomgroup.com/display/GOSDK/Epic%3A+HorizonEngine
+https://confluence.tomtomgroup.com/display/GOSDK/Script+to+generate+a+demo+page

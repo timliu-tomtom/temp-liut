@@ -3,6 +3,10 @@ nk1
 https://fs-eu.tomtomgroup.com/adfs/ls/IdpInitiatedSignOn.aspx
 https://fs-tt.tomtomgroup.com/adfs/ls/IdpInitiatedSignOn.aspx
 
+https://signin.aws.amazon.com/saml
+https://ap-northeast-2.console.aws.amazon.com/ec2/home?region=ap-northeast-2#Home:
+https://myapplications.microsoft.com/
+
 
 ### nk1 training ###
 DataAccess Ring Example \
