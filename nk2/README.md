@@ -94,6 +94,11 @@ run search-onboard-service-app, (in conan build, specify searchlib:build_type=de
 go to build, find xxx.cmake find searchlib hash code
 open .conan/<hash code>/xxx.cpp and set break point
 
+```
+gdb> p (char*) admin_area_names.country_code
+```
+https://stackoverflow.com/questions/46782354/c-debug-window-showing-incomplete-type-for-string-variable
+
 
 
 

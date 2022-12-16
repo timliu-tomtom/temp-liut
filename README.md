@@ -9,6 +9,11 @@ find ./* -name \*.cpp -exec grep -nH -A 3 -B 3 --color=auto "xxx" {} \;
 ./build.py -f Linux-x86_64.yaml DataAccess.Standalone.NDSMap.NDSnew.Test.ComponentTest_componenttest.FOR.NDS -m Debug -j4
 ./build.py -f Linux-x86_64.yaml -s Test --gtest_filter TPrecodedLocationsJapanTest.RetrieveLines --test_filters DataAccess.Standalone.NDSMap.NDSnew.Test.ComponentTest_componenttest.FOR.NDS -m Debug -j4
 dependencychecker REGEN
+
+
+./Products.Android.Shared.Adaptations.AndroidJniAdaptation_command.sh
+./Products.Shared.Reference.Adaptations_command.sh
+./Products.Shared.Utils.project_command.sh
 ```
 #### Michi ####
 ```
@@ -97,6 +102,12 @@ LD_LIBRARY_PATH=../lib ./nav-engine --api ... --map /home/ubuntu/Map/HCP3_KOR_42
 // run test in lib
 ./gradlew :structuredSearchComponent:test
 
+./gradlew navigationComponentApi:ktlintFormat
+./gradlew mapDisplayComponentUi:ktlintFormat
+
+ ./gradlew mapDisplayComponentDomain:ktlintFormat mapDisplayComponent:ktlintFormat mapDisplayComponentUi:ktlintFormat mapDisplayComponentNavKit1Ui:ktlintFormat mapDisplayComponentGoSdkUi:ktlintFormat
+
+
 ```
 
 #### GoSDK ####
@@ -115,8 +126,68 @@ ulimit -n 50000
 
 ```
 wget --auth-no-challenge --user={what is user name} --ask-password --no-check-certificate https://kc-nds.tomtomgroup.com/file_download/....
-```
 
 wget --auth-no-challenge --user=korea --ask-password https://kc-nds.tomtomgroup.com/file_download/ccae34530160805d5528bc0c08a17984a3c2f4d9/HCP3_KOR_43_22M3_ER026.0.tar --no-check-certificate
+```
 
 
+#### build automotive app with local michi ####
+```
+cd /home/yanga/GitWorkspace/michi/michi/Build
+
+./build.py -x Android --android-abi x86_64 -m Release --publish Local --publish-version michi-test
+public to maven local
+cd /home/yanga/GitWorkspace/dev-geoexpansion/SDK/ReleaseCreation
+
+./Create_Local_AARs.py --aars michi --version michi-test --arch x86_64 --navkit-version 15.61.38 --git-repository /home/yanga/GitWorkspace/michi/
+
+(--navkit-version 15.61.38 這個要看 /home/yanga/GitWorkspace/michi/michi/Source/navkit_version.properties 裡面的版本)
+modify gradle/tt-libs.versions.toml
+michi = "michi-LOCAL"
+````
+
+
+https://tomtomslack.slack.com/archives/G01BY3V3F6E/p1663052503821019?thread_ts=1662707261.140419&cid=G01BY3V3F6E
+
+
+#### Korea server running nk1
+```
+How to start remote Korea server:
+Local machine:
+> ssh -i hela_dev_0.pem ubuntu@10.144.92.52
+ Remote machine:
+> cd NavKitApp/
+>  export NAVKIT_REFLECTION_PORT=IP4:0.0.0.0:3000
+>  ./NavKitApp.NDS
+```
+
+
+0.93510
+
+
+2022-11-18 10:08:08.969 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, scale 1.19375
+2022-11-18 10:08:08.969 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, inWidth 574, width 685.2125
+2022-11-18 10:08:08.969 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, inHeight 430, height 513.3125
+2022-11-18 10:08:20.423 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, scale 1.19375
+2022-11-18 10:08:20.423 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, inWidth 574, width 685.2125
+2022-11-18 10:08:20.423 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, inHeight 430, height 513.3125
+2022-11-18 10:08:28.712 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, scale 1.19375
+2022-11-18 10:08:28.712 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, inWidth 323, width 385.58127
+2022-11-18 10:08:28.712 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, inHeight 215, height 256.65625
+
+
+2022-11-18 12:42:04.754 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, density 1.19375, 1.19375, 213.0, 213.0
+2022-11-18 12:42:04.754 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, appDensity 1.3312501, 1.3312501, 213.0, 213.0
+2022-11-18 12:42:04.755 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, inWidth 359, width 428.55624, 477.91876
+2022-11-18 12:42:04.755 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, inHeight 269, height 321.11874, 358.10626
+2022-11-18 12:42:04.755 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, image size 2
+2022-11-18 12:42:12.043 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, density 1.19375, 1.19375, 213.0, 213.0
+2022-11-18 12:42:12.043 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, appDensity 1.3312501, 1.3312501, 213.0, 213.0
+2022-11-18 12:42:12.043 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, inWidth 574, width 685.2125, 764.1375
+2022-11-18 12:42:12.043 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, inHeight 430, height 513.3125, 572.43756
+2022-11-18 12:42:12.043 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, image size 2
+2022-11-18 12:42:17.256 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, density 1.19375, 1.19375, 213.0, 213.0
+2022-11-18 12:42:17.256 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, appDensity 1.3312501, 1.3312501, 213.0, 213.0
+2022-11-18 12:42:17.256 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, inWidth 323, width 385.58127, 429.99377
+2022-11-18 12:42:17.257 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, inHeight 215, height 256.65625, 286.21878
+2022-11-18 12:42:17.257 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, image size 1

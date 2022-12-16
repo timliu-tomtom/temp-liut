@@ -55,3 +55,17 @@ doc question
 https://confluence.tomtomgroup.com/display/GOSDK/GO+SDK+Documentation+Guidelines
 https://confluence.tomtomgroup.com/display/GOSDK/Epic%3A+HorizonEngine
 https://confluence.tomtomgroup.com/display/GOSDK/Script+to+generate+a+demo+page
+
+     Caused by: java.lang.IllegalStateException: Instance has been closed.
+        at com.tomtom.sdk.location.android.AndroidLocationProvider.checkNotClosed(AndroidLocationProvider.kt:229)
+
+        Caused by: java.lang.IllegalStateException: Instance has been closed.
+        at com.tomtom.sdk.location.android.AndroidLocationProvider.checkNotClosed(AndroidLocationProvider.kt:229)
+        at com.tomtom.sdk.location.android.AndroidLocationProvider.removeOnLocationUpdateListener(AndroidLocationProvider.kt:187)
+        at com.tomtom.sdk.map.display.location.DefaultLocationController.dispose(DefaultLocationController.kt:100)
+        at com.tomtom.sdk.common.CompositeDisposable.dispose(CompositeDisposable.kt:48)
+        at com.tomtom.sdk.map.display.TomTomMapProvider.close(TomTomMapProvider.kt:262)
+        at com.tomtom.sdk.map.display.ui.MapView.onDestroy(MapView.kt:227)
+        at com.tomtom.sdk.map.display.ui.MapFragment.onDestroy(MapFragment.kt:148)
+        at androidx.fragment.app.Fragment.performDestroy(Fragment.java:3360)
+        at androidx.fragment.app.FragmentStateManager.destroy(FragmentStateManager.java:781)

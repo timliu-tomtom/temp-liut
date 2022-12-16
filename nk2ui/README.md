@@ -295,6 +295,25 @@ total 168525
 
 
 
+We had discussed some options
+a. MapDisplay expose junction view drawable via MapDisplayComponentApi -> Declined
+b. Navigation passes a container tag to MapDisplay. And MapDisplay display JunctionViewFragment in the container, also provide another event indicating whether junction view is displayed or not. Navigation and MapDisplay are communicated via routed event -> What in the PR currently
+
+Meanwhile I am wondering if another option c is acceptable - MapDisplay expose junction view drawable via routed event
+The reason is, in GoSDK, junction view will highly possible to be from NavigationApi and NavigationComponent could directly use it. So in this way nk1 and GoSDK is more aligned that NavigationComponent is consuming a junction view drawable
+(There was plan to put junction view in navigation-trip in nk2, but it was de-scoped and never implemented. GoSDK will tend to this direction )
+
+
+
+
+
+alt1
+
+https://nds.tomtomgroup.com/webviewer/12093/?action=GetRoute%3FSRS%3DEPSG%3A3857%26lon0%3D13529407.899651%26lat0%3D2875328.8045277%26scale0%3D4265.459167699569%26lon1%3D13534042.857638%26lat1%3D2882465.3840166%26scale1%3D2132.7295838497844%26zoomTo%3Dtrue%26panTo%3Dtrue%26lang%3DNULL%26poiCategoryCollectionId%3D0%26iconCollectionId%3D0%26disputantId%3D0%26routingService%3D0%26theme%3DDEFAULT%26routeType%3DTIME_WITH_PENALTY%26vehicleType%3DPERSONAL_CAR%26labeling%3Dtrue%26icons%3Dtrue&zoom=13.976568441529322&lat=25.02691&lon=121.55617&iconCollectionId=0&disputantId=0&lang=NULL&theme=DEFAULT&routeType=TIME_WITH_PENALTY&vehicleType=PERSONAL_CAR&labeling=true&icons=true&layers=FFFBFFFFFFF00F0FFTTF0000T&&poiCategoryCollectionId=0&routingService=0
+
+imgId 1435
+imgId 1820
+opt imgId 1394
 
 
 
@@ -302,17 +321,27 @@ total 168525
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+2022-12-04 01:43:39.634  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, before, warning 0, main 200, confirm 60, action 107
+2022-12-04 01:43:39.634  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, after, warning 0, main 200, confirm 60, action 107
+2022-12-04 01:43:39.641  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, is freeway, distance not change, warning 2000, main 800, confirm 400, action 14
+2022-12-04 01:43:39.642  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, before, warning 600, main 300, confirm 64, action 7
+2022-12-04 01:43:39.642  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, after, warning 600, main 300, confirm 64, action 7
+2022-12-04 01:43:39.654  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, before, warning 600, main 300, confirm 70, action 7
+2022-12-04 01:43:39.654  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, after, warning 600, main 300, confirm 70, action 7
+2022-12-04 01:43:39.656  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, is freeway, distance not change, warning 2000, main 800, confirm 144, action 16
+2022-12-04 01:43:39.775  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, before, warning 0, main 200, confirm 60, action 107
+2022-12-04 01:43:39.775  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, after, warning 0, main 200, confirm 60, action 107
+2022-12-04 01:43:39.775  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, is freeway, distance not change, warning 2000, main 800, confirm 400, action 14
+2022-12-04 01:43:39.775  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, before, warning 600, main 300, confirm 64, action 7
+2022-12-04 01:43:39.775  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, after, warning 600, main 300, confirm 64, action 7
+2022-12-04 01:43:39.775  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, before, warning 600, main 300, confirm 70, action 7
+2022-12-04 01:43:39.775  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, after, warning 600, main 300, confirm 70, action 7
+2022-12-04 01:43:39.777  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, is freeway, distance not change, warning 2000, main 800, confirm 144, action 16
+2022-12-04 01:43:39.782  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, before, warning 800, main 500, confirm 60, action 4
+2022-12-04 01:43:39.782  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, after, warning 700, main 300, confirm 60, action 4
+2022-12-04 01:43:39.891  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, before, warning 400, main 200, confirm 60, action 7
+2022-12-04 01:43:39.891  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, after, warning 400, main 200, confirm 60, action 7
+2022-12-04 01:43:40.038  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, before, warning 0, main 100, confirm 32, action 105
+2022-12-04 01:43:40.038  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, after, warning 0, main 100, confirm 32, action 105
+2022-12-04 01:43:40.039  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, before, warning 0, main 100, confirm 50, action 5
+2022-12-04 01:43:40.039  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, after, warning 0, main 100, confirm 50, action 5

@@ -71,155 +71,155 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} bear right at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} を斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} bear right {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} で斜め右に進み、{direction_details} 方面へ向かいます。</uicontrol>
+        <uicontrol id="In {distance} {landmark} bear right {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} 斜め右に進み、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} bear right {direction_details}." translate="yes" otherprops="">{distance} 先、斜め右に進み、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} bear right." translate="yes" otherprops="">{distance} 先、{landmark} で斜め右に進んでください。</uicontrol>
+        <uicontrol id="In {distance} {landmark} bear right." translate="yes" otherprops="">{distance} 先、{landmark} 斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} bear right." translate="yes" otherprops="">{distance} 先、斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Bear right at {intersection_name}." translate="yes" otherprops="">{intersection_name} を斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} bear right {direction_details}." translate="yes" otherprops="">{landmark} で斜め右に進み、{direction_details} 方面へ向かいます。</uicontrol>
+        <uicontrol id="{landmark} bear right {direction_details}." translate="yes" otherprops="">{landmark} 斜め右に進み、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Bear right {direction_details}." translate="yes" otherprops="">斜め右に進み、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then bear right." translate="yes" otherprops="">続いて、斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} bear right." translate="yes" otherprops="">{landmark} で右に進んでください。</uicontrol>
+        <uicontrol id="{landmark} bear right." translate="yes" otherprops="">{landmark} 斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Bear right." translate="yes" otherprops="">右に進んでください.</uicontrol>
+        <uicontrol id="Bear right." translate="yes" otherprops="">斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} turn right at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} を右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} turn right {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} で右折して、{direction_details} 方面へ向かいます。</uicontrol>
+        <uicontrol id="In {distance} {landmark} turn right {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} 右折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} turn right {direction_details}." translate="yes" otherprops="">{distance} 先、右折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} turn right." translate="yes" otherprops="">{distance} 先、{landmark} で右折してください。</uicontrol>
+        <uicontrol id="In {distance} {landmark} turn right." translate="yes" otherprops="">{distance} 先、{landmark} 右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} turn right." translate="yes" otherprops="">{distance} 先、右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Turn right at {intersection_name}." translate="yes" otherprops="">{intersection_name} を右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} turn right {direction_details}." translate="yes" otherprops="">{landmark} で右折して、{direction_details} 方面へ向かいます。</uicontrol>
+        <uicontrol id="{landmark} turn right {direction_details}." translate="yes" otherprops="">{landmark} 右折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Turn right {direction_details}." translate="yes" otherprops="">右折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then turn right." translate="yes" otherprops="">続いて、右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} turn right." translate="yes" otherprops="">{landmark} で右折してください。</uicontrol>
+        <uicontrol id="{landmark} turn right." translate="yes" otherprops="">{landmark} 右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Turn right." translate="yes" otherprops="">右折してください.</uicontrol>
+        <uicontrol id="Turn right." translate="yes" otherprops="">右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} make a sharp right turn at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} を大きく右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} make a sharp right turn {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} で大きく右折して、{direction_details} 方面へ向かいます。</uicontrol>
+        <uicontrol id="In {distance} {landmark} make a sharp right turn {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} 大きく右折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} make a sharp right turn {direction_details}." translate="yes" otherprops="">{distance} 先、大きく右折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} make a sharp right turn." translate="yes" otherprops="">{distance} 先、{landmark} で大きく右折してください。</uicontrol>
+        <uicontrol id="In {distance} {landmark} make a sharp right turn." translate="yes" otherprops="">{distance} 先、{landmark} 大きく右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} make a sharp right turn." translate="yes" otherprops="">{distance} 先、大きく右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Make a sharp right turn at {intersection_name}." translate="yes" otherprops="">{intersection_name} を大きく右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} make a sharp right turn {direction_details}." translate="yes" otherprops="">{landmark} で大きく右折して、{direction_details} 方面へ向かいます。</uicontrol>
+        <uicontrol id="{landmark} make a sharp right turn {direction_details}." translate="yes" otherprops="">{landmark} 大きく右折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Make a sharp right turn {direction_details}." translate="yes" otherprops="">大きく右折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then make a sharp right turn." translate="yes" otherprops="">続いて、大きく右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} make a sharp right turn." translate="yes" otherprops="">{landmark} で、大きく右折してください。</uicontrol>
+        <uicontrol id="{landmark} make a sharp right turn." translate="yes" otherprops="">{landmark} 大きく右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Make a sharp right turn." translate="yes" otherprops="">大きく右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} bear left at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} を斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} bear left {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} で斜め左に進み、{direction_details} 方面へ向かいます。</uicontrol>
+        <uicontrol id="In {distance} {landmark} bear left {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} 斜め左に進み、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} bear left {direction_details}." translate="yes" otherprops="">{distance} 先、斜め左に進み、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} bear left." translate="yes" otherprops="">{distance} 先、{landmark} で斜め左に進んでください。</uicontrol>
+        <uicontrol id="In {distance} {landmark} bear left." translate="yes" otherprops="">{distance} 先、{landmark} 斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} bear left." translate="yes" otherprops="">{distance} 先、斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Bear left at {intersection_name}." translate="yes" otherprops="">{intersection_name} を斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} bear left {direction_details}." translate="yes" otherprops="">{landmark} で斜め左に進み、{direction_details} 方面へ向かいます。</uicontrol>
+        <uicontrol id="{landmark} bear left {direction_details}." translate="yes" otherprops="">{landmark} 斜め左に進み、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Bear left {direction_details}." translate="yes" otherprops="">斜め左に進み、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then bear left." translate="yes" otherprops="">続いて、斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} bear left." translate="yes" otherprops="">{landmark} で斜め左に進んでください。</uicontrol>
+        <uicontrol id="{landmark} bear left." translate="yes" otherprops="">{landmark} 斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Bear left." translate="yes" otherprops="">斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} turn left at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} を左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} turn left {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} で左折して、{direction_details} 方面へ向かいます。</uicontrol>
+        <uicontrol id="In {distance} {landmark} turn left {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} 左折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} turn left {direction_details}." translate="yes" otherprops="">{distance} 先、左折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} turn left." translate="yes" otherprops="">{distance} 先、{landmark} で左折してください。</uicontrol>
+        <uicontrol id="In {distance} {landmark} turn left." translate="yes" otherprops="">{distance} 先、{landmark} 左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} turn left." translate="yes" otherprops="">{distance} 先、左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Turn left at {intersection_name}." translate="yes" otherprops="">{intersection_name} を左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} turn left {direction_details}." translate="yes" otherprops="">{landmark} で左折して、{direction_details} 方面へ向かいます。</uicontrol>
+        <uicontrol id="{landmark} turn left {direction_details}." translate="yes" otherprops="">{landmark} 左折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Turn left {direction_details}." translate="yes" otherprops="">左折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then turn left." translate="yes" otherprops="">続いて、左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} turn left." translate="yes" otherprops="">{landmark} で左折してください。</uicontrol>
+        <uicontrol id="{landmark} turn left." translate="yes" otherprops="">{landmark} 左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Turn left." translate="yes" otherprops="">左折してください.</uicontrol>
+        <uicontrol id="Turn left." translate="yes" otherprops="">左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} make a sharp left turn at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} を大きく左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} make a sharp left turn {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} で大きく左折して、{direction_details} 方面へ向かいます。</uicontrol>
+        <uicontrol id="In {distance} {landmark} make a sharp left turn {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} 大きく左折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} make a sharp left turn {direction_details}." translate="yes" otherprops="">{distance} 先、大きく左折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} make a sharp left turn." translate="yes" otherprops="">{distance} 先、{landmark} で大きく左折してください。</uicontrol>
+        <uicontrol id="In {distance} {landmark} make a sharp left turn." translate="yes" otherprops="">{distance} 先、{landmark} 大きく左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} make a sharp left turn." translate="yes" otherprops="">{distance} 先、大きく左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Make a sharp left turn at {intersection_name}." translate="yes" otherprops="">{intersection_name} を大きく左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} make a sharp left turn {direction_details}." translate="yes" otherprops="">{landmark} で大きく左折して、{direction_details} 方面へ向かいます。</uicontrol>
+        <uicontrol id="{landmark} make a sharp left turn {direction_details}." translate="yes" otherprops="">{landmark} 大きく左折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Make a sharp left turn {direction_details}." translate="yes" otherprops="">大きく左折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then make a sharp left turn." translate="yes" otherprops="">続いて、大きく左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} make a sharp left turn." translate="yes" otherprops="">{landmark} で、大きく左折してください。</uicontrol>
+        <uicontrol id="{landmark} make a sharp left turn." translate="yes" otherprops="">{landmark} 大きく左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Make a sharp left turn." translate="yes" otherprops="">大きく左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} make a U-turn at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} make a U-turn {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} で Uターンして、{direction_details} 方面へ向かいます。</uicontrol>
+        <uicontrol id="In {distance} {landmark} make a U-turn {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} Uターンして、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} make a U-turn {direction_details}." translate="yes" otherprops="">{distance} 先で Uターンして、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} make a U-turn." translate="yes" otherprops="">{distance} 先、{landmark} で Uターンしてください。</uicontrol>
+        <uicontrol id="In {distance} {landmark} make a U-turn." translate="yes" otherprops="">{distance} 先、{landmark} Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} make a U-turn." translate="yes" otherprops="">{distance} 先で Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Make a U-turn at {intersection_name}." translate="yes" otherprops="">{intersection_name} で Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} make a U-turn {direction_details}." translate="yes" otherprops="">{landmark} で Uターンして、{direction_details} 方面へ向かいます。</uicontrol>
+        <uicontrol id="{landmark} make a U-turn {direction_details}." translate="yes" otherprops="">{landmark} Uターンして、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Make a U-turn {direction_details}." translate="yes" otherprops="">Uターンして、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then make a U-turn." translate="yes" otherprops="">続いて、Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} make a U-turn." translate="yes" otherprops="">{landmark} で Uターンしてください。</uicontrol>
+        <uicontrol id="{landmark} make a U-turn." translate="yes" otherprops="">{landmark} Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Make a U-turn." translate="yes" otherprops="">Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -527,7 +527,7 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Keep left {direction_details}." translate="yes" otherprops="">左車線を走行して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Keep left." translate="yes" otherprops="">左車線を走行してください.</uicontrol>
+        <uicontrol id="Keep left." translate="yes" otherprops="">左車線を走行してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} keep right at {intersection_name} toward {toward_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で右車線を走行して、{toward_name} 方面へ進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -631,15 +631,15 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="roundabout slight right➖At the roundabout go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight left➖At the roundabout go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} の出口から出てください。。</uicontrol>
+        <uicontrol id="roundabout slight left➖At the roundabout go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} の出口から出てください。。</uicontrol>
+        <uicontrol id="At the roundabout go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="At the roundabout make a U-turn, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で Uターンし、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="roundabout slight right➖At the roundabout turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で右折し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout sharp right➖At the roundabout turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で右折し、{roundabout_exit_number} の出口から出てください。。</uicontrol>
+        <uicontrol id="roundabout sharp right➖At the roundabout turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で右折し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="At the roundabout turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で右折し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -671,7 +671,7 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then take the ferry." translate="yes" otherprops="">続いて、フェリーに乗ってください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Take the ferry." translate="yes" otherprops="">フェリーに乗ってください.</uicontrol>
+        <uicontrol id="Take the ferry." translate="yes" otherprops="">フェリーに乗ってください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then take the train." translate="yes" otherprops="">続いて、列車に乗ってください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -1141,7 +1141,7 @@
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
         <uicontrol id="{roundabout_exit_number}➖twelfth" translate="yes" otherprops="">12番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
-        <uicontrol id="{roundabout_exit_number_v2}➖first" translate="yes" otherprops="">1 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number_v2}➖first" translate="yes" otherprops="">1番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
         <uicontrol id="{roundabout_exit_number_v2}➖second" translate="yes" otherprops="">2番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
