@@ -345,3 +345,11 @@ opt imgId 1394
 2022-12-04 01:43:40.038  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, after, warning 0, main 100, confirm 32, action 105
 2022-12-04 01:43:40.039  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, before, warning 0, main 100, confirm 50, action 5
 2022-12-04 01:43:40.039  4013-4216  NavCorestdout           com.tomtom.navapp                    I  TTDebug2, CapJapanInstructionDistance, after, warning 0, main 100, confirm 50, action 5
+
+
+===
+highway facility, duplicated parking/ev under SA and standalone
+https://tomtomslack.slack.com/archives/C03BAE02AL9/p1661932250519389
+
+route entry offset
+https://tomtomslack.slack.com/archives/C03M86DKC5Q/p1660627155156949
