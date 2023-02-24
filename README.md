@@ -144,7 +144,7 @@ cd /home/yanga/GitWorkspace/dev-geoexpansion/SDK/ReleaseCreation
 (--navkit-version 15.61.38 這個要看 /home/yanga/GitWorkspace/michi/michi/Source/navkit_version.properties 裡面的版本)
 modify gradle/tt-libs.versions.toml
 michi = "michi-LOCAL"
-````
+```
 
 
 https://tomtomslack.slack.com/archives/G01BY3V3F6E/p1663052503821019?thread_ts=1662707261.140419&cid=G01BY3V3F6E
@@ -161,33 +161,18 @@ Local machine:
 >  ./NavKitApp.NDS
 ```
 
+#### 
+```
+sysctl -w fs.file-max=500000
 
-0.93510
+// /etc/security/limits.conf
+#<domain>      <type>  <item>         <value>
+*                soft   nofile          4096
+*                hard   nofile          50000
 
+// restart 
+# sudo sh -c "ulimit -n 65535 && exec su $LOGNAME"
+# ulimit -nh
+50000
 
-2022-11-18 10:08:08.969 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, scale 1.19375
-2022-11-18 10:08:08.969 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, inWidth 574, width 685.2125
-2022-11-18 10:08:08.969 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, inHeight 430, height 513.3125
-2022-11-18 10:08:20.423 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, scale 1.19375
-2022-11-18 10:08:20.423 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, inWidth 574, width 685.2125
-2022-11-18 10:08:20.423 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, inHeight 430, height 513.3125
-2022-11-18 10:08:28.712 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, scale 1.19375
-2022-11-18 10:08:28.712 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, inWidth 323, width 385.58127
-2022-11-18 10:08:28.712 2100-2100/com.tomtom.navapp E/MapFragment: TTDebug, inHeight 215, height 256.65625
-
-
-2022-11-18 12:42:04.754 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, density 1.19375, 1.19375, 213.0, 213.0
-2022-11-18 12:42:04.754 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, appDensity 1.3312501, 1.3312501, 213.0, 213.0
-2022-11-18 12:42:04.755 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, inWidth 359, width 428.55624, 477.91876
-2022-11-18 12:42:04.755 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, inHeight 269, height 321.11874, 358.10626
-2022-11-18 12:42:04.755 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, image size 2
-2022-11-18 12:42:12.043 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, density 1.19375, 1.19375, 213.0, 213.0
-2022-11-18 12:42:12.043 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, appDensity 1.3312501, 1.3312501, 213.0, 213.0
-2022-11-18 12:42:12.043 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, inWidth 574, width 685.2125, 764.1375
-2022-11-18 12:42:12.043 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, inHeight 430, height 513.3125, 572.43756
-2022-11-18 12:42:12.043 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, image size 2
-2022-11-18 12:42:17.256 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, density 1.19375, 1.19375, 213.0, 213.0
-2022-11-18 12:42:17.256 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, appDensity 1.3312501, 1.3312501, 213.0, 213.0
-2022-11-18 12:42:17.256 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, inWidth 323, width 385.58127, 429.99377
-2022-11-18 12:42:17.257 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, inHeight 215, height 256.65625, 286.21878
-2022-11-18 12:42:17.257 13264-13264/com.tomtom.navapp E/MapFragment: TTDebug, image size 1
+```

@@ -43,6 +43,10 @@ elif [ "$map_option" == "tw" ]
 then
   map_path="/home/liut/TT/maps/NDS_AutomotiveReference_2017.03_2.4.3_TWN_jv_test/DATA"
   keystore_path="/home/liut/TT/maps/NAVKIT_DEV.NKS"
+elif [ "$map_option" == "bmw" ]
+then
+  map_path="/home/liut/TT/maps/NDS_BMW_Motorrad_2021.12_2.4.6_JPN_1222_Sample_V1_WOM/DATA"
+  keystore_path="/home/liut/TT/maps/NK_BMW_1.NKS"
 else
   map_path="/home/liut//TT/maps/NDS_Automotive_2020.06_2.4.6_JPN_1120_V1/DATA"
   keystore_path="/home/liut/TT/maps/NK_AUTO_DEV.NKS"

@@ -61,10 +61,10 @@ def main():
     en_tree = etree.parse('en-GB.xml')
     en_root = en_tree.getroot()
 
-    ja_tree = etree.parse('ja-JP.xml')
+    ja_tree = etree.parse('vi-VN.xml')
     ja_root = ja_tree.getroot()
 
-    updated_ja_tree = etree.parse('updated-ja-JP.xml')
+    updated_ja_tree = etree.parse('updated-vi-VN.xml')
     updated_ja_root = updated_ja_tree.getroot()
 
     row = 2

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dita xml:lang="ja-JP">
-  <topic product="NAVKIT2.tomtom.com" rev="0.2.0">
+  <topic product="NAVKIT2.tomtom.com" rev="0.2.1">
     <body>
       <screen>
-        <uicontrol id="Follow {road_number} for {distance}." translate="yes" otherprops="">{road_number} 号線を {distance} 進んでください。</uicontrol>
+        <uicontrol id="Follow {road_number} for {distance}." translate="yes" otherprops="">{road_number} を {distance} 進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} for {distance}." translate="yes" otherprops="">{road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} を {distance} 進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -17,209 +17,209 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="You are entering {country}." translate="yes" otherprops="">{country} に入ります。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Start driving on {road_number}." translate="yes" otherprops="">{road_number} 号線の走行を開始してください。</uicontrol>
+        <uicontrol id="Start driving on {road_number}." translate="yes" otherprops="">{road_number} の走行を開始してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Start driving on {road_name}." translate="yes" otherprops="">{road_name} の走行を開始してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Start driving." translate="yes" otherprops="">走行を開始してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="You have reached your destination at {road_number}. It is on the right." translate="yes" otherprops="">{road_number} 号線の目的地に到着しました。右側にあります。</uicontrol>
+        <uicontrol id="You have reached your destination at {road_number}. It is on the right." translate="yes" otherprops="">{road_number} の目的地に到着しました。目的地は右側です。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="You have reached your destination at {road_name}. It is on the right." translate="yes" otherprops="">{road_name} の目的地に到着しました。右側にあります。</uicontrol>
+        <uicontrol id="You have reached your destination at {road_name}. It is on the right." translate="yes" otherprops="">{road_name} の目的地に到着しました。目的地は右側です。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="You have reached your destination, it is on the right." translate="yes" otherprops="">目的地に到着しました。右側にあります。</uicontrol>
+        <uicontrol id="You have reached your destination, it is on the right." translate="yes" otherprops="">目的地に到着しました。目的地は右側です。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="You have reached your destination at {road_number}. It is on the left." translate="yes" otherprops="">{road_number} 号線の目的地に到着しました。左側にあります。</uicontrol>
+        <uicontrol id="You have reached your destination at {road_number}. It is on the left." translate="yes" otherprops="">{road_number} の目的地に到着しました。目的地は左側です。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="You have reached your destination at {road_name}. It is on the left." translate="yes" otherprops="">{road_name} の目的地に到着しました。左側にあります。</uicontrol>
+        <uicontrol id="You have reached your destination at {road_name}. It is on the left." translate="yes" otherprops="">{road_name} の目的地に到着しました。目的地は左側です。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="You have reached your destination, it is on the left." translate="yes" otherprops="">目的地に到着しました。左側にあります。</uicontrol>
+        <uicontrol id="You have reached your destination, it is on the left." translate="yes" otherprops="">目的地に到着しました。目的地は左側です。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} you will reach your destination." translate="yes" otherprops="">あと {distance} で目的地に到着します。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="You have reached your destination." translate="yes" otherprops="">目的地に到着しました。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="You have reached your stop at {road_number}. It is on the right." translate="yes" otherprops="">{road_number} 号線の経由地に到着しました。右側にあります。</uicontrol>
+        <uicontrol id="You have reached your stop at {road_number}. It is on the right." translate="yes" otherprops="">{road_number} の経由地に到着しました。経由地は右側です。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="You have reached your stop at {road_name}. It is on the right." translate="yes" otherprops="">{road_name} の経由地に到着しました。右側にあります。</uicontrol>
+        <uicontrol id="You have reached your stop at {road_name}. It is on the right." translate="yes" otherprops="">{road_name} の経由地に到着しました。経由地は右側です。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="You have reached your stop, it is on the right." translate="yes" otherprops="">経由地に到着しました。右側にあります。</uicontrol>
+        <uicontrol id="You have reached your stop, it is on the right." translate="yes" otherprops="">経由地に到着しました。経由地は右側です。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="You have reached your stop at {road_number}. It is on the left." translate="yes" otherprops="">{road_number} 号線の経由地に到着しました。左側にあります。</uicontrol>
+        <uicontrol id="You have reached your stop at {road_number}. It is on the left." translate="yes" otherprops="">{road_number} の経由地に到着しました。経由地は左側です。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="You have reached your stop at {road_name}. It is on the left." translate="yes" otherprops="">{road_name} の経由地に到着しました。左側にあります。</uicontrol>
+        <uicontrol id="You have reached your stop at {road_name}. It is on the left." translate="yes" otherprops="">{road_name} の経由地に到着しました。経由地は左側です。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="You have reached your stop, it is on the left." translate="yes" otherprops="">経由地に到着しました。左側にあります。</uicontrol>
+        <uicontrol id="You have reached your stop, it is on the left." translate="yes" otherprops="">経由地に到着しました。経由地は左側です。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} you will reach your stop." translate="yes" otherprops="">あと {distance} で経由地に到着します。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="You have reached your stop at {road_number}." translate="yes" otherprops="">{road_number} 号線の経由地に到着しました。</uicontrol>
+        <uicontrol id="You have reached your stop at {road_number}." translate="yes" otherprops="">{road_number} の経由地に到着しました。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="You have reached your stop at {road_name}." translate="yes" otherprops="">{road_name} の経由地に到着しました。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="You have reached your stop." translate="yes" otherprops="">経由地に到着しました。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} go straight {direction_details}." translate="yes" otherprops="">{distance} 先、直進してください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} go straight {direction_details}." translate="yes" otherprops="">{distance} 先、{direction_details} 方面に直進してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} go straight." translate="yes" otherprops="">{distance} 先、直進してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Go straight {direction_details}." translate="yes" otherprops="">直進してください {direction_details}。</uicontrol>
+        <uicontrol id="Go straight {direction_details}." translate="yes" otherprops="">{direction_details} 方面に直進してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then go straight." translate="yes" otherprops="">続いて、直進してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Go straight." translate="yes" otherprops="">直進してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} bear right at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} を右に進んでください。</uicontrol>
+        <uicontrol id="In {distance} bear right at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} を斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} bear right {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} で右に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} {landmark} bear right {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} 斜め右に進み、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} bear right {direction_details}." translate="yes" otherprops="">{distance} 先、右に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} bear right {direction_details}." translate="yes" otherprops="">{distance} 先、斜め右に進み、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} bear right." translate="yes" otherprops="">{distance} 先、{landmark} で右に進んでください。</uicontrol>
+        <uicontrol id="In {distance} {landmark} bear right." translate="yes" otherprops="">{distance} 先、{landmark} 斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} bear right." translate="yes" otherprops="">{distance} 先、右に進んでください。</uicontrol>
+        <uicontrol id="In {distance} bear right." translate="yes" otherprops="">{distance} 先、斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Bear right at {intersection_name}." translate="yes" otherprops="">{intersection_name} を右に進んでください。</uicontrol>
+        <uicontrol id="Bear right at {intersection_name}." translate="yes" otherprops="">{intersection_name} を斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} bear right {direction_details}." translate="yes" otherprops="">{landmark} で右に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="{landmark} bear right {direction_details}." translate="yes" otherprops="">{landmark} 斜め右に進み、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Bear right {direction_details}." translate="yes" otherprops="">右に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="Bear right {direction_details}." translate="yes" otherprops="">斜め右に進み、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Then bear right." translate="yes" otherprops="">続いて、右に進んでください。</uicontrol>
+        <uicontrol id="Then bear right." translate="yes" otherprops="">続いて、斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} bear right." translate="yes" otherprops="">{landmark} で右に進んでください。</uicontrol>
+        <uicontrol id="{landmark} bear right." translate="yes" otherprops="">斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Bear right." translate="yes" otherprops="">右に進んでください.</uicontrol>
+        <uicontrol id="Bear right." translate="yes" otherprops="">斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} turn right at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} を右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} turn right {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} で右折してください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} {landmark} turn right {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} 右折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} turn right {direction_details}." translate="yes" otherprops="">{distance} 先、右折してください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} turn right {direction_details}." translate="yes" otherprops="">{distance} 先、右折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} turn right." translate="yes" otherprops="">{distance} 先、{landmark} で右折してください。</uicontrol>
+        <uicontrol id="In {distance} {landmark} turn right." translate="yes" otherprops="">{distance} 先、{landmark} 右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} turn right." translate="yes" otherprops="">{distance} 先、右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Turn right at {intersection_name}." translate="yes" otherprops="">{intersection_name} を右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} turn right {direction_details}." translate="yes" otherprops="">{landmark} で右折してください {direction_details}。</uicontrol>
+        <uicontrol id="{landmark} turn right {direction_details}." translate="yes" otherprops="">{landmark} 右折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Turn right {direction_details}." translate="yes" otherprops="">右折してください {direction_details}。</uicontrol>
+        <uicontrol id="Turn right {direction_details}." translate="yes" otherprops="">右折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then turn right." translate="yes" otherprops="">続いて、右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} turn right." translate="yes" otherprops="">{landmark} で右折してください。</uicontrol>
+        <uicontrol id="{landmark} turn right." translate="yes" otherprops="">右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Turn right." translate="yes" otherprops="">右折してください.</uicontrol>
+        <uicontrol id="Turn right." translate="yes" otherprops="">右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} make a sharp turn right at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} を鋭く右折してください。</uicontrol>
+        <uicontrol id="In {distance} make a sharp right turn at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} を大きく右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} make a sharp turn right {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} で鋭く右折してください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} {landmark} make a sharp right turn {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} 大きく右折して、{direction_details}。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} make a sharp turn right {direction_details}." translate="yes" otherprops="">{distance} 先、鋭く右折してください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} make a sharp right turn {direction_details}." translate="yes" otherprops="">{distance} 先、大きく右折して、{direction_details}。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} make a sharp turn right." translate="yes" otherprops="">{distance} 先、{landmark} で鋭く右折してください。</uicontrol>
+        <uicontrol id="In {distance} {landmark} make a sharp right turn." translate="yes" otherprops="">{distance} 先、{landmark} 大きく右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} make a sharp turn right." translate="yes" otherprops="">{distance} 先、鋭く右折してください。</uicontrol>
+        <uicontrol id="In {distance} make a sharp right turn." translate="yes" otherprops="">{distance} 先、大きく右折します。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Make a sharp turn right at {intersection_name}." translate="yes" otherprops="">{intersection_name} を鋭く右折してください。</uicontrol>
+        <uicontrol id="Make a sharp right turn at {intersection_name}." translate="yes" otherprops="">{intersection_name} を大きく右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} make a sharp turn right {direction_details}." translate="yes" otherprops="">{landmark} で、鋭く右折してください {direction_details}。</uicontrol>
+        <uicontrol id="{landmark} make a sharp right turn {direction_details}." translate="yes" otherprops="">{landmark} 大きく右折して、{direction_details}。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Make a sharp turn right {direction_details}." translate="yes" otherprops="">鋭く右折してください {direction_details}。</uicontrol>
+        <uicontrol id="Make a sharp right turn {direction_details}." translate="yes" otherprops="">大きく右折して、{direction_details}。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Then make a sharp turn right." translate="yes" otherprops="">続いて、鋭く右折してください。</uicontrol>
+        <uicontrol id="Then make a sharp right turn." translate="yes" otherprops="">続いて、大きく右折します。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} make a sharp turn right." translate="yes" otherprops="">{landmark} で、鋭く右折してください。</uicontrol>
+        <uicontrol id="{landmark} make a sharp right turn." translate="yes" otherprops="">大きく右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Make a sharp turn right." translate="yes" otherprops="">鋭く右折してください。</uicontrol>
+        <uicontrol id="Make a sharp right turn." translate="yes" otherprops="">大きく右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} bear left at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} を左に進んでください。</uicontrol>
+        <uicontrol id="In {distance} bear left at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} を斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} bear left {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} で左に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} {landmark} bear left {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} 斜め左に進み、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} bear left {direction_details}." translate="yes" otherprops="">{distance} 先、左に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} bear left {direction_details}." translate="yes" otherprops="">{distance} 先、斜め左に進み、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} bear left." translate="yes" otherprops="">{distance} 先、{landmark} で左に進んでください。</uicontrol>
+        <uicontrol id="In {distance} {landmark} bear left." translate="yes" otherprops="">{distance} 先、{landmark} 斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} bear left." translate="yes" otherprops="">{distance} 先、左に進んでください。</uicontrol>
+        <uicontrol id="In {distance} bear left." translate="yes" otherprops="">{distance} 先、斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Bear left at {intersection_name}." translate="yes" otherprops="">{intersection_name} を左に進んでください。</uicontrol>
+        <uicontrol id="Bear left at {intersection_name}." translate="yes" otherprops="">{intersection_name} を斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} bear left {direction_details}." translate="yes" otherprops="">{landmark} で左に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="{landmark} bear left {direction_details}." translate="yes" otherprops="">{landmark} 斜め左に進み、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Bear left {direction_details}." translate="yes" otherprops="">左に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="Bear left {direction_details}." translate="yes" otherprops="">斜め左に進み、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Then bear left." translate="yes" otherprops="">続いて、左に進んでください。</uicontrol>
+        <uicontrol id="Then bear left." translate="yes" otherprops="">続いて、斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} bear left." translate="yes" otherprops="">{landmark} で左に進んでください。</uicontrol>
+        <uicontrol id="{landmark} bear left." translate="yes" otherprops="">斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Bear left." translate="yes" otherprops="">左に進んでください.</uicontrol>
+        <uicontrol id="Bear left." translate="yes" otherprops="">斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} turn left at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} を左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} turn left {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} で左折してください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} {landmark} turn left {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} 左折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} turn left {direction_details}." translate="yes" otherprops="">{distance} 先、左折してください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} turn left {direction_details}." translate="yes" otherprops="">{distance} 先、左折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} turn left." translate="yes" otherprops="">{distance} 先、{landmark} で左折してください。</uicontrol>
+        <uicontrol id="In {distance} {landmark} turn left." translate="yes" otherprops="">{distance} 先、{landmark} 左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} turn left." translate="yes" otherprops="">{distance} 先、左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Turn left at {intersection_name}." translate="yes" otherprops="">{intersection_name} を左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} turn left {direction_details}." translate="yes" otherprops="">{landmark} で左折してください {direction_details}。</uicontrol>
+        <uicontrol id="{landmark} turn left {direction_details}." translate="yes" otherprops="">{landmark} 左折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Turn left {direction_details}." translate="yes" otherprops="">左折してください {direction_details}。</uicontrol>
+        <uicontrol id="Turn left {direction_details}." translate="yes" otherprops="">左折して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then turn left." translate="yes" otherprops="">続いて、左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} turn left." translate="yes" otherprops="">{landmark} で左折してください。</uicontrol>
+        <uicontrol id="{landmark} turn left." translate="yes" otherprops="">左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Turn left." translate="yes" otherprops="">左折してください.</uicontrol>
+        <uicontrol id="Turn left." translate="yes" otherprops="">左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} make a sharp turn left at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} を鋭く左折してください。</uicontrol>
+        <uicontrol id="In {distance} make a sharp left turn at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} を大きく左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} make a sharp turn left {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} で鋭く左折してください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} {landmark} make a sharp left turn {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} 大きく左折して、{direction_details}。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} make a sharp turn left {direction_details}." translate="yes" otherprops="">{distance} 先、鋭く左折してください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} make a sharp left turn {direction_details}." translate="yes" otherprops="">{distance} 先、大きく左折して、{direction_details}。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} make a sharp turn left." translate="yes" otherprops="">{distance} 先、{landmark} で鋭く左折してください。</uicontrol>
+        <uicontrol id="In {distance} {landmark} make a sharp left turn." translate="yes" otherprops="">{distance} 先、{landmark} 大きく左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} make a sharp turn left." translate="yes" otherprops="">{distance} 先、鋭く左折してください。</uicontrol>
+        <uicontrol id="In {distance} make a sharp left turn." translate="yes" otherprops="">{distance} 先、大きく左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Make a sharp turn left at {intersection_name}." translate="yes" otherprops="">{intersection_name} を鋭く左折してください。</uicontrol>
+        <uicontrol id="Make a sharp left turn at {intersection_name}." translate="yes" otherprops="">{intersection_name} を大きく左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} make a sharp turn left {direction_details}." translate="yes" otherprops="">{landmark} で、鋭く左折してください {direction_details}。</uicontrol>
+        <uicontrol id="{landmark} make a sharp left turn {direction_details}." translate="yes" otherprops="">{landmark} 大きく左折して、{direction_details}。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Make a sharp turn left {direction_details}." translate="yes" otherprops="">鋭く左折してください {direction_details}。</uicontrol>
+        <uicontrol id="Make a sharp left turn {direction_details}." translate="yes" otherprops="">大きく左折して、{direction_details}。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Then make a sharp turn left." translate="yes" otherprops="">続いて、鋭く左折してください。</uicontrol>
+        <uicontrol id="Then make a sharp left turn." translate="yes" otherprops="">続いて、大きく左折します。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} make a sharp turn left." translate="yes" otherprops="">{landmark} で、鋭く左折してください。</uicontrol>
+        <uicontrol id="{landmark} make a sharp left turn." translate="yes" otherprops="">大きく左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Make a sharp turn left." translate="yes" otherprops="">鋭く左折してください。</uicontrol>
+        <uicontrol id="Make a sharp left turn." translate="yes" otherprops="">大きく左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} make a U-turn at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で U ターンしてください。</uicontrol>
+        <uicontrol id="In {distance} make a U-turn at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} make a U-turn {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} で U ターンしてください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} {landmark} make a U-turn {direction_details}." translate="yes" otherprops="">{distance} 先、{landmark} Uターンして、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} make a U-turn {direction_details}." translate="yes" otherprops="">{distance} 先で U ターンしてください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} make a U-turn {direction_details}." translate="yes" otherprops="">{distance} 先で Uターンして、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} {landmark} make a U-turn." translate="yes" otherprops="">{distance} 先、{landmark} で U ターンしてください。</uicontrol>
+        <uicontrol id="In {distance} {landmark} make a U-turn." translate="yes" otherprops="">{distance} 先、{landmark} Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} make a U-turn." translate="yes" otherprops="">{distance} 先で U ターンしてください。</uicontrol>
+        <uicontrol id="In {distance} make a U-turn." translate="yes" otherprops="">{distance} 先で Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Make a U-turn at {intersection_name}." translate="yes" otherprops="">{intersection_name} で U ターンしてください。</uicontrol>
+        <uicontrol id="Make a U-turn at {intersection_name}." translate="yes" otherprops="">{intersection_name} で Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} make a U-turn {direction_details}." translate="yes" otherprops="">{landmark} で U ターンしてください {direction_details}。</uicontrol>
+        <uicontrol id="{landmark} make a U-turn {direction_details}." translate="yes" otherprops="">{landmark} Uターンして、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Make a U-turn {direction_details}." translate="yes" otherprops="">U ターンしてください {direction_details}。</uicontrol>
+        <uicontrol id="Make a U-turn {direction_details}." translate="yes" otherprops="">Uターンして、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Then make a U-turn." translate="yes" otherprops="">続いて、U ターンしてください。</uicontrol>
+        <uicontrol id="Then make a U-turn." translate="yes" otherprops="">続いて、Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} make a U-turn." translate="yes" otherprops="">{landmark} で U ターンしてください。</uicontrol>
+        <uicontrol id="{landmark} make a U-turn." translate="yes" otherprops="">Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Make a U-turn." translate="yes" otherprops="">Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -243,17 +243,17 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} take the exit {exit_number} on the left at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で、左側の {exit_number} 番出口を出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} on the left {direction_details}." translate="yes" otherprops="">{distance} 先、左側の {exit_number} 番出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} on the left {direction_details}." translate="yes" otherprops="">{distance} 先、左側の {exit_number} 番出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} take the exit {exit_number} on the left {direction_details}." translate="yes" otherprops="">{distance} 先、左側の {exit_number} 番出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} take the exit {exit_number} on the left {direction_details}." translate="yes" otherprops="">{distance} 先、左側の {exit_number} 番出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} take the left exit at {intersection_name} toward {toward_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で、左側の出口から {toward_name} 方面へ進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} take the left exit at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で左側の出口を出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="has_exit_name➖In {distance} take the left exit {direction_details}." translate="yes" otherprops="">{distance} 先、左側の出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="has_exit_name➖In {distance} take the left exit {direction_details}." translate="yes" otherprops="">{distance} 先、左側の出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} take the left exit {direction_details}." translate="yes" otherprops="">{distance} 先、左側の出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} take the left exit {direction_details}." translate="yes" otherprops="">{distance} 先、左側の出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="has_exit_name➖Take the exit {exit_number} on the left toward {toward_name}." translate="yes" otherprops="">左側の {exit_number} 番出口から {toward_name} 方面へ進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -293,11 +293,11 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Take the exit {exit_number} on the left at {intersection_name}." translate="yes" otherprops="">{intersection_name} で、左側の {exit_number} 番出口を出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} on the left {direction_details}." translate="yes" otherprops="">左側 2 つ目の出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} on the left {direction_details}." translate="yes" otherprops="">左側 2 つ目の出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="has_exit_name➖Take the exit {exit_number} on the left {direction_details}." translate="yes" otherprops="">左側の {exit_number} 番出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} on the left {direction_details}." translate="yes" otherprops="">左側の {exit_number} 番出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Take the exit {exit_number} on the left {direction_details}." translate="yes" otherprops="">左側の {exit_number} 番出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="Take the exit {exit_number} on the left {direction_details}." translate="yes" otherprops="">左側の {exit_number} 番出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="second_freeway_exit➖Take the left exit at {intersection_name} toward {toward_name}." translate="yes" otherprops="">{intersection_name} で、左側 2 つ目の出口から {toward_name} 方面へ進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -307,9 +307,9 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Take the left exit at {intersection_name}." translate="yes" otherprops="">{intersection_name} で、左側の出口を出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="second_freeway_exit➖Take the left exit {direction_details}." translate="yes" otherprops="">左側 2 つ目の出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="second_freeway_exit➖Take the left exit {direction_details}." translate="yes" otherprops="">左側 2 つ目の出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Take the left exit {direction_details}." translate="yes" otherprops="">左側の出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="Take the left exit {direction_details}." translate="yes" otherprops="">左側の出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="second_freeway_exit➖Then take the exit {exit_number} on the left." translate="yes" otherprops="">続いて、左側 2 つ目の出口を出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -335,17 +335,17 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} take the exit {exit_number} on the right at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で、右側の {exit_number} 番出口を出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} on the right {direction_details}." translate="yes" otherprops="">{distance} 先、右側の {exit_number} 番出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} on the right {direction_details}." translate="yes" otherprops="">{distance} 先、右側の {exit_number} 番出口を出て {direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} take the exit {exit_number} on the right {direction_details}." translate="yes" otherprops="">{distance} 先、右側の {exit_number} 番出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} take the exit {exit_number} on the right {direction_details}." translate="yes" otherprops="">{distance} 先、右側の {exit_number} 番出口を出て {direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} take the right exit at {intersection_name} toward {toward_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で、右側の出口から {toward_name} 方面へ進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} take the right exit at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で右側の出口を出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="has_exit_name➖In {distance} take the right exit {direction_details}." translate="yes" otherprops="">{distance} 先、右側の出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="has_exit_name➖In {distance} take the right exit {direction_details}." translate="yes" otherprops="">{distance} 先、右側の出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} take the right exit {direction_details}." translate="yes" otherprops="">{distance} 先、右側の出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} take the right exit {direction_details}." translate="yes" otherprops="">{distance} 先、右側の出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="has_exit_name➖Take the exit {exit_number} on the right toward {toward_name}." translate="yes" otherprops="">右側の {exit_number} 番出口から {toward_name} 方面へ進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -385,11 +385,11 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Take the exit {exit_number} on the right at {intersection_name}." translate="yes" otherprops="">{intersection_name} で、右側の {exit_number} 番出口を出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} on the right {direction_details}." translate="yes" otherprops="">右側 2 つ目の出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} on the right {direction_details}." translate="yes" otherprops="">右側 2 つ目の出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="has_exit_name➖Take the exit {exit_number} on the right {direction_details}." translate="yes" otherprops="">右側の {exit_number} 番出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} on the right {direction_details}." translate="yes" otherprops="">右側の {exit_number} 番出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Take the exit {exit_number} on the right {direction_details}." translate="yes" otherprops="">右側の {exit_number} 番出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="Take the exit {exit_number} on the right {direction_details}." translate="yes" otherprops="">右側の {exit_number} 番出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="second_freeway_exit➖Take the right exit at {intersection_name} toward {toward_name}." translate="yes" otherprops="">{intersection_name} で、右側 2 つ目の出口から {toward_name} 方面へ進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -399,9 +399,9 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Take the right exit at {intersection_name}." translate="yes" otherprops="">{intersection_name} で、右側の出口を出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="second_freeway_exit➖Take the right exit {direction_details}." translate="yes" otherprops="">右側 2 つ目の出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="second_freeway_exit➖Take the right exit {direction_details}." translate="yes" otherprops="">右側 2 つ目の出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Take the right exit {direction_details}." translate="yes" otherprops="">右側の出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="Take the right exit {direction_details}." translate="yes" otherprops="">右側の出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="second_freeway_exit➖Then take the exit {exit_number} on the right." translate="yes" otherprops="">続いて、右側 2 つ目の出口を出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -427,17 +427,17 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} take the exit {exit_number} at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で、{exit_number} 番出口を出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} {direction_details}." translate="yes" otherprops="">{distance} 先、{exit_number} 番出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {exit_number} {direction_details}." translate="yes" otherprops="">{distance} 先、{exit_number} 番出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} take the exit {exit_number} {direction_details}." translate="yes" otherprops="">{distance} 先、{exit_number} 番出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} take the exit {exit_number} {direction_details}." translate="yes" otherprops="">{distance} 先、{exit_number} 番出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} take the exit at {intersection_name} toward {toward_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で、{toward_name} 方面出口を出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} take the exit at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で右側の出口を出てください。</uicontrol>
+        <uicontrol id="In {distance} take the exit at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で出口を出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="has_exit_name➖In {distance} take the exit {direction_details}." translate="yes" otherprops="">{distance} 先、出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="has_exit_name➖In {distance} take the exit {direction_details}." translate="yes" otherprops="">{distance} 先、出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} take the exit {direction_details}." translate="yes" otherprops="">{distance} 先、出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} take the exit {direction_details}." translate="yes" otherprops="">{distance} 先、出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="has_exit_name➖Take the exit {exit_number} toward {toward_name}." translate="yes" otherprops="">{exit_number} 番出口から {toward_name} 方面へ進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -477,11 +477,11 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Take the exit {exit_number} at {intersection_name}." translate="yes" otherprops="">{intersection_name} で、{exit_number} 番出口を出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} {direction_details}." translate="yes" otherprops="">2 つ目の出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="second_freeway_exit➖Take the exit {exit_number} {direction_details}." translate="yes" otherprops="">2 つ目の出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="has_exit_name➖Take the exit {exit_number} {direction_details}." translate="yes" otherprops="">{exit_number} 番出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="has_exit_name➖Take the exit {exit_number} {direction_details}." translate="yes" otherprops="">{exit_number} 番出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Take the exit {exit_number} {direction_details}." translate="yes" otherprops="">{exit_number} 番出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="Take the exit {exit_number} {direction_details}." translate="yes" otherprops="">{exit_number} 番出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="second_freeway_exit➖Take the exit at {intersection_name} toward {toward_name}." translate="yes" otherprops="">{intersection_name} で、2 つ目の出口から {toward_name} 方面へ進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -491,9 +491,9 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Take the exit at {intersection_name}." translate="yes" otherprops="">{intersection_name} で、出口を出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="second_freeway_exit➖Take the exit {direction_details}." translate="yes" otherprops="">2 つ目の出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="second_freeway_exit➖Take the exit {direction_details}." translate="yes" otherprops="">2 つ目の出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Take the exit {direction_details}." translate="yes" otherprops="">出口を出てください {direction_details}。</uicontrol>
+        <uicontrol id="Take the exit {direction_details}." translate="yes" otherprops="">出口を出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="second_freeway_exit➖Then take the exit {exit_number}." translate="yes" otherprops="">続いて、2 つ目の出口を出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -515,7 +515,7 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} keep left at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で左車線を走行してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} keep left {direction_details}." translate="yes" otherprops="">{distance} 先、左車線を走行してください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} keep left {direction_details}." translate="yes" otherprops="">{distance} 先、左車線を走行して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} keep left." translate="yes" otherprops="">{distance} 先、左車線を走行してください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -525,15 +525,15 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then keep left." translate="yes" otherprops="">続いて、左車線を走行してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Keep left {direction_details}." translate="yes" otherprops="">左車線を走行してください {direction_details}。</uicontrol>
+        <uicontrol id="Keep left {direction_details}." translate="yes" otherprops="">左車線を走行して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Keep left." translate="yes" otherprops="">左車線を走行してください.</uicontrol>
+        <uicontrol id="Keep left." translate="yes" otherprops="">左車線を走行してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} keep right at {intersection_name} toward {toward_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で右車線を走行して、{toward_name} 方面へ進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} keep right at {intersection_name}." translate="yes" otherprops="">{distance} 先、{intersection_name} で右車線を走行してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} keep right {direction_details}." translate="yes" otherprops="">{distance} 先、右車線を走行してください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} keep right {direction_details}." translate="yes" otherprops="">{distance} 先、右車線を走行して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} keep right." translate="yes" otherprops="">{distance} 先、右車線を走行してください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -543,15 +543,15 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then keep right." translate="yes" otherprops="">続いて、右車線を走行してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Keep right {direction_details}." translate="yes" otherprops="">右車線を走行してください {direction_details}。</uicontrol>
+        <uicontrol id="Keep right {direction_details}." translate="yes" otherprops="">右車線を走行して、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Keep right." translate="yes" otherprops="">右車線を走行してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} take {road_number}." translate="yes" otherprops="">{distance} 先、{road_number} 号線に進んでください。</uicontrol>
+        <uicontrol id="In {distance} take {road_number}." translate="yes" otherprops="">{distance} 先、{road_number} に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Then take {road_number}." translate="yes" otherprops="">続いて、{road_number} 号線に進んでください。</uicontrol>
+        <uicontrol id="Then take {road_number}." translate="yes" otherprops="">続いて、{road_number} に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Take {road_number}." translate="yes" otherprops="">{road_number} 号線に進んでください。</uicontrol>
+        <uicontrol id="Take {road_number}." translate="yes" otherprops="">{road_number} に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} take {road_name}." translate="yes" otherprops="">{distance} 先、{road_name} に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -563,95 +563,95 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Take {road_name}." translate="yes" otherprops="">{road_name} に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Take the freeway." translate="yes" otherprops="">高速道路に入ってください</uicontrol>
+        <uicontrol id="Take the freeway." translate="yes" otherprops="">高速道路に入ってください.</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Make a U-turn when possible." translate="yes" otherprops="">可能な場合、U ターンしてください。</uicontrol>
+        <uicontrol id="Make a U-turn when possible." translate="yes" otherprops="">可能な場合、Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight right➖At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で直進し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="roundabout slight right➖At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で直進し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight right➖At the roundabout in {distance} go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で直進し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="roundabout slight right➖At the roundabout in {distance} go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で直進し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight right➖At the roundabout go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="roundabout slight right➖At the roundabout go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight left➖At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で直進し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="roundabout slight left➖At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で直進し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight left➖At the roundabout in {distance} go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で直進し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="roundabout slight left➖At the roundabout in {distance} go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で直進し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight left➖At the roundabout go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="roundabout slight left➖At the roundabout go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で直進し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で直進し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout in {distance} go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で直進し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="At the roundabout in {distance} go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で直進し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="At the roundabout go straight, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight right➖At the roundabout in {distance} turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で右折し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="roundabout slight right➖At the roundabout in {distance} turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で右折し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight right➖At the roundabout in {distance} turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で右折し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="roundabout slight right➖At the roundabout in {distance} turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で右折し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight right➖At the roundabout turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で右折し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="roundabout slight right➖At the roundabout turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で右折し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout sharp right➖At the roundabout in {distance} turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で右折し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="roundabout sharp right➖At the roundabout in {distance} turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で右折し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout sharp right➖At the roundabout in {distance} turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で右折し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="roundabout sharp right➖At the roundabout in {distance} turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で右折し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout sharp right➖At the roundabout turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で右折し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="roundabout sharp right➖At the roundabout turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で右折し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout in {distance} turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で右折し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="At the roundabout in {distance} turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で右折し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout in {distance} turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で右折し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="At the roundabout in {distance} turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で右折し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で右折し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="At the roundabout turn right, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で右折し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight left➖At the roundabout in {distance} turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で左折し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="roundabout slight left➖At the roundabout in {distance} turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で左折し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight left➖At the roundabout in {distance} turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で左折し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="roundabout slight left➖At the roundabout in {distance} turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で左折し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight left➖At the roundabout turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で左折し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="roundabout slight left➖At the roundabout turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で左折し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout sharp left➖At the roundabout in {distance} turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で左折し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="roundabout sharp left➖At the roundabout in {distance} turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で左折し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout sharp left➖At the roundabout in {distance} turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で左折し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="roundabout sharp left➖At the roundabout in {distance} turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で左折し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout sharp left➖At the roundabout turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で左折し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="roundabout sharp left➖At the roundabout turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で左折し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout in {distance} turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で左折し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="At the roundabout in {distance} turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で左折し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout in {distance} turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で左折し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="At the roundabout in {distance} turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で左折し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で左折し、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="At the roundabout turn left, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で左折し、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout in {distance} make a U-turn, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で U ターンし、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="At the roundabout in {distance} make a U-turn, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点で Uターンし、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout in {distance} make a U-turn, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で U ターンし、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="At the roundabout in {distance} make a U-turn, {roundabout_exit_number} exit." translate="yes" otherprops="">{distance} 先、環状交差点で Uターンし、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout make a U-turn, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で U ターンし、{roundabout_exit_number} 番出口に進んでください {direction_details}。</uicontrol>
+        <uicontrol id="At the roundabout make a U-turn, {roundabout_exit_number} exit {direction_details}." translate="yes" otherprops="">環状交差点で Uターンし、{roundabout_exit_number} の出口から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout in {distance} take the {roundabout_exit_number_v2} exit." translate="yes" otherprops="">{distance} 先、環状交差点で {roundabout_exit_number_v2} 番出口に進んでください。</uicontrol>
+        <uicontrol id="At the roundabout in {distance} take the {roundabout_exit_number_v2} exit." translate="yes" otherprops="">{distance} 先、環状交差点で {roundabout_exit_number_v2} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight right➖At the roundabout go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="roundabout slight right➖At the roundabout go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight left➖At the roundabout go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="roundabout slight left➖At the roundabout go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="At the roundabout go straight, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で直進し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout make a U-turn, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で U ターンし、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="At the roundabout make a U-turn, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で Uターンし、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight right➖At the roundabout turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で右折し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="roundabout slight right➖At the roundabout turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で右折し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout sharp right➖At the roundabout turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で右折し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="roundabout sharp right➖At the roundabout turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で右折し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で右折し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="At the roundabout turn right, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で右折し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout slight left➖At the roundabout turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で左折し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="roundabout slight left➖At the roundabout turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で左折し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="roundabout sharp left➖At the roundabout turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で左折し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="roundabout sharp left➖At the roundabout turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で左折し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で左折し、{roundabout_exit_number} 番出口に進んでください。</uicontrol>
+        <uicontrol id="At the roundabout turn left, {roundabout_exit_number} exit." translate="yes" otherprops="">環状交差点で左折し、{roundabout_exit_number} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="At the roundabout take the {roundabout_exit_number_v2} exit." translate="yes" otherprops="">環状交差点で {roundabout_exit_number_v2} 番出口に進んでください。</uicontrol>
+        <uicontrol id="At the roundabout take the {roundabout_exit_number_v2} exit." translate="yes" otherprops="">環状交差点で {roundabout_exit_number_v2} の出口から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} exit the roundabout {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点から出てください {direction_details}。</uicontrol>
+        <uicontrol id="In {distance} exit the roundabout {direction_details}." translate="yes" otherprops="">{distance} 先、環状交差点から出て、{direction_details} 方面へ向かいます。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} exit the roundabout." translate="yes" otherprops="">{distance} 先、環状交差点から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -671,7 +671,7 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then take the ferry." translate="yes" otherprops="">続いて、フェリーに乗ってください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Take the ferry." translate="yes" otherprops="">フェリーに乗ってください.</uicontrol>
+        <uicontrol id="Take the ferry." translate="yes" otherprops="">フェリーに乗ってください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then take the train." translate="yes" otherprops="">続いて、列車に乗ってください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -681,101 +681,101 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Disembark from the train." translate="yes" otherprops="">列車から降りてください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} keep left to enter the HOV carpool lane." translate="yes" otherprops="">{distance} 先で左車線を走行し、相乗り専用車線に入ってください。</uicontrol>
+        <uicontrol id="In {distance} keep left to enter the HOV carpool lane." translate="yes" otherprops="">{distance} 先で左車線を走行し、h-o-v車線に入ってください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} keep right to enter the HOV carpool lane." translate="yes" otherprops="">{distance} 先で右車線を走行し、相乗り専用車線に入ってください。</uicontrol>
+        <uicontrol id="In {distance} keep right to enter the HOV carpool lane." translate="yes" otherprops="">{distance} 先で右車線を走行し、h-o-v車線に入ってください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Keep right to enter the HOV carpool lane." translate="yes" otherprops="">右車線を走行し、相乗り専用車線に入ってください。</uicontrol>
+        <uicontrol id="Keep right to enter the HOV carpool lane." translate="yes" otherprops="">右車線を走行し、H-O-V車線に入ってください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Keep left to enter the HOV carpool lane." translate="yes" otherprops="">左車線を走行し、相乗り専用車線に入ってください。</uicontrol>
+        <uicontrol id="Keep left to enter the HOV carpool lane." translate="yes" otherprops="">左車線を走行し、H-O-V車線に入ってください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} keep left to exit the HOV carpool lane." translate="yes" otherprops="">{distance} 先で左車線を走行し、相乗り専用車線から出てください。</uicontrol>
+        <uicontrol id="In {distance} keep left to exit the HOV carpool lane." translate="yes" otherprops="">{distance} 先で左車線を走行し、h-o-v車線から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="In {distance} keep right to exit the HOV carpool lane." translate="yes" otherprops="">{distance} 先で右車線を走行し、相乗り専用車線から出てください。</uicontrol>
+        <uicontrol id="In {distance} keep right to exit the HOV carpool lane." translate="yes" otherprops="">{distance} 先で右車線を走行し、h-o-v車線から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Keep right to exit the HOV carpool lane." translate="yes" otherprops="">右車線を走行し、相乗り専用車線から出てください。</uicontrol>
+        <uicontrol id="Keep right to exit the HOV carpool lane." translate="yes" otherprops="">右車線を走行し、H-O-V車線から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Keep left to exit the HOV carpool lane." translate="yes" otherprops="">左車線を走行し、相乗り専用車線から出てください。</uicontrol>
+        <uicontrol id="Keep left to exit the HOV carpool lane." translate="yes" otherprops="">左車線を走行し、H-O-V車線から出てください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="In {distance} pass through the toll gate." translate="yes" otherprops="">{distance} 先、料金所を通過します。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then pass through the toll gate." translate="yes" otherprops="">続いて、料金所を通過します。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="Pass through the toll gate." translate="yes" otherprops="">料金所を通過します。</uicontrol>
+        <uicontrol id="Pass through the toll gate." translate="yes" otherprops="">料金所を通過してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{direction_details} for turn: left, right➖to stay on {road_number} toward {toward_name}" translate="yes" otherprops="">そのまま {road_number} 号線を {toward_name} 方面へ進んでください</uicontrol>
+        <uicontrol id="{direction_details} for turn: left, right➖to stay on {road_number} toward {toward_name}" translate="yes" otherprops="">そのまま {road_number} を {toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in turn messages like 'Turn right {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for fork➖to stay on {road_number} toward {toward_name}" translate="yes" otherprops="">そのまま {road_number} 号線を {toward_name} 方面へ進んでください</uicontrol>
+        <uicontrol id="{direction_details} for fork➖to stay on {road_number} toward {toward_name}" translate="yes" otherprops="">そのまま {road_number} を {toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in street furcation messages like 'In {distance} keep left {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for turn: left, right➖to stay on {road_number}" translate="yes" otherprops="">そのまま {road_number} 号線を走行してください</uicontrol>
+        <uicontrol id="{direction_details} for turn: left, right➖to stay on {road_number}" translate="yes" otherprops="">そのまま {road_number}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in turn messages like 'Turn right {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for fork➖to stay on {road_number}" translate="yes" otherprops="">そのまま {road_number} 号線を走行してください</uicontrol>
+        <uicontrol id="{direction_details} for fork➖to stay on {road_number}" translate="yes" otherprops="">そのまま {road_number}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in street furcation messages like 'In {distance} keep left {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for exit highway➖onto {road_number} toward {toward_name}" translate="yes" otherprops="">{road_number} 号線を {toward_name} 方面へ</uicontrol>
+        <uicontrol id="{direction_details} for exit highway➖onto {road_number} toward {toward_name}" translate="yes" otherprops="">{road_number} を {toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in exit messages like 'Take the exit {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for turn: left, right➖onto {road_number} toward {toward_name}" translate="yes" otherprops="">{road_number} 号線を {toward_name} 方面へ</uicontrol>
+        <uicontrol id="{direction_details} for turn: left, right➖onto {road_number} toward {toward_name}" translate="yes" otherprops="">{road_number} を {toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in turn messages like 'Turn right {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for turn: go straight➖onto {road_number} toward {toward_name}" translate="yes" otherprops="">{road_number} 号線を {toward_name} 方面へ</uicontrol>
+        <uicontrol id="{direction_details} for turn: go straight➖onto {road_number} toward {toward_name}" translate="yes" otherprops="">{road_number} を {toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in go straight messages like 'Go straight {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for U-turn➖onto {road_number} toward {toward_name}" translate="yes" otherprops="">{road_number} 号線を {toward_name} 方面へ</uicontrol>
+        <uicontrol id="{direction_details} for U-turn➖onto {road_number} toward {toward_name}" translate="yes" otherprops="">{road_number} を {toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in U-turn messages like 'Make a U-turn {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for fork➖to take {road_number} toward {toward_name}" translate="yes" otherprops="">{road_number} 号線を {toward_name} 方面へ進んでください</uicontrol>
+        <uicontrol id="{direction_details} for fork➖to take {road_number} toward {toward_name}" translate="yes" otherprops="">{road_number} を {toward_name}</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{direction_details}➖onto {road_number} toward {toward_name}" translate="yes" otherprops="">{road_number} 号線を {toward_name} 方面へ</uicontrol>
+        <uicontrol id="{direction_details}➖onto {road_number} toward {toward_name}" translate="yes" otherprops="">{road_number} を {toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in messages like 'In {distance} exit the roundabout {direction_details}.', 'At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}.', In {distance} take the exit {direction_details}.</fn>
-        <uicontrol id="{direction_details} for exit highway➖onto {road_number}" translate="yes" otherprops="">{road_number} 号線を</uicontrol>
+        <uicontrol id="{direction_details} for exit highway➖onto {road_number}" translate="yes" otherprops="">{road_number}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in exit messages like 'Take the exit {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for turn: left, right➖onto {road_number}" translate="yes" otherprops="">{road_number} 号線を</uicontrol>
+        <uicontrol id="{direction_details} for turn: left, right➖onto {road_number}" translate="yes" otherprops="">{road_number}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in turn messages like 'Turn right {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for turn: go straight➖onto {road_number}" translate="yes" otherprops="">{road_number} 号線を</uicontrol>
+        <uicontrol id="{direction_details} for turn: go straight➖onto {road_number}" translate="yes" otherprops="">{road_number}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in go straight messages like 'Go straight {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for U-turn➖onto {road_number}" translate="yes" otherprops="">{road_number} 号線を</uicontrol>
+        <uicontrol id="{direction_details} for U-turn➖onto {road_number}" translate="yes" otherprops="">{road_number}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in U-turn messages like 'Make a U-turn {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for fork➖to take {road_number}" translate="yes" otherprops="">{road_number} 号線に進んでください</uicontrol>
+        <uicontrol id="{direction_details} for fork➖to take {road_number}" translate="yes" otherprops="">{road_number}</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{direction_details}➖onto {road_number}" translate="yes" otherprops="">{road_number} 号線を</uicontrol>
+        <uicontrol id="{direction_details}➖onto {road_number}" translate="yes" otherprops="">{road_number}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in messages like 'In {distance} exit the roundabout {direction_details}.', 'At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}.', In {distance} take the exit {direction_details}.</fn>
-        <uicontrol id="{direction_details} for turn: left, right➖and continue to follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} toward {toward_name}" translate="yes" otherprops="">そのまま {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} を {toward_name} 方面へ進んでください</uicontrol>
+        <uicontrol id="{direction_details} for turn: left, right➖and continue to follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} toward {toward_name}" translate="yes" otherprops="">そのまま {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} を {toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in turn messages like 'Turn right {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for fork➖and continue to follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} toward {toward_name}" translate="yes" otherprops="">そのまま {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} を {toward_name} 方面へ進んでください</uicontrol>
+        <uicontrol id="{direction_details} for fork➖and continue to follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} toward {toward_name}" translate="yes" otherprops="">そのまま {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} を {toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in street furcation messages like 'In {distance} keep left {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for turn: left, right➖to stay on {road_name} toward {toward_name}" translate="yes" otherprops="">そのまま {road_name} を {toward_name} 方面へ進んでください</uicontrol>
+        <uicontrol id="{direction_details} for turn: left, right➖to stay on {road_name} toward {toward_name}" translate="yes" otherprops="">そのまま {road_name} を {toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in turn messages like 'Turn right {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for fork➖to stay on {road_name} toward {toward_name}" translate="yes" otherprops="">そのまま {road_name} を {toward_name} 方面へ進んでください</uicontrol>
+        <uicontrol id="{direction_details} for fork➖to stay on {road_name} toward {toward_name}" translate="yes" otherprops="">そのまま {road_name} を {toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in street furcation messages like 'In {distance} keep left {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for turn: left, right➖and continue to follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case}" translate="yes" otherprops="">そのまま {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} を進んでください</uicontrol>
+        <uicontrol id="{direction_details} for turn: left, right➖and continue to follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case}" translate="yes" otherprops="">そのまま {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in turn messages like 'Turn right {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for fork➖and continue to follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case}" translate="yes" otherprops="">そのまま {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case} を進んでください</uicontrol>
+        <uicontrol id="{direction_details} for fork➖and continue to follow {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case}" translate="yes" otherprops="">そのまま {road_name_preposition_and_article_for_follow_case} {road_name_for_follow_case}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in street furcation messages like 'In {distance} keep left {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for turn: left, right➖to stay on {road_name}" translate="yes" otherprops="">そのまま {road_name} を走行してください</uicontrol>
+        <uicontrol id="{direction_details} for turn: left, right➖to stay on {road_name}" translate="yes" otherprops="">そのまま {road_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in turn messages like 'Turn right {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for fork➖to stay on {road_name}" translate="yes" otherprops="">そのまま {road_name} を走行してください</uicontrol>
+        <uicontrol id="{direction_details} for fork➖to stay on {road_name}" translate="yes" otherprops="">そのまま {road_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in street furcation messages like 'In {distance} keep left {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for fork➖{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}" translate="yes" otherprops="">{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} を {toward_name} 方面へ進んでください</uicontrol>
+        <uicontrol id="{direction_details} for fork➖{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}" translate="yes" otherprops="">{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} を {toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in street furcation messages like 'In {distance} keep left {direction_details}.'</fn>
-        <uicontrol id="{direction_details}➖{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}" translate="yes" otherprops="">{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} を {toward_name} 方面へ進んでください</uicontrol>
+        <uicontrol id="{direction_details}➖{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} toward {toward_name}" translate="yes" otherprops="">{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} を {toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in messages like 'In {distance} exit the roundabout {direction_details}.', 'At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}.', In {distance} take the exit {direction_details}.</fn>
-        <uicontrol id="{direction_details} for fork➖{road_name_preposition_and_article_for_into_case} {road_name_for_into_case}" translate="yes" otherprops="">{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} を進んでください</uicontrol>
+        <uicontrol id="{direction_details} for fork➖{road_name_preposition_and_article_for_into_case} {road_name_for_into_case}" translate="yes" otherprops="">{road_name_preposition_and_article_for_into_case} {road_name_for_into_case}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in street furcation messages like 'In {distance} keep left {direction_details}.'</fn>
-        <uicontrol id="{direction_details}➖{road_name_preposition_and_article_for_into_case} {road_name_for_into_case}" translate="yes" otherprops="">{road_name_preposition_and_article_for_into_case} {road_name_for_into_case} を進んでください</uicontrol>
+        <uicontrol id="{direction_details}➖{road_name_preposition_and_article_for_into_case} {road_name_for_into_case}" translate="yes" otherprops="">{road_name_preposition_and_article_for_into_case} {road_name_for_into_case}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in messages like 'In {distance} exit the roundabout {direction_details}.', 'At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}.', In {distance} take the exit {direction_details}.</fn>
-        <uicontrol id="{direction_details} for fork➖to take {road_name} toward {toward_name}" translate="yes" otherprops="">{road_name} を {toward_name} 方面へ進んでください</uicontrol>
+        <uicontrol id="{direction_details} for fork➖to take {road_name} toward {toward_name}" translate="yes" otherprops="">{road_name} を {toward_name}</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{direction_details} for fork➖to take {road_name}" translate="yes" otherprops="">{road_name} に進んでください</uicontrol>
+        <uicontrol id="{direction_details} for fork➖to take {road_name}" translate="yes" otherprops="">{road_name}</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{direction_details} for turn: go straight➖onto {road_name} toward {toward_name}" translate="yes" otherprops="">{road_name} を {toward_name} 方面へ</uicontrol>
+        <uicontrol id="{direction_details} for turn: go straight➖onto {road_name} toward {toward_name}" translate="yes" otherprops="">{road_name} を {toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in go straight messages like 'Go straight {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for U-turn➖onto {road_name} toward {toward_name}" translate="yes" otherprops="">{road_name} を {toward_name} 方面へ</uicontrol>
+        <uicontrol id="{direction_details} for U-turn➖onto {road_name} toward {toward_name}" translate="yes" otherprops="">{road_name} を {toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in U-turn messages like 'Make a U-turn {direction_details}.'</fn>
-        <uicontrol id="{direction_details}➖onto {road_name} toward {toward_name}" translate="yes" otherprops="">{road_name} を {toward_name} 方面へ</uicontrol>
+        <uicontrol id="{direction_details}➖onto {road_name} toward {toward_name}" translate="yes" otherprops="">{road_name} を {toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in messages like 'In {distance} exit the roundabout {direction_details}.', 'At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}.', In {distance} take the exit {direction_details}.</fn>
-        <uicontrol id="{direction_details} for turn: go straight➖onto {road_name}" translate="yes" otherprops="">{road_name} を</uicontrol>
+        <uicontrol id="{direction_details} for turn: go straight➖onto {road_name}" translate="yes" otherprops="">{road_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in go straight messages like 'Go straight {direction_details}.'</fn>
-        <uicontrol id="{direction_details} for U-turn➖onto {road_name}" translate="yes" otherprops="">{road_name} を</uicontrol>
+        <uicontrol id="{direction_details} for U-turn➖onto {road_name}" translate="yes" otherprops="">{road_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in U-turn messages like 'Make a U-turn {direction_details}.'</fn>
-        <uicontrol id="{direction_details}➖onto {road_name}" translate="yes" otherprops="">{road_name} を</uicontrol>
+        <uicontrol id="{direction_details}➖onto {road_name}" translate="yes" otherprops="">{road_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in messages like 'In {distance} exit the roundabout {direction_details}.', 'At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}.', In {distance} take the exit {direction_details}.</fn>
-        <uicontrol id="{direction_details}➖toward {toward_name}" translate="yes" otherprops="">{toward_name} 方面へ</uicontrol>
+        <uicontrol id="{direction_details}➖toward {toward_name}" translate="yes" otherprops="">{toward_name}</uicontrol>
         <fn>(Spoken Text) String used as a substitute of {direction_details} variable in messages like 'In {distance} exit the roundabout {direction_details}.', 'At the roundabout in {distance} go straight, {roundabout_exit_number} exit {direction_details}.', In {distance} take the exit {direction_details}.</fn>
         <uicontrol id="you are entering {country}➖Afghanistan" translate="yes" otherprops="">アフガニスタン</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
@@ -853,7 +853,7 @@
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
         <uicontrol id="you are entering {country}➖Cyprus" translate="yes" otherprops="">キプロス</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
-        <uicontrol id="you are entering {country}➖the Czech Republic" translate="yes" otherprops="">チェコ共和国</uicontrol>
+        <uicontrol id="you are entering {country}➖the Czech Republic" translate="yes" otherprops="">チェコ</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
         <uicontrol id="you are entering {country}➖Denmark" translate="yes" otherprops="">デンマーク</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
@@ -881,13 +881,13 @@
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
         <uicontrol id="you are entering {country}➖France" translate="yes" otherprops="">フランス</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
-        <uicontrol id="you are entering {country}➖French Guiana" translate="yes" otherprops="">仏領ギアナ</uicontrol>
+        <uicontrol id="you are entering {country}➖French Guiana" translate="yes" otherprops="">フランス領ギアナ</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
         <uicontrol id="you are entering {country}➖Gabon" translate="yes" otherprops="">ガボン</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
         <uicontrol id="you are entering {country}➖the Gambia" translate="yes" otherprops="">ガンビア</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
-        <uicontrol id="you are entering {country}➖Georgia" translate="yes" otherprops="">グルジア</uicontrol>
+        <uicontrol id="you are entering {country}➖Georgia" translate="yes" otherprops="">ジョージア</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
         <uicontrol id="you are entering {country}➖Germany" translate="yes" otherprops="">ドイツ</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
@@ -1031,11 +1031,11 @@
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
         <uicontrol id="you are entering {country}➖Romania" translate="yes" otherprops="">ルーマニア</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
-        <uicontrol id="you are entering {country}➖the Russian Federation" translate="yes" otherprops="">ロシア連邦</uicontrol>
+        <uicontrol id="you are entering {country}➖the Russian Federation" translate="yes" otherprops="">ロシア</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
         <uicontrol id="you are entering {country}➖Rwanda" translate="yes" otherprops="">ルワンダ</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
-        <uicontrol id="you are entering {country}➖Saint Martin" translate="yes" otherprops="">セント・マーチン島</uicontrol>
+        <uicontrol id="you are entering {country}➖Saint Martin" translate="yes" otherprops="">セント・マーチン</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
         <uicontrol id="you are entering {country}➖San Marino" translate="yes" otherprops="">サンマリノ</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
@@ -1049,7 +1049,7 @@
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
         <uicontrol id="you are entering {country}➖Singapore" translate="yes" otherprops="">シンガポール</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
-        <uicontrol id="you are entering {country}➖Sint Maarten" translate="yes" otherprops="">シント・マールテン島（オランダ領）</uicontrol>
+        <uicontrol id="you are entering {country}➖Sint Maarten" translate="yes" otherprops="">オランダ領シント・マールテン</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
         <uicontrol id="you are entering {country}➖Slovakia" translate="yes" otherprops="">スロバキア</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
@@ -1097,9 +1097,9 @@
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
         <uicontrol id="you are entering {country}➖the United Arab Emirates" translate="yes" otherprops="">アラブ首長国連邦</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
-        <uicontrol id="you are entering {country}➖the United Kingdom" translate="yes" otherprops="">英国</uicontrol>
+        <uicontrol id="you are entering {country}➖the United Kingdom" translate="yes" otherprops="">イギリス</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
-        <uicontrol id="you are entering {country}➖the United States of America" translate="yes" otherprops="">アメリカ合衆国</uicontrol>
+        <uicontrol id="you are entering {country}➖the United States of America" translate="yes" otherprops="">アメリカ</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
         <uicontrol id="you are entering {country}➖Uruguay" translate="yes" otherprops="">ウルグアイ</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
@@ -1117,57 +1117,57 @@
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
         <uicontrol id="you are entering {country}➖Zimbabwe" translate="yes" otherprops="">ジンバブエ</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
-        <uicontrol id="{roundabout_exit_number}➖first" translate="yes" otherprops="">1 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number}➖first" translate="yes" otherprops="">1番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
-        <uicontrol id="{roundabout_exit_number}➖second" translate="yes" otherprops="">2 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number}➖second" translate="yes" otherprops="">2番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
-        <uicontrol id="{roundabout_exit_number}➖third" translate="yes" otherprops="">3 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number}➖third" translate="yes" otherprops="">3番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
-        <uicontrol id="{roundabout_exit_number}➖fourth" translate="yes" otherprops="">4 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number}➖fourth" translate="yes" otherprops="">4番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
-        <uicontrol id="{roundabout_exit_number}➖fifth" translate="yes" otherprops="">5 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number}➖fifth" translate="yes" otherprops="">5番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
-        <uicontrol id="{roundabout_exit_number}➖sixth" translate="yes" otherprops="">6 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number}➖sixth" translate="yes" otherprops="">6番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
-        <uicontrol id="{roundabout_exit_number}➖seventh" translate="yes" otherprops="">7 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number}➖seventh" translate="yes" otherprops="">7番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
-        <uicontrol id="{roundabout_exit_number}➖eighth" translate="yes" otherprops="">8 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number}➖eighth" translate="yes" otherprops="">8番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
-        <uicontrol id="{roundabout_exit_number}➖ninth" translate="yes" otherprops="">9 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number}➖ninth" translate="yes" otherprops="">9番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
-        <uicontrol id="{roundabout_exit_number}➖tenth" translate="yes" otherprops="">10 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number}➖tenth" translate="yes" otherprops="">10番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
-        <uicontrol id="{roundabout_exit_number}➖eleventh" translate="yes" otherprops="">11 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number}➖eleventh" translate="yes" otherprops="">11番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
-        <uicontrol id="{roundabout_exit_number}➖twelfth" translate="yes" otherprops="">12 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number}➖twelfth" translate="yes" otherprops="">12番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number} variable.</fn>
-        <uicontrol id="{roundabout_exit_number_v2}➖first" translate="yes" otherprops="">1 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number_v2}➖first" translate="yes" otherprops="">1番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
-        <uicontrol id="{roundabout_exit_number_v2}➖second" translate="yes" otherprops="">2 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number_v2}➖second" translate="yes" otherprops="">2番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
-        <uicontrol id="{roundabout_exit_number_v2}➖third" translate="yes" otherprops="">3 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number_v2}➖third" translate="yes" otherprops="">3番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
-        <uicontrol id="{roundabout_exit_number_v2}➖fourth" translate="yes" otherprops="">4 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number_v2}➖fourth" translate="yes" otherprops="">4番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
-        <uicontrol id="{roundabout_exit_number_v2}➖fifth" translate="yes" otherprops="">5 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number_v2}➖fifth" translate="yes" otherprops="">5番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
-        <uicontrol id="{roundabout_exit_number_v2}➖sixth" translate="yes" otherprops="">6 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number_v2}➖sixth" translate="yes" otherprops="">6番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
-        <uicontrol id="{roundabout_exit_number_v2}➖seventh" translate="yes" otherprops="">7 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number_v2}➖seventh" translate="yes" otherprops="">7番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
-        <uicontrol id="{roundabout_exit_number_v2}➖eighth" translate="yes" otherprops="">8 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number_v2}➖eighth" translate="yes" otherprops="">8番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
-        <uicontrol id="{roundabout_exit_number_v2}➖ninth" translate="yes" otherprops="">9 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number_v2}➖ninth" translate="yes" otherprops="">9番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
-        <uicontrol id="{roundabout_exit_number_v2}➖tenth" translate="yes" otherprops="">10 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number_v2}➖tenth" translate="yes" otherprops="">10番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
-        <uicontrol id="{roundabout_exit_number_v2}➖eleventh" translate="yes" otherprops="">11 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number_v2}➖eleventh" translate="yes" otherprops="">11番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
-        <uicontrol id="{roundabout_exit_number_v2}➖twelfth" translate="yes" otherprops="">12 番目</uicontrol>
+        <uicontrol id="{roundabout_exit_number_v2}➖twelfth" translate="yes" otherprops="">12番目</uicontrol>
         <fn>(Spoken Text) Ordinal number used as a substitute of {roundabout_exit_number_v2} variable.</fn>
         <uicontrol id="{landmark}➖at the end of the road" translate="yes" otherprops="">道路の突き当りを</uicontrol>
         <fn>(Spoken Text) Used as a substitute of {landmark} placeholder. Ex.: 'In 100 meters {landmark} bear right.' -&gt; 'In 100 meters at the end of the road bear right.'</fn>
-        <uicontrol id="{landmark}➖at the second traffic light" translate="yes" otherprops="">2 つ目の信号を</uicontrol>
+        <uicontrol id="{landmark}➖at the second traffic light" translate="yes" otherprops="">2つ目の信号を</uicontrol>
         <fn>(Spoken Text) Used as a substitute of {landmark} placeholder. Ex.: 'In 100 meters {landmark} bear right.' -&gt; 'In 100 meters at the end of the road bear right.'</fn>
         <uicontrol id="{landmark}➖at the traffic light" translate="yes" otherprops="">信号を</uicontrol>
         <fn>(Spoken Text) Used as a substitute of {landmark} placeholder. Ex.: 'In 100 meters {landmark} bear right.' -&gt; 'In 100 meters at the end of the road bear right.'</fn>

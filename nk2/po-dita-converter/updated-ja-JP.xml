@@ -41,7 +41,7 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="You have reached your stop at {road_number}. It is on the right." translate="yes" otherprops="">{road_number} の経由地に到着しました。経由地は右側です。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="You have reached your stop at {road_name}. It is on the right." translate="yes" otherprops="">{road_name} の経由地に到着しました。経由地は右側ですす。</uicontrol>
+        <uicontrol id="You have reached your stop at {road_name}. It is on the right." translate="yes" otherprops="">{road_name} の経由地に到着しました。経由地は右側です。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="You have reached your stop, it is on the right." translate="yes" otherprops="">経由地に到着しました。経由地は右側です。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -87,7 +87,7 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then bear right." translate="yes" otherprops="">続いて、斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} bear right." translate="yes" otherprops="">{landmark} 斜め右に進んでください。</uicontrol>
+        <uicontrol id="{landmark} bear right." translate="yes" otherprops="">斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Bear right." translate="yes" otherprops="">斜め右に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -109,7 +109,7 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then turn right." translate="yes" otherprops="">続いて、右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} turn right." translate="yes" otherprops="">{landmark} 右折してください。</uicontrol>
+        <uicontrol id="{landmark} turn right." translate="yes" otherprops="">右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Turn right." translate="yes" otherprops="">右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -131,7 +131,7 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then make a sharp right turn." translate="yes" otherprops="">続いて、大きく右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} make a sharp right turn." translate="yes" otherprops="">{landmark} 大きく右折してください。</uicontrol>
+        <uicontrol id="{landmark} make a sharp right turn." translate="yes" otherprops="">大きく右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Make a sharp right turn." translate="yes" otherprops="">大きく右折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -153,7 +153,7 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then bear left." translate="yes" otherprops="">続いて、斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} bear left." translate="yes" otherprops="">{landmark} 斜め左に進んでください。</uicontrol>
+        <uicontrol id="{landmark} bear left." translate="yes" otherprops="">斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Bear left." translate="yes" otherprops="">斜め左に進んでください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -175,7 +175,7 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then turn left." translate="yes" otherprops="">続いて、左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} turn left." translate="yes" otherprops="">{landmark} 左折してください。</uicontrol>
+        <uicontrol id="{landmark} turn left." translate="yes" otherprops="">左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Turn left." translate="yes" otherprops="">左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -197,7 +197,7 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then make a sharp left turn." translate="yes" otherprops="">続いて、大きく左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} make a sharp left turn." translate="yes" otherprops="">{landmark} 大きく左折してください。</uicontrol>
+        <uicontrol id="{landmark} make a sharp left turn." translate="yes" otherprops="">大きく左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Make a sharp left turn." translate="yes" otherprops="">大きく左折してください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -219,7 +219,7 @@
         <fn>(Spoken Text)</fn>
         <uicontrol id="Then make a U-turn." translate="yes" otherprops="">続いて、Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
-        <uicontrol id="{landmark} make a U-turn." translate="yes" otherprops="">{landmark} Uターンしてください。</uicontrol>
+        <uicontrol id="{landmark} make a U-turn." translate="yes" otherprops="">Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
         <uicontrol id="Make a U-turn." translate="yes" otherprops="">Uターンしてください。</uicontrol>
         <fn>(Spoken Text)</fn>
@@ -887,7 +887,7 @@
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
         <uicontrol id="you are entering {country}➖the Gambia" translate="yes" otherprops="">ガンビア</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
-        <uicontrol id="you are entering {country}➖Georgia" translate="yes" otherprops="">ジョージ</uicontrol>
+        <uicontrol id="you are entering {country}➖Georgia" translate="yes" otherprops="">ジョージア</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
         <uicontrol id="you are entering {country}➖Germany" translate="yes" otherprops="">ドイツ</uicontrol>
         <fn>(Spoken Text) Country name used as a substitute of {country} variable in messages like 'You are entering {country}.'</fn>
