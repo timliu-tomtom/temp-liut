@@ -39,14 +39,22 @@ elif [ "$map_option" == "bundled" ]
 then 
   map_path="/home/liut/TT/maps/bundled"
   keystore_path="/home/liut/TT/maps/NK_AUTO_DEV_bundled.NKS"
-elif [ "$map_option" == "tw" ]
+elif [ "$map_option" == "hcp3_tw" ]
 then
-  map_path="/home/liut/TT/maps/NDS_AutomotiveReference_2017.03_2.4.3_TWN_jv_test/DATA"
-  keystore_path="/home/liut/TT/maps/NAVKIT_DEV.NKS"
+  map_path="/home/liut/TT/maps/HCP3_TWN_43_211E0_ER029.1/HCP3_TWN_43_211E0_ER029.1/DATA"
+  keystore_path="/home/liut/TT/maps/HCP3_DEV_NK.NKS"
+elif [ "$map_option" == "fisker_tw" ]
+then
+  map_path="/home/liut/TT/maps/NDS_SelfService_2021.12.000_2.4.6_TWN_Fisker_b211/DATA"  
+  keystore_path="/home/liut/TT/maps/NK_AUTO_DEV.NKS"
 elif [ "$map_option" == "bmw" ]
 then
   map_path="/home/liut/TT/maps/NDS_BMW_Motorrad_2021.12_2.4.6_JPN_1222_Sample_V1_WOM/DATA"
   keystore_path="/home/liut/TT/maps/NK_BMW_1.NKS"
+elif [ "$map_option" == "hcp3_small" ]
+then
+  map_path="/home/liut/TT/maps/JPN_44_22R1_DD130/DATA"
+  keystore_path="/home/liut/TT/maps/HCP3_DEV_NK.NKS"
 else
   map_path="/home/liut//TT/maps/NDS_Automotive_2020.06_2.4.6_JPN_1120_V1/DATA"
   keystore_path="/home/liut/TT/maps/NK_AUTO_DEV.NKS"

@@ -357,3 +357,8 @@ https://tomtomslack.slack.com/archives/C03M86DKC5Q/p1660627155156949
 
 Jan 12 b6aea5d9a9eab04725fc757979afe8c83fdd33d8 not working
        8da2420cec984f4fdc697da7e452158e38409808 working
+
+in jp, card cash, slg
+
+in tw, card cash -> slg
+in tw, etc cash -> slg
