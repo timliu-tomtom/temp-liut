@@ -56,3 +56,7 @@ RouteReassessment: If there was a map update, route reconstruction will fail bec
 
 TTI\
 https://tomtominternational-my.sharepoint.com/:v:/r/personal/andrii_boiko_tomtom_com/Documents/Recordings/Introduction%20to%20Nk2UI_%20Navigation-20210917_093145-Meeting%20Recording.mp4?csf=1&web=1&e=MVdDvS
+
+
+DataAccess api supports multiple direction (not sure whether it really read multiple direction from map)
+InstructionBuilderUtils.ToLaneMarking, at least here only convert to one direction

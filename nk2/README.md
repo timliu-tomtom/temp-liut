@@ -323,10 +323,3 @@ TTDebug, address{country_code: "JPN"}
 2022-09-02 11:29:36.464 9177-9177/com.tomtom.navapp D/DrivingHorizonRepository: TTDebug, valid true
 2022-09-02 11:29:36.465 9177-9177/com.tomtom.navapp D/DrivingHorizonRepository: TTDebug, cate Category[LocalizedName:Service Areas Type:14 IconUri:tticon:///storage/emulated/0/Android/data/com.tomtom.navapp/files/maps/bundled/?db=NDS&bb=POI.NDS&bb_uri=PRODUCT/JPN&iconsetid=910]
 2022-09-02 11:29:36.465 9177-9177/com.tomtom.navapp D/DrivingHorizonRepository: TTDebug, loc Location[Coordinate[Latitude:35.431220 Longitude:139.401740] NavigableCoordinates[Coordinate[Latitude:35.431219 Longitude:139.401744],]]
-
-
-
-#        if lang in lang_plural_form_mapping:
-#            plural_catagory = lang_plural_form_mapping.get(lang)
-#            if len(plural_catagory) == 1:
-#                entry.msgstr_plural.pop()

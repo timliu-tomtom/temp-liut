@@ -43,6 +43,14 @@ elif [ "$map_option" == "hcp3_tw" ]
 then
   map_path="/home/liut/TT/maps/HCP3_TWN_43_211E0_ER029.1/HCP3_TWN_43_211E0_ER029.1/DATA"
   keystore_path="/home/liut/TT/maps/HCP3_DEV_NK.NKS"
+elif [ "$map_option" == "hcp3_ko" ]
+then
+  map_path="/home/liut/TT/maps/HCP3_KOR_43_22M3_ER026.0/HCP3_KOR_43_22M3_ER026.0/DATA"
+  keystore_path="/home/liut/TT/maps/HCP3_DEV_NK.NKS"
+elif [ "$map_option" == "42296" ]
+then
+  map_path="/home/liut/TT/maps/42296_NDS_AutomotiveReference_2021.06_2.4.6_KOR_IQ/DATA"
+  keystore_path="/home/liut/TT/maps/NK_AUTO_DEV.NKS"
 elif [ "$map_option" == "fisker_tw" ]
 then
   map_path="/home/liut/TT/maps/NDS_SelfService_2021.12.000_2.4.6_TWN_Fisker_b211/DATA"  
@@ -50,6 +58,10 @@ then
 elif [ "$map_option" == "bmw" ]
 then
   map_path="/home/liut/TT/maps/NDS_BMW_Motorrad_2021.12_2.4.6_JPN_1222_Sample_V1_WOM/DATA"
+  keystore_path="/home/liut/TT/maps/NK_BMW_1.NKS"
+elif [ "$map_option" == "bmw_2" ]
+then
+  map_path="/home/liut/TT/maps/NDS_AutomotiveReference_2022.12.000_2.4.6_KOR-BMW_backup/NDS_AutomotiveReference_2022.12.000_2.4.6_KOR-BMW/DATA"
   keystore_path="/home/liut/TT/maps/NK_BMW_1.NKS"
 elif [ "$map_option" == "hcp3_small" ]
 then
@@ -65,8 +77,14 @@ if [ -z "$nk_option" ] || [ "$nk_option" == "gosdk" ]
 then
   nk_option="gosdk"
   app_path="/sdcard/Android/data/com.tomtom.sdk.navigation.examples"
-  app_map_path="/sdcard/Android/data/com.tomtom.sdk.navigation.examples/files/onboard/map"
-  app_keystore_path="/sdcard/Android/data/com.tomtom.sdk.navigation.examples/files/onboard/keystore.sqlite"
+  app_map_path="/sdcard/Android/data/com.tomtom.sdk.navigation.examples/files/offline/map"
+  app_keystore_path="/sdcard/Android/data/com.tomtom.sdk.navigation.examples/files/offline/keystore.sqlite"
+elif [ "$nk_option" == "gosdk-map" ]
+then
+  nk_option="gosdk-map"
+  app_path="/sdcard/Android/data/com.tomtom.sdk.map.display.examples"
+  app_map_path="/sdcard/Android/data/com.tomtom.sdk.map.display.examples/files/offline/map"
+  app_keystore_path="/sdcard/Android/data/com.tomtom.sdk.map.display.examples/files/offline/keystore.sqlite"
 elif [ "$nk_option" == "automotive-gosdk" ]
 then
   nk_option="automotive-gosdk"
@@ -91,8 +109,12 @@ echo "push map"
   
 if [ "$nk_option" == "gosdk" ]
 then
-  adb shell mkdir "/sdcard/Android/data/com.tomtom.sdk.navigation.examples/files/onboard"
-  adb shell mkdir "/sdcard/Android/data/com.tomtom.sdk.navigation.examples/files/onboard/map"
+  adb shell mkdir "/sdcard/Android/data/com.tomtom.sdk.navigation.examples/files/offline"
+  adb shell mkdir "/sdcard/Android/data/com.tomtom.sdk.navigation.examples/files/offline/map"
+elif [ "$nk_option" == "gosdk-map" ]
+then
+  adb shell mkdir "/sdcard/Android/data/com.tomtom.sdk.map.display.examples/files/offline"
+  adb shell mkdir "/sdcard/Android/data/com.tomtom.sdk.map.display.examples/files/offline/map"
 fi
 
 adb shell rm -rf /sdcard/map
