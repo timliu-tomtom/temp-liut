@@ -66,6 +66,7 @@ chmod 777 /mnt/media_rw
 ```
 #### NK2 ####
 ```
+conan config install https://bitbucket.tomtomgroup.com/scm/navkit2/nk2-conan-settings.git
 export NDS_DEFAULT_KEYSTORE_PASSWORD=....
 export ANDROID_SDK_ROOT=~/TT/repo/AndroidSdk/
 export ANDROID_SDK_ROOT=/home/liut/Android/Sdk

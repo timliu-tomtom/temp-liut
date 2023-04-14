@@ -85,3 +85,16 @@ ODO_LOG_WARNING(kLogId, "TTDebug, ScoreOneDoc start, doc id {}, file id {}", doc
 //std::cout << "TTDebug, name " <<  unicode_string << std::endl;
 
   //std::cout << "TTDebug, score {}" << match->GetScore() << std::endl;
+
+
+ ```
+ 一開始是上次Tim分享過的，關鍵字經過tokenize之後，在PoiSearchEngineNds::SelectDocuments裡下sql query找出跟關鍵字match的結果，放到matched_docs裡面
+下一步會將matched_docs排序，排序有兩種方式
+SearchState::CmpDocs: 這是Marc在ticket裡面提到的"heuristic"，會看doc是不是national important、type是不是city，還有其他參數，不過今天我們要測試的這個case，type都是poi，其他屬性也都一樣，這些屬性對於這些matches沒有幫助
+SearchState::CmpOnDistance: 顧名思義就是只用distance，從小排到大
+這邊有個參數match_sort_distance_only_percentage_，設定是10 (我昨天誤會了應該是10才對)，首先會先用SearchState::CmpOnDistance把所有matches都排序一次。再來根據match_sort_distance_only_percentage_這個參數保留前10%的matches不動，剩下的90%會再用SearchState::CmpDocs排序一次。
+也就是說距離近的還是會在前10%，就算是national important之類的doc，只要距離不夠近也不會排到最前面。
+再來就是 BaseSearchEngineNds::ScoreDocs把排序過的matched_docs打分數，根據search_config裡面定義的 max_docs_to_score
+最多只會把matched_docs的前100個結果拿去打分數。log可以看到這邊會寫"Scoring xxx of ooo document(s)"，就是只會把ooo個docs裡面的前xxx個拿去打分數。
+打完分數之後會看到log "Finalizing xxx POI result(s)" 然後在 LocalMapSearchNds::GetPoiResults裡才會透過data access去拿poi的內容，可以參考search_util.cpp裡面的ReadPoiFromDatabase，到這個步驟才能拿到poi的內容，像是category、name、location...等內容。
+ ``` 
