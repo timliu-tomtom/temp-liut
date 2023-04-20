@@ -55,13 +55,13 @@ elif [ "$map_option" == "fisker_tw" ]
 then
   map_path="/home/liut/TT/maps/NDS_SelfService_2021.12.000_2.4.6_TWN_Fisker_b211/DATA"  
   keystore_path="/home/liut/TT/maps/NK_AUTO_DEV.NKS"
-elif [ "$map_option" == "bmw" ]
+elif [ "$map_option" == "bmw_44502" ]
 then
-  map_path="/home/liut/TT/maps/NDS_BMW_Motorrad_2021.12_2.4.6_JPN_1222_Sample_V1_WOM/DATA"
+  map_path="/home/liut/TT/maps/44502_NDS_BMW_Motorrad_2021.12_2.4.6_JPN_1222_Sample_V1_WOM/DATA"
   keystore_path="/home/liut/TT/maps/NK_BMW_1.NKS"
-elif [ "$map_option" == "bmw_2" ]
+elif [ "$map_option" == "bmw_44891" ]
 then
-  map_path="/home/liut/TT/maps/NDS_AutomotiveReference_2022.12.000_2.4.6_KOR-BMW_backup/NDS_AutomotiveReference_2022.12.000_2.4.6_KOR-BMW/DATA"
+  map_path="/home/liut/TT/maps/44891_NDS_AutomotiveReference_2023.03.000_2.4.6_KOR-BMW/NDS_AutomotiveReference_2023.03.000_2.4.6_KOR-BMW/DATA"
   keystore_path="/home/liut/TT/maps/NK_BMW_1.NKS"
 elif [ "$map_option" == "hcp3_small" ]
 then
