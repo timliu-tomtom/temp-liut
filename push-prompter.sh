@@ -25,5 +25,4 @@ adb shell chown -R ${owner}.${group} "$app_path"/files/
 adb unroot
 
 
-
 echo "finish!!!"
