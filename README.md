@@ -119,6 +119,19 @@ LD_LIBRARY_PATH=../lib ./nav-engine --api ... --map /home/ubuntu/Map/HCP3_KOR_42
 
 ```
 
+#### Azure Android ####
+```
+要請 Howie 加你到 resource group rg-nk1-project
+https://confluence.tomtomgroup.com/display/AS/How+to+create+emulator+using+Microsoft+Azure+located+in+Korea
+https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Compute%2FVirtualMachines
+https://20.249.218.69/
+
+account: geoexphela
+password: geoExp!@#123
+adb connect 20.249.218.69:5555
+adb emu geo fix 經度 緯度
+```
+
 #### data inspector ####
 ```
 ulimit -n 50000

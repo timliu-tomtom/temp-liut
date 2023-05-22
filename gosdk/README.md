@@ -97,4 +97,29 @@ SearchState::CmpOnDistance: 顧名思義就是只用distance，從小排到大
 再來就是 BaseSearchEngineNds::ScoreDocs把排序過的matched_docs打分數，根據search_config裡面定義的 max_docs_to_score
 最多只會把matched_docs的前100個結果拿去打分數。log可以看到這邊會寫"Scoring xxx of ooo document(s)"，就是只會把ooo個docs裡面的前xxx個拿去打分數。
 打完分數之後會看到log "Finalizing xxx POI result(s)" 然後在 LocalMapSearchNds::GetPoiResults裡才會透過data access去拿poi的內容，可以參考search_util.cpp裡面的ReadPoiFromDatabase，到這個步驟才能拿到poi的內容，像是category、name、location...等內容。
- ``` 
+``` 
+ 
+#### Search
+```
+unicode string -> 2 byte
+std::String -> utf8 -> 2 or 3 or 4 byte
+w2s -> unicode to std::string to print
+CName is unicode string
+```
+
+
+####
+```
+update_conan=true 不要設 -> 部會重build binding, 會重artifactory抓
+```
+
+#### 
+```
+https://a.api.tomtom.com/traffic/map/4/tile/incidents/{z}/{x}/{y}.pbf?key={mapKey}&tags=[road_category,road_subcategory,icon_category,magnitude,delay,left_hand_traffic,description]
+
+TW
+https://kr-api.tomtom.com/traffic/map/4/tile/incidents/6/53/26.pbf?key=3jJp7KBqWRBzwCCf9fMSuiJUwnFAHSRb&tags=[road_category,road_subcategory,icon_category,magnitude,delay,left_hand_traffic,description]
+
+KOR
+https://kr-api.tomtom.com/traffic/map/4/tile/incidents/11/1747/792.pbf?key=3jJp7KBqWRBzwCCf9fMSuiJUwnFAHSRb&tags=[road_category,road_subcategory,icon_category,magnitude,delay,left_hand_traffic,description]
+```
